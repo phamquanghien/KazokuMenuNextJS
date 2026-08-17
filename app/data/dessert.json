@@ -1,0 +1,81 @@
+[
+    {
+        "Category": "Dessert",
+        "Note": "(D,F,I,A)",
+        "Description": null,
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "230. KAZOKU MOCHI EIS",
+                "Note": null,
+                "Description": null,
+                "Price": "6.50€",
+                "Icon": null,
+                "Options": [
+                {
+                  "Label": "Japanischer Reiskuchen mit Eisfüllung und Früchten",
+                  "Note": null,
+                  "Price": null
+                }
+              ]
+            },
+            {
+                "Title": "231. KAZOKU MOCHI MIX",
+                "Note": null,
+                "Description": null,
+                "Price": "6.50€",
+                "Icon": null,
+                "Options": [
+                {
+                  "Label": "Drei verschiedene Mochi-Reiskuchen mit Schokolade und Früchten.",
+                  "Note": null,
+                  "Price": null
+                }
+              ]
+            },
+            {
+                "Title": "232. KAZOKU PANNA COTTA",
+                "Note": null,
+                "Description": null,
+                "Price": "6.50€",
+                "Icon": null,
+                "Options": [
+                {
+                  "Label": "Hausgemachte Panna Cotta aus cremiger Kokosmilch. Getoppt mit Mango-Creme",
+                  "Note": null,
+                  "Price": null
+                }
+              ]
+            },
+            {
+                "Title": "233.KAZOKU SESAMBÄLLCHEN",
+                "Note": null,
+                "Description": null,
+                "Price": "6.50€",
+                "Icon": null,
+                "Options": [
+                {
+                  "Label": "mit frischen Früchten und Schokolade",
+                  "Note": null,
+                  "Price": null
+                }
+              ]
+            },
+            {
+                "Title": "234. KAZOKU GEBACKENEN BANANE",
+                "Note": null,
+                "Description": null,
+                "Price": "6.50€",
+                "Icon": null,
+                "Options": [
+                {
+                  "Label": "mit Honig, Kokosflocken",
+                  "Note": null,
+                  "Price": null
+                }
+              ]
+            }
+        ]
+    }
+]

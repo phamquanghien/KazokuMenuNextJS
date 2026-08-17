@@ -1,0 +1,380 @@
+[
+    {
+      "Category": null,
+      "Note": null,
+      "Description": null,
+      "Price": null,
+      "Icon": null,
+      "Items": [
+        {
+            "Title": "1. MISO SUPPE",
+            "Note": "(M)",
+            "Description": "Japanische Suppe mit Bohnenpaste, Seetang und Lauchzwiebeln",
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "a. Tofu",
+                    "Note": "(M)",
+                    "Price": "4.50€"
+                },
+                {
+                    "Label": "b. Lachs",
+                    "Note": "(B)",
+                    "Price": "5.00€"
+                }
+            ]
+        },
+        {
+            "Title": "2. KOKOSSUPPE",
+            "Note": "(D,O)",
+            "Description": "Kokosmilch Suppe mit Champignon, Cherrytomaten, Bambus, Koriander",
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "a. Tofu",
+                    "Note": "(M)",
+                    "Price": "5.00€"
+                },
+                {
+                    "Label": "b. Hühnerfleisch",
+                    "Note": "(1)",
+                    "Price": "5.50€"
+                },
+                {
+                    "Label": "c. Garnelen",
+                    "Note": "(C)",
+                    "Price": "6.00€"
+                }
+            ]
+        },
+        {
+            "Title": "3. SPICY TOM YUM SUPPE",
+            "Note": "(D,O)",
+            "Description": "pikantes Zitronengras, frisches Gemüse und Lauch",
+            "Price": null,
+            "Icon": "🌶️",
+            "Options": [
+                {
+                    "Label": "a. Tofu",
+                    "Note": "(M)",
+                    "Price": "5.00€"
+                },
+                {
+                    "Label": "b. Hähnchen",
+                    "Note": "(1)",
+                    "Price": "5.50€"
+                },
+                {
+                    "Label": "c. Garnele",
+                    "Note": "(C)",
+                    "Price": "6.00€"
+                },
+                {
+                    "Label": "d. Lachs",
+                    "Note": "(B)",
+                    "Price": "6.00€"
+                }
+            ]
+        },
+        {
+            "Title": "4. EDAMAME",
+            "Note": "(M)",
+            "Description": null,
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "Gekochte grüne junge Sojabohnen mit Meersalz",
+                    "Note": null,
+                    "Price": "5.50€"
+                }
+            ]
+        },
+        {
+            "Title": "5. GYOZA (4 Stück) mit Ponzu-Sauce",
+            "Note": "(F,I,M)",
+            "Description": "Gebackene Teigtaschen, gefüllt mit",
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "a. Gemüse",
+                    "Note": null,
+                    "Price": "6.00€"
+                },
+                {
+                    "Label": "b. Hähnchen",
+                    "Note": "(1)",
+                    "Price": "6.50€"
+                },
+                {
+                    "Label": "c. Garnelen",
+                    "Note": "(B)",
+                    "Price": "6.50€"
+                }
+            ]
+        },
+        {
+            "Title": "6. YAKITORI (3 Stk.)",
+            "Note": "(F,I,H)",
+            "Description": null,
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "Hühnerfleischspieße, Sesam, Kazoku Sauce",
+                    "Note": null,
+                    "Price": "5.50€"
+                }
+            ]
+        },
+        {
+            "Title": "7. WAN TAN",
+            "Note": "(l,N,5)",
+            "Description": "Hühnerfleisch-Garnele Teigtaschen mit Gemüse",
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "a. Suppe",
+                    "Note": null,
+                    "Price": "5.50€"
+                },
+                {
+                    "Label": "b. Gebacken (5 Stk)",
+                    "Note": null,
+                    "Price": "6.50€"
+                }
+            ]
+        },
+        {
+            "Title": "8. KAZOKU SUPPE",
+            "Note": "(A,1,11)",
+            "Description": null,
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "Süß-Sauer-Suppe mit Entenfleisch",
+                    "Note": null,
+                    "Price": "5.00€"
+                }
+            ]
+        },
+        {
+            "Title": "9. EBI TEMPURA",
+            "Note": "(A,N)",
+            "Description": null,
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "2 Stück Große Garnelen, grüner Reisflocken, Kazoku Sauce",
+                    "Note": null,
+                    "Price": "5.00€"
+                }
+            ]
+        },
+        {
+            "Title": "10. \"NEM\" - vietnamesische gebackene Frühlingsrollen (2 Stk.)",
+            "Note": "(A,F,I;N)",
+            "Description": null,
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "Knusprige Reisblätter-Rolle, gefüllt mit Hühnerfleisch, Garnele, Glasnudeln, Gemüse, Morcheln, Eier dazu hausgemachte süß-schafter Sauce",
+                    "Note": null,
+                    "Price": "5.50€"
+                }
+            ]
+        },
+        {
+            "Title": "11. WAKAME SALAT",
+            "Note": "(M,2)",
+            "Description": null,
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "Algensalat mit Sesam",
+                    "Note": null,
+                    "Price": "5.00€"
+                }
+            ]
+        },
+        {
+            "Title": "12. HACAO (4 Stk.)",
+            "Note": "(A,F)",
+            "Description": "gedämpfte asiatische Teigtaschen gefüllt mit",
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "a. Gemüse",
+                    "Note": null,
+                    "Price": "6.50€"
+                },
+                {
+                    "Label": "b. Garnele",
+                    "Note": null,
+                    "Price": "6.50€"
+                }
+            ]
+        },
+        {
+            "Title": "13. SOMMER-BUDDHA ROLLE 2 Stk (kalt)",
+            "Note": "(I,F)",
+            "Description": null,
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "Reispapier, Tofu, Reisnudeln, gemischten Salat, hausgemachte süß-schafter Sauce",
+                    "Note": null,
+                    "Price": "6.00€"
+                }
+            ]
+        },
+        {
+            "Title": "14. SOMMERROLLE EBI 2 Stk (kalt)",
+            "Note": "(I,F)",
+            "Description": null,
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "Reispapier, Garnelen, Reisnudeln, gemischten Salat, hausgemachte süß-schafter Sauce",
+                    "Note": null,
+                    "Price": "6.90€"
+                }
+            ]
+        },
+        {
+            "Title": "15. AVOCADO TATAR",
+            "Note": "(F,M)",
+            "Description": null,
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "Avocado,Babyleaf, Piment de Espelette, Mango-Mayonnaise, Yuzu-Dressing, Sesam",
+                    "Note": null,
+                    "Price": "9.50€"
+                }
+            ]
+        },
+        {
+            "Title": "16. LACHS TATAR",
+            "Note": "(F,M,B)",
+            "Description": null,
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "Lachs, Avocado, Babyleaf, Piment d' Espelette, Mango-Mayonnaise, Yuzu-Dressing, Tobiko,Sesam",
+                    "Note": null,
+                    "Price": "10.50€"
+                }
+            ]
+        },
+        {
+            "Title": "17. SALMON TATAKI (3 Stk)",
+            "Note": "(F,B,M)",
+            "Description": null,
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "Flambierter Lachs, Seetang Salat, Rettich",
+                    "Note": null,
+                    "Price": "8.00€"
+                }
+            ]
+        },
+        {
+            "Title": "18. TUNA TATAKI (3 Stk)",
+            "Note": "(F,M,B)",
+            "Description": null,
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "Flambierter Tuna, Seetangsalat, Rettich",
+                    "Note": null,
+                    "Price": "8.50€"
+                }
+            ]
+        },
+        {
+            "Title": "19. SWEET FRIES",
+            "Note": "(M,I)",
+            "Description": null,
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "Süßkartoffel-Pommes, hausgemachter Cocktail-Sauce",
+                    "Note": null,
+                    "Price": "5.00€"
+                }
+            ]
+        },
+        {
+            "Title": "20. VEGI SPRINGROLLS",
+            "Note": "(M,I)",
+            "Description": null,
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "Gebackene Mini Frühlingsrollen, hausgemachte süß-schafter Sauce",
+                    "Note": null,
+                    "Price": "4.50€"
+                }
+            ]
+        },
+        {
+            "Title": "21. KAZOKU PLATTE",
+            "Note": "(M,F,I,B)",
+            "Description": null,
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "Gemischte Vorspeisenplatte für 2 Personen",
+                    "Note": null,
+                    "Price": null
+                },
+                {
+                    "Label": "2 Stk. Sommerrollen,4 Stk. Frühlingsrollen,2 panierte Garnelen, 4 Gyoza, Edamame",
+                    "Note": null,
+                    "Price": "18.50€"
+                }
+            ]
+        }
+      ]
+    },
+    {
+        "Category": "Extra",
+        "Note": null,
+        "Description": null,
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "400. gekochte Reis",
+                "Price": "3.00€",
+                "Options": null
+            },
+            {
+                "Title": "401. gebratene Reis oder Nudeln anstatt gekochtem Reis beim Reisgerichte",
+                "Price": "3.50€",
+                "Options": null
+            },
+            {
+                "Title": "402. Sushi Reis",
+                "Price": "3.00€",
+                "Options": null
+            },
+            {
+                "Title": "403. Ingwer",
+                "Price": "2.00€",
+                "Options": null
+            },
+            {
+                "Title": "404. Wasabi",
+                "Price": "2.00€",
+                "Options": null
+            },
+            {
+                "Title": "405. Sauce nach Wahl",
+                "Price": "2.00€",
+                "Options": null
+            }
+        ]
+    }
+]
+  

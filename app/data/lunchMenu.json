@@ -1,0 +1,405 @@
+[
+    {
+        "Category": "REIS UND NUDELN",
+        "Note": null,
+        "Description": null,
+        "Price": null,
+        "Icon": null,
+        "Items": [
+          {
+            "Title": "M1. Gebratener Reis | fried reis",
+            "Note": null,
+            "Description": null,
+            "Price": null,
+            "Icon": null,
+            "Options":
+            [
+                {
+                    "Label": "a. Tofu | tofu",
+                    "Note": null,
+                    "Price": "11.00€"
+                },
+                {
+                    "Label": "b. Hühnerfleisch | chicken",
+                    "Note": null,
+                    "Price": "12.00€"
+                },
+                {
+                    "Label": "c. Rinderfleisch | beef",
+                    "Note": null,
+                    "Price": "13.00€"
+                }
+            ]
+          },
+          {
+            "Title": "M2. Gebratener Nudeln | fries noodle",
+            "Note": null,
+            "Description": null,
+            "Price": null,
+            "Icon": null,
+            "Options":
+            [
+                {
+                    "Label": "a. Tofu | tofu",
+                    "Note": null,
+                    "Price": "11.00€"
+                },
+                {
+                    "Label": "b. Hühnerfleisch | chicken",
+                    "Note": null,
+                    "Price": "12.00€"
+                },
+                {
+                    "Label": "c. Rinderfleisch | beef",
+                    "Note": null,
+                    "Price": "13.00€"
+                }
+            ]
+          },
+          {
+            "Title": "M3. Pad Thai",
+            "Note": null,
+            "Description": null,
+            "Price": null,
+            "Icon": null,
+            "Options":
+            [
+                {
+                    "Label": "a. Tofu | tofu",
+                    "Note": null,
+                    "Price": "12.00€"
+                },
+                {
+                    "Label": "b. Hühnerfleisch | chicken",
+                    "Note": null,
+                    "Price": "13.00€"
+                },
+                {
+                    "Label": "c. Rindfleisch | beef",
+                    "Note": null,
+                    "Price": "14.00€"
+                }
+            ]
+          }
+        ]
+    },
+    {
+        "Category": "GERICHTE MIT GEMÜSE / DUFTREIS / SESAM SERVIERT",
+        "Note": null,
+        "Description": "Warm dish with vegatable/ reis/ sesame",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+          {
+            "Title": "M4. Roter Curry | red curry sauce",
+            "Note": null,
+            "Description": null,
+            "Price": null,
+            "Icon": null,
+            "Options":
+            [
+                {
+                    "Label": "a. Tofu | tofu",
+                    "Note": null,
+                    "Price": "12.00€"
+                },
+                {
+                    "Label": "b. Hühnerfleisch | chicken",
+                    "Note": null,
+                    "Price": "13.00€"
+                },
+                {
+                    "Label": "c. Rindfleisch | beef",
+                    "Note": null,
+                    "Price": "14.00€"
+                }
+            ]
+          },
+          {
+            "Title": "M5. Gelber Curry | yellow curry sauce",
+            "Note": null,
+            "Description": null,
+            "Price": null,
+            "Icon": null,
+            "Options":
+            [
+                {
+                    "Label": "a. Tofu | tofu",
+                    "Note": null,
+                    "Price": "12.00€"
+                },
+                {
+                    "Label": "b. Hühnerfleisch | chicken",
+                    "Note": null,
+                    "Price": "13.00€"
+                },
+                {
+                    "Label": "c. Rindfleisch | beef",
+                    "Note": null,
+                    "Price": "14.00€"
+                }
+            ]
+          },
+          {
+            "Title": "M6. Erdnuss | peanut sauce",
+            "Note": null,
+            "Description": null,
+            "Price": null,
+            "Icon": null,
+            "Options":
+            [
+                {
+                    "Label": "a. Tofu | tofu",
+                    "Note": null,
+                    "Price": "12.00€"
+                },
+                {
+                    "Label": "b. Hühnerfleisch | chicken",
+                    "Note": null,
+                    "Price": "13.00€"
+                },
+                {
+                    "Label": "c. Rindfleisch | beef",
+                    "Note": null,
+                    "Price": "14.00€"
+                }
+            ]
+          },
+          {
+            "Title": "M7. Spezial Sauce | special sauce",
+            "Note": null,
+            "Description": null,
+            "Price": null,
+            "Icon": null,
+            "Options":
+            [
+                {
+                    "Label": "a. Tofu | tofu",
+                    "Note": null,
+                    "Price": "12.00€"
+                },
+                {
+                    "Label": "b. Hühnerfleisch | chicken",
+                    "Note": null,
+                    "Price": "13.00€"
+                },
+                {
+                    "Label": "c. Rindfleisch | beef",
+                    "Note": null,
+                    "Price": "14.00€"
+                }
+            ]
+          },
+          {
+            "Title": "M8. Süßsauer Sauce | sweet and sour sauce ",
+            "Note": null,
+            "Description": null,
+            "Price": null,
+            "Icon": null,
+            "Options":
+            [
+                {
+                    "Label": "a. Tofu | tofu",
+                    "Note": null,
+                    "Price": "12.00€"
+                },
+                {
+                    "Label": "b. Hühnerfleisch | chicken",
+                    "Note": null,
+                    "Price": "13.00€"
+                }
+            ]
+          }
+        ]
+    },
+    {
+        "Category": "SUSHI-BOWL",
+        "Note": null,
+        "Description": "Große Sushi Reis-Bowl mit Babyleaf Mix, Algensalat, Edamame, Avocado, Mais, Sesam, Sesam Dressing, Kazoku Chilli Maiyonaise und Sauce",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+          {
+            "Title": "B1. TOFU BOWL gebackener Tofu | fried tofu",
+            "Note": null,
+            "Description": null,
+            "Price": "11.50€",
+            "Icon": null,
+            "Options": null
+          },
+          {
+            "Title": "B2. SALMON BOWL 4 Scheiben | slices",
+            "Note": null,
+            "Description": null,
+            "Price": null,
+            "Icon": null,
+            "Options":
+            [
+                {
+                    "Label": "a. roher Lachs | raw salmon",
+                    "Note": null,
+                    "Price": "12.50€"
+                },
+                {
+                    "Label": "b. flambierter Lachs |flambeed salmon",
+                    "Note": null,
+                    "Price": "13.50€"
+                }
+            ]
+          },
+          {
+            "Title": "B3. TUNA BOWL 4 Scheiben | slices",
+            "Note": null,
+            "Description": "flambierter Thunfisch | flambeed tuna",
+            "Price": "14.00€",
+            "Icon": null,
+            "Options": null
+          },
+          {
+            "Title": "B4. CHICKEN BOWL",
+            "Note": null,
+            "Description": null,
+            "Price": null,
+            "Icon": null,
+            "Options":
+            [
+                {
+                    "Label": "a. Yakitori",
+                    "Note": null,
+                    "Price": "12.50€"
+                },
+                {
+                    "Label": "b. geb. Hähnchenbrustfilet | crispy breaded chicken breast",
+                    "Note": null,
+                    "Price": "13.50€"
+                }
+            ]
+          }
+        ]
+    },
+    {
+        "Category": "SUSHI-SET",
+        "Note": null,
+        "Description": "Sie erhalten gratis eine Miso Suppe Tofu zum hier speisen dazu",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+          {
+            "Title": "S1. SET  1",
+            "Note": null,
+            "Description": null,
+            "Price": "11.00€",
+            "Icon": null,
+            "Options":
+            [
+                {
+                    "Label": "8 Kappa Maki, 4 Avocado Maki, 8 Sake Maki",
+                    "Note": null,
+                    "Price": null
+                },
+                {
+                    "Label": "8 cucumber maki , 4 avocado maki, 8 salmon maki",
+                    "Note": null,
+                    "Price": null
+                }
+            ]
+          },
+          {
+            "Title": "S2. SET  2",
+            "Note": null,
+            "Description": "8 Crispy Salmon",
+            "Price": "11.00€",
+            "Icon": null,
+            "Options": null
+          },
+          {
+            "Title": "S3. SET  3",
+            "Note": null,
+            "Description": "8 Crispy Tuna",
+            "Price": "11.50€",
+            "Icon": null,
+            "Options": null
+          },
+          {
+            "Title": "S4. SET  4",
+            "Note": null,
+            "Description": null,
+            "Price": "13.50€",
+            "Icon": null,
+            "Options":
+            [
+                {
+                    "Label": "8 Sake Maki, 8 Kappa Maki, 5 California I.O",
+                    "Note": null,
+                    "Price": null
+                },
+                {
+                    "Label": "8 salmon maki, 8 cucumber maki, 5 california i.o",
+                    "Note": null,
+                    "Price": null
+                }
+            ]
+          },
+          {
+            "Title": "S5. SET  5",
+            "Note": null,
+            "Description": null,
+            "Price": "13.50€",
+            "Icon": null,
+            "Options":
+            [
+                {
+                    "Label": "8 Kappa Maki, 8 Avocado Maki, 5 Buddha Rolls",
+                    "Note": null,
+                    "Price": null
+                },
+                {
+                    "Label": "8 cucumber maki, 8 avocado maki, 5 buddha rolls",
+                    "Note": null,
+                    "Price": null
+                }
+            ]
+          },
+          {
+            "Title": "S6. SET  6",
+            "Note": null,
+            "Description": null,
+            "Price": "14.50€",
+            "Icon": null,
+            "Options":
+            [
+                {
+                    "Label": "8 Salmon Crunchy, 5 Sake I.O, 2 Lachs Nigiri",
+                    "Note": null,
+                    "Price": null
+                },
+                {
+                    "Label": "8 slamon crunchy, 5 salmon i.o, 2 salmon nigiri",
+                    "Note": null,
+                    "Price": null
+                }
+            ]
+          },
+          {
+            "Title": "S7. SET  7",
+            "Note": null,
+            "Description": null,
+            "Price": "15.50€",
+            "Icon": null,
+            "Options":
+            [
+                {
+                    "Label": "8 Kappa Maki, 8 Tuna Crunchy, 5 Lachs Rucola Rolls",
+                    "Note": null,
+                    "Price": null
+                },
+                {
+                    "Label": "8 cucumber maki, 8 tuna crunchy, 5 salmon arugula rolls",
+                    "Note": null,
+                    "Price": null
+                }
+            ]
+          }
+        ]
+    }
+]

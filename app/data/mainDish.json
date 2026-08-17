@@ -1,0 +1,898 @@
+[
+    {
+        "Category": "Kindermenü",
+        "Note": null,
+        "Description": null,
+        "Price": "11.50€",
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "24. Paniertes Hühnerfleisch in Süßsauer Sauce und Reis",
+                "Note": "(A,I,M)",
+                "Description": null,
+                "Price": null,
+                "Icon": null,
+                "Options": null
+            },
+            {
+                "Title": "25. Gebratene Nudeln mit Hühnerfleisch und Gemüse",
+                "Note": "(A,I,M)",
+                "Description": null,
+                "Price": null,
+                "Icon": null,
+                "Options": null
+            },
+            {
+                "Title": "26. Gebratener Reis mit Hühnerfleisch und Gemüse",
+                "Note": "(A,I,M)",
+                "Description": null,
+                "Price": null,
+                "Icon": null,
+                "Options": null
+            }
+        ]
+    },
+    {
+        "Category": "Salat",
+        "Note": null,
+        "Description": null,
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "30. Gemischter Salat",
+                "Note": "(H,L,M)",
+                "Description": null,
+                "Price": "7.00€",
+                "Icon": null,
+                "Options": [
+                    {
+                        "Label": "a. mit Honig Dressing",
+                        "Note": null,
+                        "Price": null
+                    },
+                    {
+                        "Label": "b. Kazoku Dressing(leicht scharfe Dressing)",
+                        "Note": null,
+                        "Price": null
+                    }
+                ]
+            },
+            {
+                "Title": "31. Gemischter Salat mit parnierte Hühnerfleisch",
+                "Note": "(H,L,M)",
+                "Description": null,
+                "Price": "8.90€",
+                "Icon": null,
+                "Options": [
+                    {
+                        "Label": "a. Honig Dressing",
+                        "Note": null,
+                        "Price": null
+                    },
+                    {
+                        "Label": "b. Kazoku Dressing (leichte scharfe Dressing)",
+                        "Note": null,
+                        "Price": null
+                    }
+                ]
+            },
+            {
+                "Title": "32. Kazoku Salat",
+                "Note": "(H,L,M)",
+                "Description": "Glasnudeln, gebratene Rinderfleisch, gemischter Salat,Röstzwiebeln, Erdnüsse, Koriander und hausgeachte Dressing",
+                "Price": "9.90€",
+                "Icon": null,
+                "Options": null
+            },
+            {
+                "Title": "33. Nom Xoai",
+                "Note": null,
+                "Description": null,
+                "Price": null,
+                "Icon": null,
+                "Options": [
+                    {
+                        "Label": "Mangosalat, Röstzwiebeln, Erdnüsse, Koriander, hausgemachte leicht scharfe",
+                        "Note": null,
+                        "Price": null
+                    },
+                    {
+                        "Label": "Limetten Dressing",
+                        "Note": null,
+                        "Price": "7.90€"
+                    },
+                    {
+                        "Label": "mit Garnelen",
+                        "Note": null,
+                        "Price": "9.50€"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Category": "Bun - Reisnudeln",
+        "Note": "(B,F,H,I)",
+        "Description": null,
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "34. gemischter Reisnudeln, Erdnüssen mit Kazoku hausgemachte Limette Fischsauce, dazu frischen Salat",
+                "Note": null,
+                "Description": null,
+                "Price": null,
+                "Icon": null,
+                "Options": [
+                    {
+                        "Label": "a. Tofu",
+                        "Note": "(M)",
+                        "Price": "13.50€",
+                        "Icon": "🥬"
+                    },
+                    {
+                        "Label": "b. Rind",
+                        "Note": null,
+                        "Price": "16.90€"
+                    },
+                    {
+                        "Label": "c. Nem-vietnamesische Gebackene Frühlingsrollen Hackfleisch",
+                        "Note": null,
+                        "Price": "15.50€"
+                    },
+                    {
+                        "Label": "d. Lachs",
+                        "Note": "(B)",
+                        "Price": "17.50€"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Category": "PHO - Nudelsuppe",
+        "Note": "(M,I)",
+        "Description": null,
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "35. traditionelle Reisbandnudelsuppe mit Frühlingszwiebeln, Koriander, dazu:",
+                "Note": null,
+                "Description": null,
+                "Price": null,
+                "Icon": null,
+                "Options": [
+                    {
+                        "Label": "a. Tofu",
+                        "Note": null,
+                        "Price": "14.90€",
+                        "Icon": "🥬"
+                    },
+                    {
+                        "Label": "b. Hühnerfleisch",
+                        "Note": null,
+                        "Price": "15.50€"
+                    },
+                    {
+                        "Label": "c. Rind",
+                        "Note": null,
+                        "Price": "17.50€"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Category": "Pad Thai",
+        "Note": "(M,I,F,)",
+        "Description": null,
+        "Price": null,
+        "Icon": "🌶️",
+        "Items": [
+            {
+                "Title": "36. ist ein traditionelles thailändisches gebratenes Nudelgericht.",
+                "Note": null,
+                "Description": "Das Gericht besteht aus Reisnudeln , gebraten mit Eiern, etwas rotem Chili, hausgemachte Pad Thai Sauce.",
+                "Price": null,
+                "Icon": null,
+                "Options": [
+                    {
+                        "Label": "a. Tofu",
+                        "Note": null,
+                        "Price": "14.90€"
+                    },
+                    {
+                        "Label": "b. Garnelen",
+                        "Note": "(K)",
+                        "Price": "17.90€"
+                    },
+                    {
+                        "Label": "c. Gebackenen Hühnerbrust",
+                        "Note": "(I)",
+                        "Price": "16.90€"
+                    },
+                    {
+                        "Label": "d. Ente",
+                        "Note": "(I)",
+                        "Price": "17.90€"
+                    },
+                    {
+                        "Label": "d. Tofu, Garnele, Ente",
+                        "Note": "(I,K)",
+                        "Price": "21.50€"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Category": "UDON",
+        "Note": "(M,I)",
+        "Description": null,
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "37. dicke japanische Nudeln aus Weizenmehl,gebraten mit Gemüse und",
+                "Note": null,
+                "Description": null,
+                "Price": null,
+                "Icon": null,
+                "Options": [
+                    {
+                        "Label": "a. Tofu",
+                        "Note": null,
+                        "Price": "14.50€"
+                    },
+                    {
+                        "Label": "b. Hühnerfleisch",
+                        "Note": null,
+                        "Price": "15.90€"
+                    },
+                    {
+                        "Label": "c. Gebackenen Hühnerbrust",
+                        "Note": null,
+                        "Price": "16.90€"
+                    },
+                    {
+                        "Label": "e. Rind",
+                        "Note": null,
+                        "Price": "16.90€"
+                    },
+                    {
+                        "Label": "f. Ente",
+                        "Note": null,
+                        "Price": "17.90€"
+                    },
+                    {
+                        "Label": "g. Garnele",
+                        "Note": "(K)",
+                        "Price": "17.90€"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Category": "Gebratener Reis",
+        "Note": "(A,I,F,M,O)",
+        "Description": null,
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "38. ist ein Reisgericht, das in einem Wok zubereitet und oft mit anderen Zutaten wie Eiern, Gemüse zubereitet wird. Es wird oft allein oder als Beilage zu einem anderen Gericht gegessen",
+                "Note": null,
+                "Description": null,
+                "Price": null,
+                "Icon": null,
+                "Options": [
+                    {
+                        "Label": "a. Tofu",
+                        "Note": null,
+                        "Price": "14.90€"
+                    },
+                    {
+                        "Label": "b. Hühnerfleisch",
+                        "Note": null,
+                        "Price": "15.50€"
+                    },
+                    {
+                        "Label": "c. gebackener Hähnchenbrustfilet",
+                        "Note": null,
+                        "Price": "16.90€"
+                    },
+                    {
+                        "Label": "e. Rind",
+                        "Note": null,
+                        "Price": "16.90€"
+                    },
+                    {
+                        "Label": "f. Ente",
+                        "Note": null,
+                        "Price": "17.90€"
+                    },
+                    {
+                        "Label": "g. Garnele",
+                        "Note": "(K)",
+                        "Price": "17.90€"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Category": "Gebratene Nudeln",
+        "Note": "(A,I,F,O,M)",
+        "Description": null,
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "39. ist die allgemeine Bezeichnung für Gerichte, die aus der Hauptzutat Nudeln im Wok hergestellt werden. Dies ist eines der beliebtesten Streetfood in Asien.",
+                "Note": null,
+                "Description": null,
+                "Price": null,
+                "Icon": null,
+                "Options": [
+                    {
+                        "Label": "a. Tofu",
+                        "Note": null,
+                        "Price": "14.90€"
+                    },
+                    {
+                        "Label": "b. Hühnerfleisch",
+                        "Note": null,
+                        "Price": "15.50€"
+                    },
+                    {
+                        "Label": "c. gebackener Hähnchenbrustfilet",
+                        "Note": null,
+                        "Price": "16.90€"
+                    },
+                    {
+                        "Label": "e. Rind",
+                        "Note": null,
+                        "Price": "16.90€"
+                    },
+                    {
+                        "Label": "f. Ente",
+                        "Note": null,
+                        "Price": "17.90€"
+                    },
+                    {
+                        "Label": "g. Garnele",
+                        "Note": "(K)",
+                        "Price": "17.90€"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Category": "Rind",
+        "Note": "(M,I,O,E)",
+        "Description": "Gerichte mit Gemüse/Duftreis/Sesam serviert",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "40. BO XAO RAU",
+                "Note": null,
+                "Description": "Rindfleisch gebraten in Sojasauce",
+                "Price": "16.90€",
+                "Icon": null,
+                "Options": null
+            },
+            {
+                "Title": "41.BO XAO HOISIN",
+                "Note": null,
+                "Description": "Rindfleisch gebraten in Hoisin-Sauce ( mit Zwiebeln und Knoblauch)",
+                "Price": "16.90€",
+                "Icon": null,
+                "Options": null
+            },
+            {
+                "Title": "42.BO XAO CARI",
+                "Note": null,
+                "Description": "Rindfleisch gebraten in rotem Curry-Sauce",
+                "Price": "16.90€",
+                "Icon": "🌶️",
+                "Options": null
+            },
+            {
+                "Title": "43. BO XAO SA OT",
+                "Note": null,
+                "Description": "Rindfleisch gebraten mit Zitronengras",
+                "Price": "16.90€",
+                "Icon": "🌶️",
+                "Options": null
+            },
+            {
+                "Title": "44. BO SPEZIALITÄT",
+                "Note": null,
+                "Description": "Rindfleisch gebraten in hausgemachte Spezialsauce",
+                "Price": "17.50€",
+                "Icon": null,
+                "Options": null
+            },
+            {
+                "Title": "45. BO SPEZIALITÄT Scharf",
+                "Note": null,
+                "Description": "Rindfleisch gebraten in hausgemachte scharfes Spezial-Sauce (mit Chili)",
+                "Price": "17.90€",
+                "Icon": "🌶️🌶️",
+                "Options": null
+            }
+        ]
+    },
+    {
+        "Category": "Hühnerfleisch",
+        "Note": "(A,I,F,M,H)",
+        "Description": "Gericht mit Gemüse/Duftreis/Sesam service",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "50. GA XAO RAU",
+                "Note": null,
+                "Description": null,
+                "Price": null,
+                "Icon": null,
+                "Options": [
+                    {
+                        "Label": "a. natur gebratenes Hühnerfleisch in Soja-Sauce",
+                        "Note": null,
+                        "Price": "15.90€"
+                    },
+                    {
+                        "Label": "b. gebackenes Hühnerbrustfilet und Sojasauce",
+                        "Note": null,
+                        "Price": "16.90€"
+                    }
+                ]
+            },
+            {
+                "Title": "51. GA XAO HOISIN",
+                "Note": null,
+                "Description": null,
+                "Price": null,
+                "Icon": null,
+                "Options": [
+                    {
+                        "Label": "a. natur gebratenes Hühnerfleisch in Hoisin-Sauce",
+                        "Note": null,
+                        "Price": "15.90€"
+                    },
+                    {
+                        "Label": "b. gebackenes Hühnerbrustfilet und Hoisin-Sauce",
+                        "Note": null,
+                        "Price": "16.90€"
+                    }
+                ]
+            },
+            {
+                "Title": "52. GA XAO CARI ROT",
+                "Note": null,
+                "Description": null,
+                "Price": null,
+                "Icon": "🌶️",
+                "Options": [
+                    {
+                        "Label": "a. natur gebratenes Hühnerfleisch in rotem Curry-Sauce",
+                        "Note": null,
+                        "Price": "15.90€"
+                    },
+                    {
+                        "Label": "b. gebackenes Hühnerbrustfilet und rotem Curry-Sauce",
+                        "Note": null,
+                        "Price": "16.90€"
+                    }
+                ]
+            },
+            {
+                "Title": "53. GA XAO CARI GELB",
+                "Note": null,
+                "Description": null,
+                "Price": null,
+                "Icon": null,
+                "Options": [
+                    {
+                        "Label": "a. natur gebratenes Hühnerfleisch in gelbem Curry-Sauce",
+                        "Note": null,
+                        "Price": "15.90€"
+                    },
+                    {
+                        "Label": "b. gebackenes Hühnerbrustfilet und gelbem Curry-Sauce",
+                        "Note": null,
+                        "Price": "16.90€"
+                    }
+                ]
+            },
+            {
+                "Title": "54. GA XAO SOT LAC",
+                "Note": null,
+                "Description": null,
+                "Price": null,
+                "Icon": "🌶️",
+                "Options": [
+                    {
+                        "Label": "a. natur gebratenes Hühnerfleisch in Erdnuss-Sauce",
+                        "Note": null,
+                        "Price": "15.90€"
+                    },
+                    {
+                        "Label": "b. gebackenes Hühnerbrustfilet und Erdnuss-Sauce",
+                        "Note": null,
+                        "Price": "16.90€"
+                    }
+                ]
+            },
+            {
+                "Title": "55. GA CHIEN CHUA NGOT",
+                "Note": null,
+                "Description": null,
+                "Price": null,
+                "Icon": null,
+                "Options": [
+                    {
+                        "Label": "gebackenes Hühnerbrustfilet und Süß-Sauer-Sauce",
+                        "Note": null,
+                        "Price": "16.90€"
+                    }
+                ]
+            },
+            {
+                "Title": "56. GA SPEZIALITÄT",
+                "Note": null,
+                "Description": null,
+                "Price": null,
+                "Icon": "🌶️",
+                "Options": [
+                    {
+                        "Label": "a. natur gebratenes Hühnerfleisch in hausgemachte Spezialsauce",
+                        "Note": null,
+                        "Price": "16.50€"
+                    },
+                    {
+                        "Label": "b. gebackenes Hühnerbrustfilet und hausgemachte Spezial-Sauce",
+                        "Note": null,
+                        "Price": "17.50€"
+                    }
+                ]
+            },
+            {
+                "Title": "57. GA SPEZIALITÄT Scharf",
+                "Note": null,
+                "Description": null,
+                "Price": null,
+                "Icon": "🌶️🌶️",
+                "Options": [
+                    {
+                        "Label": "a. natur gebratenes Hühnerfleisch in hausgemachte scharfer",
+                        "Note": null,
+                        "Price": null
+                    },
+                    {
+                        "Label": "Spezial-Sauce (mit Chili)",
+                        "Note": null,
+                        "Price": "16.90€"
+                    },
+                    {
+                        "Label": "b. gebackenes Hühnerbrustfilet und hausgemachte scharfer",
+                        "Note": null,
+                        "Price": null
+                    },
+                    {
+                        "Label": "Spezial-Sauce (mit Chili)",
+                        "Note": null,
+                        "Price": "17.90€"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Category": "Ente",
+        "Note": "(M,A,F,E,O)",
+        "Description": "Gerichte mit Gemüse/Duftreis/Sesam serviert",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "60. COM VIT",
+                "Note": null,
+                "Description": "knusprige Ente in Soja-Sauce",
+                "Price": "17.90€",
+                "Icon": null,
+                "Options": null
+            },
+            {
+                "Title": "61. VIT SOT HOISIN",
+                "Note": null,
+                "Description": "knusprige Ente in Hoisin-Sauce",
+                "Price": "17.90€",
+                "Icon": null,
+                "Options": null
+            },
+            {
+                "Title": "62. VIT SOT CARI ROT",
+                "Note": null,
+                "Description": "knusprige Ente in rotem Curry-Sauce",
+                "Price": "17.90€",
+                "Icon": "🌶️",
+                "Options": null
+            },
+            {
+                "Title": "63. VIT SOT CARI GELB",
+                "Note": null,
+                "Description": "knusprige Ente in gelbem Curry-Sauce",
+                "Price": "17.90€",
+                "Icon": null,
+                "Options": null
+            },
+            {
+                "Title": "64. VIT SOT LAC",
+                "Note": null,
+                "Description": "knusprige Ente in Erdnuss-Sauce",
+                "Price": "17.90€",
+                "Icon": "🌶️",
+                "Options": null
+            },
+            {
+                "Title": "65.VIT CHUA NGOT",
+                "Note": null,
+                "Description": "knusprige Ente in Süß-Sauer-Sauce",
+                "Price": "17.90€",
+                "Icon": null,
+                "Options": null
+            },
+            {
+                "Title": "66. VIT SPEZIALITÄT",
+                "Note": null,
+                "Description": "knusprige Ente in hausgemachte Spezialsauce",
+                "Price": "18.50€",
+                "Icon": null,
+                "Options": null
+            },
+            {
+                "Title": "67. VIT SPEZIALITÄT Scharf",
+                "Note": null,
+                "Description": "knusprige Ente in hausgemachte scharfes Spezial-Sauce ( mit Chili)",
+                "Price": "18.90€",
+                "Icon": "🌶️🌶️",
+                "Options": null
+            }
+        ]
+    },
+    {
+        "Category": "Garnele",
+        "Note": "(K,A,I,F,O)",
+        "Description": "Gerichte mit Gemüse/Duftreis/Sesam serviert",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "70. TOM XAO RAU",
+                "Note": null,
+                "Description": "Riesengarnele gebraten in Sojasauce",
+                "Price": "23.00€",
+                "Icon": null,
+                "Options": null
+            },
+            {
+                "Title": "71. TOM XAO HOISIN",
+                "Note": null,
+                "Description": "Riesengarnele gebraten in Hoisin-Sauce ( mit Zwiebeln und Knoblauch)",
+                "Price": "23.50€",
+                "Icon": null,
+                "Options": null
+            },
+            {
+                "Title": "72. TOM XAO CARI",
+                "Note": null,
+                "Description": "Riesengarnele gebraten in rotem Curry-Sauce",
+                "Price": "23.50€",
+                "Icon": "🌶️",
+                "Options": null
+            },
+            {
+                "Title": "73. TOM XAO SA OT",
+                "Note": null,
+                "Description": "Riesengarnele gebraten mit Zitronengras",
+                "Price": "23.90€",
+                "Icon": "🌶️",
+                "Options": null
+            },
+            {
+                "Title": "74. TOM SPEZIALITÄT",
+                "Note": null,
+                "Description": "Riesengarnele gebraten in hausgemachte Spezial-Sauce",
+                "Price": "24.50€",
+                "Icon": null,
+                "Options": null
+            },
+            {
+                "Title": "75. TOM SPEZIALITÄT Scharf",
+                "Note": null,
+                "Description": "Riesengarnele gebraten in hausgemachte scharfes Spezial-Sauce (mit Chili)",
+                "Price": "24.90€",
+                "Icon": "🌶️🌶️",
+                "Options": null
+            },
+            {
+                "Title": "76.TOM CHUA NGOT",
+                "Note": null,
+                "Description": "parnierte Riesengarnele in Süß-Sauer-Sauce",
+                "Price": "24.50€",
+                "Icon": null,
+                "Options": null
+            }
+        ]
+    },
+    {
+        "Category": "Lachs",
+        "Note": "(A,I,F,O,B)",
+        "Description": "Gerichte mit Gemüse/Duftreis/Sesam serviert",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "80. CA XAO RAU",
+                "Note": null,
+                "Description": null,
+                "Price": "22.50€",
+                "Icon": null,
+                "Options": [
+                    {
+                        "Label": "Lachs gebraten, Gemüse und Sojasauce",
+                        "Note": null,
+                        "Price": null
+                    }
+                ]
+            },
+            {
+                "Title": "81. CA XAO HOISIN",
+                "Note": null,
+                "Description": null,
+                "Price": "23.50€",
+                "Icon": null,
+                "Options": [
+                    {
+                        "Label": "Lachs gebraten, Gemüse und Hoisin-Sauce ( mit Zwiebeln und Knoblauch)",
+                        "Note": null,
+                        "Price": null
+                    }
+                ]
+            },
+            {
+                "Title": "82. CA SOT CARI ROT",
+                "Note": null,
+                "Description": null,
+                "Price": "23.50€",
+                "Icon": "🌶️",
+                "Options": [
+                    {
+                        "Label": "Lachs gebraten mit rotem Curry Sauce",
+                        "Note": null,
+                        "Price": null
+                    }
+                ]
+            },
+            {
+                "Title": "83. CA SPEZIALITÄT",
+                "Note": null,
+                "Description": null,
+                "Price": "24.50€",
+                "Icon": null,
+                "Options": [
+                    {
+                        "Label": "Lachs gebraten, Gemüse mit hausgemachte Spezial-Sauce",
+                        "Note": null,
+                        "Price": null
+                    }
+                ]
+            },
+            {
+                "Title": "84. CA SPEZIALITÄT Scharf",
+                "Note": null,
+                "Description": null,
+                "Price": "24.90€",
+                "Icon": "🌶️🌶️",
+                "Options": [
+                    {
+                        "Label": "Lachs gebraten, Gemüse mit hausgemachte scharfes Spezial-Sauce",
+                        "Note": "(mit Chili)",
+                        "Price": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Category": "KAZOKU POKE BOWL",
+        "Note": "(M,F,B,K)",
+        "Description": "Große Sushi Reis-Bowl mit Babyleaf Mix, Algensalat, Edamame, Avocado, Mais, Sesam, Sesam Dressing, Kazoku Mayo und Sauce",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "90. TOFU BOWL",
+                "Note": null,
+                "Description": null,
+                "Price": "12.90€",
+                "Icon": "🥬",
+                "Options": [
+                    {
+                        "Label": "mit gebackenem Tofu",
+                        "Note": null,
+                        "Price": null
+                    }
+                ]
+            },
+            {
+                "Title": "91. FLAMBIERTER LACHS BOWL",
+                "Note": null,
+                "Description": null,
+                "Price": "15.90€",
+                "Icon": null,
+                "Options": [
+                    {
+                        "Label": "Mit flambierter Lachs",
+                        "Note": null,
+                        "Price": null
+                    }
+                ]
+            },
+            {
+                "Title": "92. ROHER LACHS BOWL",
+                "Note": null,
+                "Description": null,
+                "Price": "14.90€",
+                "Icon": "🌶️",
+                "Options": [
+                    {
+                        "Label": "mit rohem Lachs",
+                        "Note": null,
+                        "Price": null
+                    }
+                ]
+            },
+            {
+                "Title": "93. TUNA BOWL",
+                "Note": null,
+                "Description": null,
+                "Price": "15.90€",
+                "Icon": null,
+                "Options": [
+                    {
+                        "Label": "mit flambierter Thunfisch",
+                        "Note": null,
+                        "Price": null
+                    }
+                ]
+            },
+            {
+                "Title": "94. CHICKEN BOWL",
+                "Note": null,
+                "Description": null,
+                "Price": null,
+                "Icon": null,
+                "Options": [
+                    {
+                        "Label": "a. Yakitori",
+                        "Note": null,
+                        "Price": "14.90€"
+                    },
+                    {
+                        "Label": "b. gebackener Hähnchenbrustfilet",
+                        "Note": null,
+                        "Price": "16.90€"
+                    }
+                ]
+            }
+        ]
+    }
+]
