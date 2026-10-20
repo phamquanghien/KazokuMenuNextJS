@@ -4,7 +4,7 @@ import { useEffect, useState, useSyncExternalStore } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname, useRouter } from 'next/navigation';
-import smallLogo from '@/public/assets/images/small-logo.webp';
+import smallLogo from '@/public/assets/images/logo.png';
 
 interface MenuCategory {
     label: string;

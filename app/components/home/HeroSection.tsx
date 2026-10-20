@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 // Đường dẫn ảnh dùng alias @/
 import backgroundImage from '@/public/assets/images/background.webp';
-import logo from '@/public/assets/images/logo.webp';
+import logo from '@/public/assets/images/logo.png';
 
 export default function HeroSection() {
     return (
@@ -24,7 +24,7 @@ export default function HeroSection() {
             <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-black/30" />
 
             {/* Content Container */}
-            <div className="relative z-10 flex min-h-screen items-center">
+            <div className="relative z-10 flex min-h-screen items-center justify-center text-center">
                 <div className="mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-12 px-6 py-20 sm:px-10 lg:grid-cols-12 lg:gap-8 lg:px-16">
                     {/* Left Column (Content) */}
                     <div className="text-white lg:col-span-7">
@@ -123,8 +123,8 @@ export default function HeroSection() {
                         </div>
                     </div>
 
-                    {/* Right Column (Logo) */}
-                    <div className="relative flex items-center justify-center lg:col-span-5 lg:justify-end">
+                    {/* Right Column (Logo & Description) */}
+                    <div className="relative flex flex-col items-center justify-center text-center lg:col-span-5">
                         <div className="absolute w-72 h-72 sm:w-96 sm:h-96 bg-amber-500/15 rounded-full blur-3xl pointer-events-none" />
 
                         <Image
@@ -133,6 +133,12 @@ export default function HeroSection() {
                             priority
                             className="relative z-10 w-64 max-w-[75vw] object-contain drop-shadow-[0_20px_30px_rgba(0,0,0,0.8)] transition-transform duration-500 hover:scale-105 sm:w-80 md:w-96 lg:w-[28rem]"
                         />
+
+                        {/* Dòng chữ căn giữa và kích thước chữ lớn hơn */}
+                        <p className="relative z-10 mt-6 max-w-md text-center text-base sm:text-xl font-medium italic tracking-wide text-amber-400 leading-relaxed">
+                            We start cooking when you order, ensuring every dish
+                            is freshly prepared for you.
+                        </p>
                     </div>
                 </div>
             </div>
