@@ -3,12 +3,14 @@ import { notFound } from 'next/navigation';
 import { ArrowLeft, ChevronRight, Info, Utensils } from 'lucide-react';
 
 // Import dữ liệu JSON
-import appetizerData from '@/app/data/appetizer.json';
-import dessertData from '@/app/data/dessert.json';
-import drinksData from '@/app/data/drinks.json';
-import lunchData from '@/app/data/lunchMenu.json';
-import mainData from '@/app/data/mainDish.json';
-import sushiData from '@/app/data/sushi.json';
+import mittagsangebot from '@/app/data/mittagsangebot.json';
+import vorspeise from '@/app/data/vorspeise.json';
+import kindermenu from '@/app/data/kindermenu.json';
+import hauptspeise from '@/app/data/hauptspeise.json';
+import sushi from '@/app/data/sushi.json';
+import vegetarisch from '@/app/data/vegetarisch.json';
+import dessert from '@/app/data/dessert.json';
+import getranke from '@/app/data/getranke.json';
 
 // Types
 interface OptionItem {
@@ -39,53 +41,85 @@ interface CategoryConfig {
     id: string;
     title: string;
     subtitle: string;
+    timeInfo: string;
+    note: string;
     icon: string;
     data: MenuCategoryGroup[];
 }
 
 // Cấu hình các danh mục menu
 const categoriesMap: Record<string, CategoryConfig> = {
+    mittagsangebot: {
+        id: 'mittagsangebot',
+        title: 'Mittagsangebot',
+        subtitle: 'Frische & schnelle Gerichte für ihre Mittagspause',
+        timeInfo: 'Montag -Freitag / 11:30 Uhr - 14:30 Uhr',
+        note: 'Außer Feiertagen',
+        icon: '🍱',
+        data: mittagsangebot as unknown as MenuCategoryGroup[],
+    },
     vorspeise: {
         id: 'vorspeise',
-        title: 'Vorspeisen',
-        subtitle: 'Köstliche Vorspeisen für einen perfekten Start',
-        icon: '🥢',
-        data: appetizerData as unknown as MenuCategoryGroup[],
+        title: 'Vorspeise',
+        subtitle: 'Köstlichen kleinen Speisen für einen perfekten Start',
+        timeInfo: '',
+        note: 'Vorspeisen, Tatar/Tataki, Suppe, Salat',
+        icon: '🥟',
+        data: vorspeise as unknown as MenuCategoryGroup[],
     },
-    mittagsmenue: {
-        id: 'mittagsmenue',
-        title: 'Mittagsmenü',
-        subtitle: 'Frische & schnelle Gerichte für Ihre Mittagspause',
-        icon: '🍱',
-        data: lunchData as unknown as MenuCategoryGroup[],
+    kindermenu: {
+        id: 'kindermenu',
+        title: 'Kindermenü',
+        subtitle: 'Speisen für unseren kleinen Gäste',
+        timeInfo: '',
+        note: '',
+        icon: '👶',
+        data: kindermenu as unknown as MenuCategoryGroup[],
     },
     hauptspeise: {
         id: 'hauptspeise',
-        title: 'Hauptspeisen',
-        subtitle: 'Traditionelle vietnamesische & asiatische Spezialitäten',
-        icon: '🍜',
-        data: mainData as unknown as MenuCategoryGroup[],
+        title: 'Hauptspeise',
+        subtitle: 'Authentische asiatische Spezialität',
+        timeInfo: '',
+        note: '',
+        icon: '🍛',
+        data: hauptspeise as unknown as MenuCategoryGroup[],
     },
     sushi: {
         id: 'sushi',
-        title: 'Sushi Kreationen',
-        subtitle: 'Frischer Fisch und feinste Zutaten, kunstvoll zubereitet',
+        title: 'Sushi',
+        subtitle: 'Frischer Fisch und feinste Zutaten',
+        timeInfo: '',
+        note: 'Wir verwenden ausschließlich exquisiten "Label Rouge" Lachs- schottisch mit Gütezeichen- eine der höchsten Qualitätsstufen auf dem Markt',
         icon: '🍣',
-        data: sushiData as unknown as MenuCategoryGroup[],
+        data: sushi as unknown as MenuCategoryGroup[],
+    },
+    vegetarisch: {
+        id: 'vegetarisch',
+        title: 'Vegetarisch',
+        subtitle: '',
+        timeInfo: '',
+        note: '',
+        icon: '🌱',
+        data: vegetarisch as unknown as MenuCategoryGroup[],
     },
     dessert: {
         id: 'dessert',
-        title: 'Desserts',
-        subtitle: 'Süße Versuchungen zum krönenden Abschluss',
+        title: 'Dessert',
+        subtitle: '',
+        timeInfo: '',
+        note: '',
         icon: '🍨',
-        data: dessertData as unknown as MenuCategoryGroup[],
+        data: dessert as unknown as MenuCategoryGroup[],
     },
-    drinks: {
-        id: 'drinks',
+    getranke: {
+        id: 'getranke',
         title: 'Getränke',
-        subtitle: 'Erfrischende Drinks, hausgemachte Limonaden & Weine',
+        subtitle: '',
+        timeInfo: '',
+        note: '',
         icon: '🍹',
-        data: drinksData as unknown as MenuCategoryGroup[],
+        data: getranke as unknown as MenuCategoryGroup[],
     },
 };
 

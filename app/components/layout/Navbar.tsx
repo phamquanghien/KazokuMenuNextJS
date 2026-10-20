@@ -12,12 +12,14 @@ interface MenuCategory {
 }
 
 const menuCategories: MenuCategory[] = [
+    { label: 'MITTAGSANGEBOT', path: '/menu/mittagsangebot' },
     { label: 'VORSPEISE', path: '/menu/vorspeise' },
-    { label: 'MITTAGSMENÜ', path: '/menu/mittagsmenue' },
+    { label: 'KINDERMENU', path: '/menu/kindermenu' },
     { label: 'HAUPTSPEISE', path: '/menu/hauptspeise' },
     { label: 'SUSHI', path: '/menu/sushi' },
+    { label: 'VEGETARISCH', path: '/menu/vegetarisch' },
     { label: 'DESSERT', path: '/menu/dessert' },
-    { label: 'DRINKS', path: '/menu/drinks' },
+    { label: 'GETRANKE', path: '/menu/getranke' },
 ];
 
 const navigationItems = [

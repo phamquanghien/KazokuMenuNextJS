@@ -1,12 +1,14 @@
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 
-import appetizerData from '@/app/data/appetizer.json';
-import dessertData from '@/app/data/dessert.json';
-import drinksData from '@/app/data/drinks.json';
-import lunchData from '@/app/data/lunchMenu.json';
-import mainData from '@/app/data/mainDish.json';
-import sushiData from '@/app/data/sushi.json';
+import mittagsangebot from '@/app/data/mittagsangebot.json';
+import vorspeise from '@/app/data/vorspeise.json';
+import kindermenu from '@/app/data/kindermenu.json';
+import hauptspeise from '@/app/data/hauptspeise.json';
+import sushi from '@/app/data/sushi.json';
+import vegetarisch from '@/app/data/vegetarisch.json';
+import dessert from '@/app/data/dessert.json';
+import getranke from '@/app/data/getranke.json';
 
 interface MenuCategoryGroup {
     Items: Array<unknown>;
@@ -14,63 +16,81 @@ interface MenuCategoryGroup {
 
 const menuCategories = [
     {
-        id: 'vorspeise',
-        title: 'Vorspeisen',
-        subtitle: 'Köstliche Vorspeisen für einen perfekten Start',
-        icon: '🥢',
-        href: '/menu/vorspeise',
+        id: 'mittagsangebot',
+        title: 'Mittagsangebot',
+        subtitle: 'Frische & schnelle Gerichte für ihre Mittagspause',
+        timeInfo: 'Montag -Freitag / 11:30 Uhr - 14:30 Uhr',
+        note: 'Außer Feiertagen',
+        icon: '🍱',
+        href: '/menu/mittagsangebot',
         count:
-            (appetizerData as unknown as MenuCategoryGroup[])[0]?.Items
+            (mittagsangebot as unknown as MenuCategoryGroup[])[0]?.Items
                 ?.length || 0,
     },
     {
-        id: 'mittagsmenue',
-        title: 'Mittagsmenü',
-        subtitle: 'Frische & schnelle Gerichte für Ihre Mittagspause',
-        icon: '🍱',
-        href: '/menu/mittagsmenue',
+        id: 'vorspeise',
+        title: 'Vorspeise',
+        subtitle: 'Köstlichen kleinen Speisen für einen perfekten Start',
+        note: 'Vorspeisen, Tatar/Tataki, Suppe, Salat',
+        icon: '🥟',
+        href: '/menu/vorspeise',
         count:
-            (lunchData as unknown as MenuCategoryGroup[])[0]?.Items?.length ||
+            (vorspeise as unknown as MenuCategoryGroup[])[0]?.Items?.length ||
+            0,
+    },
+    {
+        id: 'kindermenu',
+        title: 'Kindermenü',
+        subtitle: 'Speisen für unseren kleinen Gäste',
+        icon: '👶',
+        href: '/menu/kindermenu',
+        count:
+            (kindermenu as unknown as MenuCategoryGroup[])[0]?.Items?.length ||
             0,
     },
     {
         id: 'hauptspeise',
-        title: 'Hauptspeisen',
-        subtitle: 'Traditionelle vietnamesische & asiatische Spezialitäten',
-        icon: '🍜',
+        title: 'Hauptspeise',
+        subtitle: 'Authentische asiatische Spezialität',
+        icon: '🍛',
         href: '/menu/hauptspeise',
         count:
-            (mainData as unknown as MenuCategoryGroup[])[0]?.Items?.length || 0,
+            (hauptspeise as unknown as MenuCategoryGroup[])[0]?.Items?.length ||
+            0,
     },
     {
         id: 'sushi',
-        title: 'Sushi Kreationen',
-        subtitle: 'Frischer Fisch und feinste Zutaten, kunstvoll zubereitet',
+        title: 'Sushi',
+        subtitle: 'Frischer Fisch und feinste Zutaten',
+        note: 'Wir verwenden ausschließlich exquisiten "Label Rouge" Lachs- schottisch mit Gütezeichen- eine der höchsten Qualitätsstufen auf dem Markt',
         icon: '🍣',
         href: '/menu/sushi',
+        count: (sushi as unknown as MenuCategoryGroup[])[0]?.Items?.length || 0,
+    },
+    {
+        id: 'vegetarisch',
+        title: 'Vegetarisch',
+        icon: '🌱',
+        href: '/menu/vegetarisch',
         count:
-            (sushiData as unknown as MenuCategoryGroup[])[0]?.Items?.length ||
+            (vegetarisch as unknown as MenuCategoryGroup[])[0]?.Items?.length ||
             0,
     },
     {
         id: 'dessert',
-        title: 'Desserts',
-        subtitle: 'Süße Versuchungen zum krönenden Abschluss',
+        title: 'Dessert',
         icon: '🍨',
         href: '/menu/dessert',
         count:
-            (dessertData as unknown as MenuCategoryGroup[])[0]?.Items?.length ||
-            0,
+            (dessert as unknown as MenuCategoryGroup[])[0]?.Items?.length || 0,
     },
     {
-        id: 'drinks',
+        id: 'getranke',
         title: 'Getränke',
-        subtitle: 'Erfrischende Drinks, hausgemachte Limonaden & Weine',
         icon: '🍹',
-        href: '/menu/drinks',
+        href: '/menu/getranke',
         count:
-            (drinksData as unknown as MenuCategoryGroup[])[0]?.Items?.length ||
-            0,
+            (getranke as unknown as MenuCategoryGroup[])[0]?.Items?.length || 0,
     },
 ];
 
@@ -92,7 +112,8 @@ export default function MenuSection() {
                     </h2>
                     <div className="mx-auto mt-4 h-0.5 w-16 bg-amber-500" />
                     <p className="mx-auto mt-4 max-w-xl text-sm text-zinc-600 sm:text-base">
-                        Bitte wählen Sie eine Kategorie, um unsere Spezialitäten zu entdecken.
+                        Bitte wählen Sie eine Kategorie, um unsere Spezialitäten
+                        zu entdecken.
                     </p>
                 </div>
 
@@ -119,6 +140,12 @@ export default function MenuSection() {
                                 </h3>
                                 <p className="mt-2 text-xs leading-relaxed text-zinc-400 sm:text-sm">
                                     {cat.subtitle}
+                                </p>
+                                <p className="mt-1.5 text-xs font-semibold leading-relaxed text-amber-300/90 sm:text-sm">
+                                    {cat.timeInfo}
+                                </p>
+                                <p className="mt-1 text-xs italic leading-relaxed text-rose-400/90">
+                                    {cat.note}
                                 </p>
                             </div>
 
