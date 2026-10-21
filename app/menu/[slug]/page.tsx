@@ -253,7 +253,7 @@ export default async function CategoryPage({
                                                 <div className="space-y-1">
                                                     <div className="flex items-center gap-2 flex-wrap">
                                                         <h3
-                                                            className="text-base font-semibold text-zinc-100 sm:text-lg"
+                                                            className="text-base font-semibold text-zinc-100 sm:text-lg whitespace-pre-line"
                                                             dangerouslySetInnerHTML={{
                                                                 __html: item.Title,
                                                             }}

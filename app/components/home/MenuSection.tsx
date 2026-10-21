@@ -36,9 +36,9 @@ function countItems(node: unknown): number {
     return 0;
 }
 
-interface MenuCategoryGroup {
-    Items: Array<unknown>;
-}
+// interface MenuCategoryGroup {
+//     Items: Array<unknown>;
+// }
 
 const menuCategories = [
     {
