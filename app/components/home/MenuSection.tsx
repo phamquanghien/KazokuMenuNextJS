@@ -23,9 +23,7 @@ const menuCategories = [
         note: 'Außer Feiertagen',
         icon: '🍱',
         href: '/menu/mittagsangebot',
-        count:
-            (mittagsangebot as unknown as MenuCategoryGroup[])[0]?.Items
-                ?.length || 0,
+        count: 18,
     },
     {
         id: 'vorspeise',
@@ -65,7 +63,7 @@ const menuCategories = [
         note: 'Wir verwenden ausschließlich exquisiten "Label Rouge" Lachs- schottisch mit Gütezeichen- eine der höchsten Qualitätsstufen auf dem Markt',
         icon: '🍣',
         href: '/menu/sushi',
-        count: (sushi as unknown as MenuCategoryGroup[])[0]?.Items?.length || 0,
+        count: 96,
     },
     {
         id: 'vegetarisch',
