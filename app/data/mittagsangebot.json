@@ -1,380 +1,295 @@
 [
     {
-      "Category": null,
-      "Note": null,
-      "Description": null,
-      "Price": null,
-      "Icon": null,
-      "Items": [
-        {
-            "Title": "1. MISO SUPPE",
-            "Note": "(M)",
-            "Description": "Japanische Suppe mit Bohnenpaste, Seetang und Lauchzwiebeln",
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "a. Tofu",
-                    "Note": "(M)",
-                    "Price": "4.50€"
-                },
-                {
-                    "Label": "b. Lachs",
-                    "Note": "(B)",
-                    "Price": "5.00€"
-                }
-            ]
-        },
-        {
-            "Title": "2. KOKOSSUPPE",
-            "Note": "(D,O)",
-            "Description": "Kokosmilch Suppe mit Champignon, Cherrytomaten, Bambus, Koriander",
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "a. Tofu",
-                    "Note": "(M)",
-                    "Price": "5.00€"
-                },
-                {
-                    "Label": "b. Hühnerfleisch",
-                    "Note": "(1)",
-                    "Price": "5.50€"
-                },
-                {
-                    "Label": "c. Garnelen",
-                    "Note": "(C)",
-                    "Price": "6.00€"
-                }
-            ]
-        },
-        {
-            "Title": "3. SPICY TOM YUM SUPPE",
-            "Note": "(D,O)",
-            "Description": "pikantes Zitronengras, frisches Gemüse und Lauch",
-            "Price": null,
-            "Icon": "🌶️",
-            "Options": [
-                {
-                    "Label": "a. Tofu",
-                    "Note": "(M)",
-                    "Price": "5.00€"
-                },
-                {
-                    "Label": "b. Hähnchen",
-                    "Note": "(1)",
-                    "Price": "5.50€"
-                },
-                {
-                    "Label": "c. Garnele",
-                    "Note": "(C)",
-                    "Price": "6.00€"
-                },
-                {
-                    "Label": "d. Lachs",
-                    "Note": "(B)",
-                    "Price": "6.00€"
-                }
-            ]
-        },
-        {
-            "Title": "4. EDAMAME",
-            "Note": "(M)",
-            "Description": null,
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "Gekochte grüne junge Sojabohnen mit Meersalz",
-                    "Note": null,
-                    "Price": "5.50€"
-                }
-            ]
-        },
-        {
-            "Title": "5. GYOZA (4 Stück) mit Ponzu-Sauce",
-            "Note": "(F,I,M)",
-            "Description": "Gebackene Teigtaschen, gefüllt mit",
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "a. Gemüse",
-                    "Note": null,
-                    "Price": "6.00€"
-                },
-                {
-                    "Label": "b. Hähnchen",
-                    "Note": "(1)",
-                    "Price": "6.50€"
-                },
-                {
-                    "Label": "c. Garnelen",
-                    "Note": "(B)",
-                    "Price": "6.50€"
-                }
-            ]
-        },
-        {
-            "Title": "6. YAKITORI (3 Stk.)",
-            "Note": "(F,I,H)",
-            "Description": null,
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "Hühnerfleischspieße, Sesam, Kazoku Sauce",
-                    "Note": null,
-                    "Price": "5.50€"
-                }
-            ]
-        },
-        {
-            "Title": "7. WAN TAN",
-            "Note": "(l,N,5)",
-            "Description": "Hühnerfleisch-Garnele Teigtaschen mit Gemüse",
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "a. Suppe",
-                    "Note": null,
-                    "Price": "5.50€"
-                },
-                {
-                    "Label": "b. Gebacken (5 Stk)",
-                    "Note": null,
-                    "Price": "6.50€"
-                }
-            ]
-        },
-        {
-            "Title": "8. KAZOKU SUPPE",
-            "Note": "(A,1,11)",
-            "Description": null,
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "Süß-Sauer-Suppe mit Entenfleisch",
-                    "Note": null,
-                    "Price": "5.00€"
-                }
-            ]
-        },
-        {
-            "Title": "9. EBI TEMPURA",
-            "Note": "(A,N)",
-            "Description": null,
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "2 Stück Große Garnelen, grüner Reisflocken, Kazoku Sauce",
-                    "Note": null,
-                    "Price": "5.00€"
-                }
-            ]
-        },
-        {
-            "Title": "10. \"NEM\" - vietnamesische gebackene Frühlingsrollen (2 Stk.)",
-            "Note": "(A,F,I;N)",
-            "Description": null,
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "Knusprige Reisblätter-Rolle, gefüllt mit Hühnerfleisch, Garnele, Glasnudeln, Gemüse, Morcheln, Eier dazu hausgemachte süß-schafter Sauce",
-                    "Note": null,
-                    "Price": "5.50€"
-                }
-            ]
-        },
-        {
-            "Title": "11. WAKAME SALAT",
-            "Note": "(M,2)",
-            "Description": null,
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "Algensalat mit Sesam",
-                    "Note": null,
-                    "Price": "5.00€"
-                }
-            ]
-        },
-        {
-            "Title": "12. HACAO (4 Stk.)",
-            "Note": "(A,F)",
-            "Description": "gedämpfte asiatische Teigtaschen gefüllt mit",
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "a. Gemüse",
-                    "Note": null,
-                    "Price": "6.50€"
-                },
-                {
-                    "Label": "b. Garnele",
-                    "Note": null,
-                    "Price": "6.50€"
-                }
-            ]
-        },
-        {
-            "Title": "13. SOMMER-BUDDHA ROLLE 2 Stk (kalt)",
-            "Note": "(I,F)",
-            "Description": null,
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "Reispapier, Tofu, Reisnudeln, gemischten Salat, hausgemachte süß-schafter Sauce",
-                    "Note": null,
-                    "Price": "6.00€"
-                }
-            ]
-        },
-        {
-            "Title": "14. SOMMERROLLE EBI 2 Stk (kalt)",
-            "Note": "(I,F)",
-            "Description": null,
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "Reispapier, Garnelen, Reisnudeln, gemischten Salat, hausgemachte süß-schafter Sauce",
-                    "Note": null,
-                    "Price": "6.90€"
-                }
-            ]
-        },
-        {
-            "Title": "15. AVOCADO TATAR",
-            "Note": "(F,M)",
-            "Description": null,
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "Avocado,Babyleaf, Piment de Espelette, Mango-Mayonnaise, Yuzu-Dressing, Sesam",
-                    "Note": null,
-                    "Price": "9.50€"
-                }
-            ]
-        },
-        {
-            "Title": "16. LACHS TATAR",
-            "Note": "(F,M,B)",
-            "Description": null,
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "Lachs, Avocado, Babyleaf, Piment d' Espelette, Mango-Mayonnaise, Yuzu-Dressing, Tobiko,Sesam",
-                    "Note": null,
-                    "Price": "10.50€"
-                }
-            ]
-        },
-        {
-            "Title": "17. SALMON TATAKI (3 Stk)",
-            "Note": "(F,B,M)",
-            "Description": null,
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "Flambierter Lachs, Seetang Salat, Rettich",
-                    "Note": null,
-                    "Price": "8.00€"
-                }
-            ]
-        },
-        {
-            "Title": "18. TUNA TATAKI (3 Stk)",
-            "Note": "(F,M,B)",
-            "Description": null,
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "Flambierter Tuna, Seetangsalat, Rettich",
-                    "Note": null,
-                    "Price": "8.50€"
-                }
-            ]
-        },
-        {
-            "Title": "19. SWEET FRIES",
-            "Note": "(M,I)",
-            "Description": null,
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "Süßkartoffel-Pommes, hausgemachter Cocktail-Sauce",
-                    "Note": null,
-                    "Price": "5.00€"
-                }
-            ]
-        },
-        {
-            "Title": "20. VEGI SPRINGROLLS",
-            "Note": "(M,I)",
-            "Description": null,
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "Gebackene Mini Frühlingsrollen, hausgemachte süß-schafter Sauce",
-                    "Note": null,
-                    "Price": "4.50€"
-                }
-            ]
-        },
-        {
-            "Title": "21. KAZOKU PLATTE",
-            "Note": "(M,F,I,B)",
-            "Description": null,
-            "Price": null,
-            "Options": [
-                {
-                    "Label": "Gemischte Vorspeisenplatte für 2 Personen",
-                    "Note": null,
-                    "Price": null
-                },
-                {
-                    "Label": "2 Stk. Sommerrollen,4 Stk. Frühlingsrollen,2 panierte Garnelen, 4 Gyoza, Edamame",
-                    "Note": null,
-                    "Price": "18.50€"
-                }
-            ]
-        }
-      ]
-    },
-    {
-        "Category": "Extra",
-        "Note": null,
-        "Description": null,
+        "Category": "WARME SPEISEN <sub>b,f</sub> | <span class=\"text-rose-400\">WARM DISHES</span>",
+        "Note": "",
+        "Description": "Frische Gemüse der Saison in hausgemachte Sauce, serviert mit Duftreis und Sesam\n<span class=\"text-amber-500\">fresh seasonal vegetables in homemade sauce, served with jasmin rice and sesame</span>",
         "Price": null,
         "Icon": null,
         "Items": [
             {
-                "Title": "400. gekochte Reis",
-                "Price": "3.00€",
+                "Title": "M1.ROTER CURRY | <span class=\"text-rose-400\">red curry sauce</span>",
+                "Note": null,
+                "Description": "red curry sauce",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a.Tofu | <span class=\"text-rose-400\">tofu</span> 🥬",
+                        "Note": null,
+                        "Price": "12.00€"
+                    },
+                    {
+                        "Label": "b.Hühnerfleisch | <span class=\"text-rose-400\">chicken</span>",
+                        "Note": null,
+                        "Price": "13.00€"
+                    },
+                    {
+                        "Label": "c.Rind | <span class=\"text-rose-400\">beef</span>",
+                        "Note": null,
+                        "Price": "14.00€"
+                    }
+                ]
+            },
+            {
+                "Title": "M2.GELBER CURRY | <span class=\"text-rose-400\">yellow curry sauce</span>",
+                "Note": null,
+                "Description": "yellow curry sauce",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a.Tofu | <span class=\"text-rose-400\">tofu</span> 🥬",
+                        "Note": null,
+                        "Price": "12.00€"
+                    },
+                    {
+                        "Label": "b.Hühnerfleisch | <span class=\"text-rose-400\">chicken</span>",
+                        "Note": null,
+                        "Price": "13.00€"
+                    },
+                    {
+                        "Label": "c.Rind | <span class=\"text-rose-400\">beef</span>",
+                        "Note": null,
+                        "Price": "14.00€"
+                    }
+                ]
+            },
+            {
+                "Title": "M3.ERDNUSS | <span class=\"text-rose-400\">peanut sauce</span>",
+                "Note": null,
+                "Description": "peanut sauce",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a.Tofu | <span class=\"text-rose-400\">tofu</span> 🥬",
+                        "Note": null,
+                        "Price": "12.00€"
+                    },
+                    {
+                        "Label": "b.Hühnerfleisch | <span class=\"text-rose-400\">chicken</span>",
+                        "Note": null,
+                        "Price": "13.00€"
+                    },
+                    {
+                        "Label": "c.Rind | <span class=\"text-rose-400\">beef</span>",
+                        "Note": null,
+                        "Price": "14.00€"
+                    }
+                ]
+            },
+            {
+                "Title": "M4.SPEZIAL | <span class=\"text-rose-400\">special sauce</span>",
+                "Note": null,
+                "Description": "special sauce",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a.Tofu | <span class=\"text-rose-400\">tofu</span> 🥬",
+                        "Note": null,
+                        "Price": "12.00€"
+                    },
+                    {
+                        "Label": "b.Hühnerfleisch | <span class=\"text-rose-400\">chicken</span>",
+                        "Note": null,
+                        "Price": "13.00€"
+                    },
+                    {
+                        "Label": "c.Rind | <span class=\"text-rose-400\">beef</span>",
+                        "Note": null,
+                        "Price": "14.00€"
+                    }
+                ]
+            },
+            {
+                "Title": "M5.GEBRATENER REIS",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">fried reis</span>\nist ein Reisgericht, das in einem Wok zubereitet und oft mit anderen Zutaten wie Eiern und Gemüse zubereitet wird. Es wird oft allein oder als Beilage zu einem anderen Gericht gegessen.\nIs a rice dish that is tossed in a wok and often cooked with other ingredients such as eggs and vegetables. It i soften alone o ras a side dish to another dish",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a.Tofu | <span class=\"text-rose-400\">tofu</span> 🥬",
+                        "Note": null,
+                        "Price": "11.00€"
+                    },
+                    {
+                        "Label": "b.Hühnerfleisch | <span class=\"text-rose-400\">chicken</span>",
+                        "Note": null,
+                        "Price": "12.00€"
+                    },
+                    {
+                        "Label": "c.Rind | <span class=\"text-rose-400\">beef</span>",
+                        "Note": null,
+                        "Price": "13.00€"
+                    }
+                ]
+            },
+            {
+                "Title": "M6.GEBRATERNER NUDELN",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">fried noodle</span>\nist die allgemeine Bezeichnung für Gerichte, die aus der Hauptzutat  Nudeln im Wok hergestellt werden. Dies ist eines des beliebtesten Streetfood in Asien.\nIs a general term for dishes made with noodles as the main ingredien, cooked in a wok. This is one oft he most popular street foods in asien",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a.Tofu | <span class=\"text-rose-400\">tofu</span> 🥬",
+                        "Note": null,
+                        "Price": "11.00€"
+                    },
+                    {
+                        "Label": "b.Hühnerfleisch | <span class=\"text-rose-400\">chicken</span>",
+                        "Note": null,
+                        "Price": "12.00€"
+                    },
+                    {
+                        "Label": "c.Rind | <span class=\"text-rose-400\">beef</span>",
+                        "Note": null,
+                        "Price": "13.00€"
+                    }
+                ]
+            },
+            {
+                "Title": "M7.PAD THAI",
+                "Note": null,
+                "Description": "ist ein traditionelles thailändisches gebratenes Nudelgericht. Das Gericht besteht aus Reisnudeln, gebraten mit Eiern, rotem Chili, hausgemachte Pad Thai Sauce. Koriander | Erdnüsse \n<span class=\"text-rose-400\">is a traditional Thai fried noodle dish. The dish consists of rice noodles fried eggs, red chili, and homemade pad Thai sauce. Coriander | peanuts</span>",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a.Tofu | <span class=\"text-rose-400\">tofu</span> 🥬",
+                        "Note": null,
+                        "Price": "12.00€"
+                    },
+                    {
+                        "Label": "b.Hühnerfleisch | <span class=\"text-rose-400\">chicken</span>",
+                        "Note": null,
+                        "Price": "13.00€"
+                    },
+                    {
+                        "Label": "c.Rind | <span class=\"text-rose-400\">beef</span>",
+                        "Note": null,
+                        "Price": "14.00€"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Category": "Kazoku Poke Bowl <sub>2,f,m</sub>",
+        "Note": "",
+        "Description": "Große Sushi Reis-Bowl mit Babyleaf | Algensalat | Edamame | Avocado | Mais | Gurken | Sesam | Sesam Dressing | Chili-Mayonnaise | Kazoku sauce\n<span class=\"text-rose-400\">Large sushi rice bowl with baby leaf | seaweed | edamame | avocado | corn | cucumbers | sesame | sesame dressing | Kazoku chili maiyonaise | Kazoku sauce</span>",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "B1.TOFU BOWL",
+                "Note": "",
+                "Description": "gebackenem Tofu <sub>m</sub> | <span class=\"text-rose-400\">fried tofu</span> 🥬",
+                "Price": "11.50€",
                 "Options": null
             },
             {
-                "Title": "401. gebratene Reis oder Nudeln anstatt gekochtem Reis beim Reisgerichte",
-                "Price": "3.50€",
+                "Title": "B2.SALMON BOWL",
+                "Note": null,
+                "Description": "4 Scheiben | <span class=\"text-rose-400\">4 slices</span>",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a. rohem Lachs <sub>b</sub> | <span class=\"text-rose-400\">raw salmon</span>",
+                        "Note": "",
+                        "Price": "12.50€"
+                    },
+                    {
+                        "Label": "b. flambierter Lachs\n<span class=\"text-rose-400\">flambeed salmon</span>",
+                        "Note": null,
+                        "Price": "13.50€"
+                    }
+                ]
+            },
+            {
+                "Title": "B3.TUNA BOWL",
+                "Note": null,
+                "Description": "4 Scheiben | <span class=\"text-rose-400\">4 slices</span>",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "flambierter Thunfisch <sub>b</sub> | <span class=\"text-rose-400\">flambeed tuna</span>",
+                        "Note": "",
+                        "Price": "14.00€"
+                    }
+                ]
+            },
+            {
+                "Title": "B4.CHICKEN BOWL",
+                "Note": null,
+                "Description": null,
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a. Yakitori <sub>f,m</sub> (2 Stk)",
+                        "Note": "",
+                        "Price": "12.50€"
+                    },
+                    {
+                        "Label": "b. geb. Hähnchenbrustfilet <sub>i,m</sub>\n<span class=\"text-rose-400\">crispy breaded chicken breast</span>",
+                        "Note": "",
+                        "Price": "13.50€"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Category": "Sushi - Set",
+        "Note": null,
+        "Description": "„Bei Verzehr vor Ort erhalten Sie eine Miso Suppe Tofu gratis dazu“\n<span class=\"text-rose-400\">„Enjoy a complimentary tofu miso soup when dining in“</span>",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "S1.SET 1",
+                "Note": null,
+                "Description": "8 Kappa Maki, 4 Avocado Maki, 8 Sake Maki\n<span class=\"text-rose-400\">8 cucumber maki , 4 avocado maki, 8 salmon maki</span>",
+                "Price": "11.00€",
                 "Options": null
             },
             {
-                "Title": "402. Sushi Reis",
-                "Price": "3.00€",
+                "Title": "S2.SET 2",
+                "Note": null,
+                "Description": "8 Crunchy Salmon",
+                "Price": "11.00€",
                 "Options": null
             },
             {
-                "Title": "403. Ingwer",
-                "Price": "2.00€",
+                "Title": "S3.SET 3",
+                "Note": null,
+                "Description": "8 Crunchy Tuna",
+                "Price": "11.00€",
                 "Options": null
             },
             {
-                "Title": "404. Wasabi",
-                "Price": "2.00€",
+                "Title": "S4.SET 4",
+                "Note": null,
+                "Description": "8 Sake Maki, 8 Kappa Maki, 5 California Classic\n<span class=\"text-rose-400\">8 salmon maki, 8 cucumber maki, 5 California classic</span>",
+                "Price": "13.50€",
                 "Options": null
             },
             {
-                "Title": "405. Sauce nach Wahl",
-                "Price": "2.00€",
+                "Title": "S5.SET 5",
+                "Note": null,
+                "Description": "8 Kappa Maki, 8 Avocado Maki, 5 Buddha Rolls\n<span class=\"text-rose-400\">8 cucumber maki, 8 avocado maki, 5 buddha rolls</span>",
+                "Price": "13.50€",
+                "Options": null
+            },
+            {
+                "Title": "S6.SET 6",
+                "Note": null,
+                "Description": "8 Salmon Crispy, 5 Sake Classic, 2 Lachs Nigiri\n<span class=\"text-rose-400\">8 slamon crispy, 5 salmon classic, 2 salmon nigiri</span>",
+                "Price": "14.50€",
+                "Options": null
+            },
+            {
+                "Title": "S7.SET 7",
+                "Note": null,
+                "Description": "8 Kappa Maki, 8 Tuna Crispy, 5 Lachs Rucola Classic\n<span class=\"text-rose-400\">8 cucumber maki, 8 tuna crispy, 5 salmon arugula classic</span>",
+                "Price": "15.50€",
                 "Options": null
             }
         ]
     }
 ]
-  

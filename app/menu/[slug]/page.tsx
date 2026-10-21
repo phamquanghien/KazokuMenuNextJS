@@ -52,9 +52,9 @@ const categoriesMap: Record<string, CategoryConfig> = {
     mittagsangebot: {
         id: 'mittagsangebot',
         title: 'Mittagsangebot',
-        subtitle: 'Frische & schnelle Gerichte für ihre Mittagspause',
-        timeInfo: 'Montag -Freitag / 11:30 Uhr - 14:30 Uhr',
-        note: 'Außer Feiertagen',
+        subtitle: '',
+        timeInfo: 'Montag bis Freitag ●11:30 – 14:30 Uhr ● außer Feiertags',
+        note: 'Monday to Friday ● 11:30 am still 2:30 pm ● except public holidays',
         icon: '🍱',
         data: mittagsangebot as unknown as MenuCategoryGroup[],
     },
@@ -183,6 +183,12 @@ export default async function CategoryPage({
                     <p className="mt-4 max-w-2xl text-sm text-zinc-400 sm:text-base">
                         {category.subtitle}
                     </p>
+                    <p className="mt-2 max-w-2xl text-sm text-amber-400 sm:text-base">
+                        {category.timeInfo}
+                    </p>
+                    <p className="mt-2 max-w-2xl text-sm text-rose-400 sm:text-base">
+                        {category.note}
+                    </p>
 
                     {/* Quick navigation back */}
                     <div className="mt-8">
@@ -210,9 +216,12 @@ export default async function CategoryPage({
                                 <div className="mb-8 border-b border-zinc-800 pb-4">
                                     <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2">
                                         {group.Category && (
-                                            <h2 className="font-serif text-2xl font-normal tracking-wide text-amber-400 sm:text-3xl">
-                                                {group.Category}
-                                            </h2>
+                                            <h2
+                                                className="font-serif text-2xl font-normal tracking-wide text-amber-400 sm:text-3xl"
+                                                dangerouslySetInnerHTML={{
+                                                    __html: group.Category,
+                                                }}
+                                            ></h2>
                                         )}
                                         {group.Price && (
                                             <span className="text-2xl font-bold text-amber-500">
@@ -221,9 +230,12 @@ export default async function CategoryPage({
                                         )}
                                     </div>
                                     {group.Description && (
-                                        <p className="mt-2 text-xs italic text-zinc-400 sm:text-sm">
-                                            {group.Description}
-                                        </p>
+                                        <p
+                                            className="mt-2 text-xs italic text-zinc-400 sm:text-sm whitespace-pre-line"
+                                            dangerouslySetInnerHTML={{
+                                                __html: group.Description,
+                                            }}
+                                        ></p>
                                     )}
                                 </div>
                             )}
@@ -240,9 +252,12 @@ export default async function CategoryPage({
                                             <div className="flex items-start justify-between gap-3">
                                                 <div className="space-y-1">
                                                     <div className="flex items-center gap-2 flex-wrap">
-                                                        <h3 className="text-base font-semibold text-zinc-100 sm:text-lg">
-                                                            {item.Title}
-                                                        </h3>
+                                                        <h3
+                                                            className="text-base font-semibold text-zinc-100 sm:text-lg"
+                                                            dangerouslySetInnerHTML={{
+                                                                __html: item.Title,
+                                                            }}
+                                                        ></h3>
                                                         {item.Icon && (
                                                             <span className="text-sm">
                                                                 {item.Icon}
@@ -265,9 +280,12 @@ export default async function CategoryPage({
 
                                             {/* Description */}
                                             {item.Description && (
-                                                <p className="mt-2 text-xs leading-relaxed text-zinc-400 sm:text-sm">
-                                                    {item.Description}
-                                                </p>
+                                                <p
+                                                    className="mt-2 text-xs leading-relaxed text-zinc-400 sm:text-sm whitespace-pre-line"
+                                                    dangerouslySetInnerHTML={{
+                                                        __html: item.Description,
+                                                    }}
+                                                ></p>
                                             )}
                                         </div>
 
@@ -286,20 +304,19 @@ export default async function CategoryPage({
                                                                     className="flex items-center justify-between rounded-lg bg-zinc-800/40 px-3 py-1.5 text-xs text-zinc-300"
                                                                 >
                                                                     <div className="flex items-center gap-2">
-                                                                        <span className="font-medium">
-                                                                            {
-                                                                                opt.Label
-                                                                            }
-                                                                        </span>
+                                                                        <span
+                                                                            className="font-medium whitespace-pre-line"
+                                                                            dangerouslySetInnerHTML={{
+                                                                                __html: opt.Label,
+                                                                            }}
+                                                                        ></span>
                                                                         {opt.Note && (
-                                                                            <span className="text-[11px] text-zinc-500">
-                                                                                (
-                                                                                {
-                                                                                    opt.Note
-                                                                                }
-
-                                                                                )
-                                                                            </span>
+                                                                            <span
+                                                                                className="text-[11px] text-zinc-500"
+                                                                                dangerouslySetInnerHTML={{
+                                                                                    __html: opt.Note,
+                                                                                }}
+                                                                            ></span>
                                                                         )}
                                                                     </div>
                                                                     {opt.Price && (
@@ -320,21 +337,6 @@ export default async function CategoryPage({
                             </div>
                         </div>
                     ))}
-                </div>
-
-                {/* Allergen Notice */}
-                <div className="mt-16 flex items-start gap-4 rounded-xl border border-zinc-800 bg-zinc-900/30 p-6 text-xs text-zinc-400">
-                    <Info size={20} className="shrink-0 text-amber-500" />
-                    <div>
-                        <h4 className="font-semibold text-zinc-200 uppercase tracking-wider mb-1">
-                            Allergene & Zusatzstoffe
-                        </h4>
-                        <p className="leading-relaxed">
-                            Bei Fragen zu den in unseren Gerichten enthaltenen
-                            Allergenen und Zusatzstoffen wenden Sie sich bitte
-                            an unser Servicepersonal. Wir informieren Sie gerne!
-                        </p>
-                    </div>
                 </div>
             </section>
         </main>
