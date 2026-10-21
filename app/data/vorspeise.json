@@ -1,81 +1,358 @@
 [
-    {
-        "Category": "Dessert",
-        "Note": "(D,F,I,A)",
-        "Description": null,
-        "Price": null,
-        "Icon": null,
-        "Items": [
-            {
-                "Title": "230. KAZOKU MOCHI EIS",
-                "Note": null,
-                "Description": null,
-                "Price": "6.50€",
-                "Icon": null,
-                "Options": [
+  {
+    "Category": "VORSPEISE | <span class=\"text-rose-400\">APPETIZER</span>",
+    "Note": "",
+    "Description": "",
+    "Price": null,
+    "Icon": null,
+    "Items": [
+        {
+            "Title": "1.EDAMAME KAZOKU STYLE <sub>m</sub> 🥬",
+            "Note": null,
+            "Description": "Japanische grüne Sojabohnen mit Meersalz\n<span class=\"text-rose-400\">japanese steamed and lightly salted green soy bean</span>",
+            "Price": "6.00€",
+            "Options": null
+        },
+        {
+            "Title": "2.GYOZA <sub>f,i,m</sub> (4 Stk)",
+            "Note": null,
+            "Description": "Teigtaschen mit Ponzu Sauce\n<span class=\"text-rose-400\">dumpling with ponzu sauce</span>",
+            "Price": null,
+            "Options": [
                 {
-                  "Label": "Japanischer Reiskuchen mit Eisfüllung und Früchten",
-                  "Note": null,
-                  "Price": null
-                }
-              ]
-            },
-            {
-                "Title": "231. KAZOKU MOCHI MIX",
-                "Note": null,
-                "Description": null,
-                "Price": "6.50€",
-                "Icon": null,
-                "Options": [
+                    "Label": "a.Gemüse | <span class=\"text-rose-400\">vegetables</span> 🥬",
+                    "Note": null,
+                    "Price": "6.50€"
+                },
                 {
-                  "Label": "Drei verschiedene Mochi-Reiskuchen mit Schokolade und Früchten.",
-                  "Note": null,
-                  "Price": null
-                }
-              ]
-            },
-            {
-                "Title": "232. KAZOKU PANNA COTTA",
-                "Note": null,
-                "Description": null,
-                "Price": "6.50€",
-                "Icon": null,
-                "Options": [
+                    "Label": "b.Hühnerfleisch <sub>1</sub> | <span class=\"text-rose-400\">chicken</span>",
+                    "Note": null,
+                    "Price": "6.50€"
+                },
                 {
-                  "Label": "Hausgemachte Panna Cotta aus cremiger Kokosmilch. Getoppt mit Mango-Creme",
-                  "Note": null,
-                  "Price": null
+                    "Label": "c.Garnele <sub>b</sub> | <span class=\"text-rose-400\">shrimp</span>",
+                    "Note": null,
+                    "Price": "7.00€"
                 }
-              ]
-            },
-            {
-                "Title": "233.KAZOKU SESAMBÄLLCHEN",
-                "Note": null,
-                "Description": null,
-                "Price": "6.50€",
-                "Icon": null,
-                "Options": [
+            ]
+        },
+        {
+            "Title": "3.HACAO <sub>l,m</sub> (4 Stk)",
+            "Note": null,
+            "Description": "gedämpfte Teigtaschen und Ponzu Sauce\n<span class=\"text-rose-400\">steamed dumplings with ponzu sauce</span>",
+            "Price": null,
+            "Options": [
                 {
-                  "Label": "mit frischen Früchten und Schokolade",
-                  "Note": null,
-                  "Price": null
-                }
-              ]
-            },
-            {
-                "Title": "234. KAZOKU GEBACKENEN BANANE",
-                "Note": null,
-                "Description": null,
-                "Price": "6.50€",
-                "Icon": null,
-                "Options": [
+                    "Label": "a.Gemüse | <span class=\"text-rose-400\">vegetable</span> 🥬",
+                    "Note": null,
+                    "Price": "6.50€"
+                },
                 {
-                  "Label": "mit Honig, Kokosflocken",
-                  "Note": null,
-                  "Price": null
+                    "Label": "b.Garnele <sub>c</sub> | <span class=\"text-rose-400\">shrimps</span>",
+                    "Note": null,
+                    "Price": "7.00€"
                 }
-              ]
-            }
-        ]
-    }
+            ]
+        },
+        {
+            "Title": "4.WAN TAN <sub>c,i,m</sub> (5 Stk)",
+            "Note": null,
+            "Description": "Hühnerfleisch - Garnele Teigtaschen mit Gemüse | frittiert | hausgemachte süß-scharfer Sauce\n<span class=\"text-rose-400\">chicken and shrimp dumpling with vegetables | fryer | homemade sweet and spicy sauce</span>",
+            "Price": "6.50€",
+            "Options": null
+        },
+        {
+            "Title": "5.EBI TEMPURA <sub>c,i,m</sub> (2 Stk)",
+            "Note": null,
+            "Description": "knusprig Garnele im Tempurateig | hausgemachte süß-scharfer Sauce\n<span class=\"text-rose-400\">Crispy prawns tempura | homemade sweet and spicy sauce</span>",
+            "Price": "5.50€",
+            "Options": null
+        },
+        {
+            "Title": "6.SWEET POTATO FRIES <sub>i</sub> 🥬",
+            "Note": null,
+            "Description": "Süßkartoffeln-Pommes mit Chili Mayonnaise\n<span class=\"text-rose-400\">potatoes fries with chili mayonnaise</span>",
+            "Price": "6.50€",
+            "Options": null
+        },
+        {
+            "Title": "7.YAKITORI <sub>f,m</sub> (3 Stk)",
+            "Note": null,
+            "Description": "Hühnerfleischspieße | Kazoku Sauce | Sesam\n<span class=\"text-rose-400\">chicken skewer | Kazoku sauce | sesame</span>",
+            "Price": "5.50€",
+            "Options": null
+        },
+        {
+            "Title": "8.KAZOKU PLATTE <sub>c,m,f,h,i,m</sub>",
+            "Note": null,
+            "Description": "Gemischte Vorspeisenplatte für 2 Personen\n2 Sommerrolle Tofu | Edamame |\n2 Ebi Tempura | 4 Stk. Mini Frühlingrolle|\n4 Stk. Gyoza Chicken\n<span class=\"text-rose-400\">mixed appetizer platter for two\n2 summer rolls Tofu | edamame |\n2 ebi tempura | 4 pieces mini spring rolls |\n4 pieces gyoza chicken</span>",
+            "Price": "20.00€",
+            "Options": null
+        },
+        {
+            "Title": "9.VEGAN KAZOKU PLATTE <sub>f,h,i,m</sub> 🥬",
+            "Note": null,
+            "Description": "Gemischte Vorspeisenplatte für 2 Personen\n2 Sommerrolle Tofu | Edamame |\n2 Avocado Tempura | 4 Stk. Gyoza Tofu |\n4 Stk. Mini Frühlingrolle\n<span class=\"text-rose-400\">mixed appetizer platter for two\n2 summer rolls tofu | edamame |\n2 avocado tempura | 4 pieces gyoza tofu |\n4 pieces mini spring roll</span>",
+            "Price": "19.50€",
+            "Options": null
+        }
+    ]
+  },
+  {
+    "Category": "TATAR / TATAKI | <span class=\"text-rose-400\">TATARE / TATAKI</span>",
+    "Note": "",
+    "Description": "",
+    "Price": null,
+    "Icon": null,
+    "Items": [
+        {
+            "Title": "10.AVOCADO TATAR <sub>2,f,m</sub> 🥬",
+            "Note": null,
+            "Description": "Avocado | Babyleaf | Piment d' Espelette |\nSesam | Chili Mayonnaise | Mango Sauce |\nYuzu-Dressing\n<span class=\"text-rose-400\">avocado | babyleaf | piment d' Espelette | sesame | chili mayonnaise | mango sauce |\nyuzu dressing</span>",
+            "Price": "9.50€",
+            "Options": null
+        },
+        {
+            "Title": "11.LACHS TATAR <sub>2,b,f,m</sub>",
+            "Note": null,
+            "Description": "Lachs | Piment d' Espelette | Mango Sauce | Chili Mayonnaise | Yuzu-Dressing | Tobiko | Babyleaf | Sesam\n<span class=\"text-rose-400\">salmon | piment d' Espelette | mango sauce | chili mayonnaise | yuzu dressing | tobiko | babyleaf | sesame</span>",
+            "Price": "11.00€",
+            "Options": null
+        },
+        {
+            "Title": "12.TATAKI <sub>2,b,f,m</sub> (3 Stk)",
+            "Note": null,
+            "Description": "Algensalat | Rettich | Chili Mayonnaise | Kazoku Sauce | Piment d' Espelette\n<span class=\"text-rose-400\">seaweed | radish | chili mayonnaise | Kazoku sauce | piment d' Espelette</span>",
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "a.flambierter Lachs | <span class=\"text-rose-400\">flambeed salmon</span>",
+                    "Note": null,
+                    "Price": "9.00€"
+                },
+                {
+                    "Label": "b.flambierter Thunfisch | <span class=\"text-rose-400\">flambeed tuna</span>",
+                    "Note": null,
+                    "Price": "10.00€"
+                }
+            ]
+        }
+    ]
+  },
+  {
+    "Category": "SOMMERROLLEN / FRÜHLINGSROLLE | <span class=\"text-rose-400\">SUMMER ROLLS / SPRING ROLLS</span>",
+    "Note": "",
+    "Description": "",
+    "Price": null,
+    "Icon": null,
+    "Items": [
+        {
+            "Title": "13.SUMMER ROLLS <sub>m</sub> (2 Stk)",
+            "Note": null,
+            "Description": "Reispapier | Reisnudeln | gemischten Salat | Koriander | Minze |\nhaugsgemachter Erdnuss-Hoisin-Dip\n<span class=\"text-rose-400\">rice paper | rice noodles | salat | Coriander | mint | homemade peanut hoisin dip</span>",
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
+                    "Note": null,
+                    "Price": "6.00€"
+                },
+                {
+                    "Label": "b.Hühnerfleisch | <span class=\"text-rose-400\">chicken</span>",
+                    "Note": null,
+                    "Price": "6.50€"
+                },
+                {
+                    "Label": "c.Garnele <sub>c</sub> | <span class=\"text-rose-400\">shrimps</span>",
+                    "Note": null,
+                    "Price": "7.00€"
+                },
+                {
+                    "Label": "d.Lachs <sub>b</sub> | <span class=\"text-rose-400\">salmon</span>",
+                    "Note": null,
+                    "Price": "7.50€"
+                }
+            ]
+        },
+        {
+            "Title": "14.PRAWNS SPRINGROLLS <sub>a,c,f,i,m</sub> (3 Stk)",
+            "Note": null,
+            "Description": "Garnele Frühlingsrolle |\nhaugsgemachte süß-scharfer Sauce\n<span class=\"text-rose-400\">homemade sweet and spicy sauce</span>",
+            "Price": "7.00€",
+            "Options": null
+        },
+        {
+            "Title": "15.“NEM” <sub>a,c,f,i,m,o</sub> (2 Stk)",
+            "Note": null,
+            "Description": "vietnamesische Frühlingsrolle gefüllt mit Hühnerfleisch | Garnele | Glasnudeln | Gemüse | Morcheln | Eier |\ndazu hausgemachte süß-scharfer Sauce\n<span class=\"text-rose-400\">vietnamese spring rolls filled with chicken | shrimps | glass noodles | vegetables | morels | eggs | homemade sweet and spicy sauce</span>",
+            "Price": "5.50€",
+            "Options": null
+        },
+        {
+            "Title": "16.MINI SPRING ROLLS <sub>f,i,m</sub> 🥬",
+            "Note": null,
+            "Description": "5 Stk. gebackene mini Frühlingsrolle, vegan | hausgemachte süß-scharfer Sauce\n<span class=\"text-rose-400\">5 pieces vegan mini springs rolls |\nhomemade sweet and spicy sauce</span>",
+            "Price": "4.50€",
+            "Options": null
+        }
+    ]
+  },
+  {
+    "Category": "SUPPE | <span class=\"text-rose-400\">SOUPS</span>",
+    "Note": "",
+    "Description": "",
+    "Price": null,
+    "Icon": null,
+    "Items": [
+        {
+            "Title": "20.MISO <sub>m</sub>",
+            "Note": null,
+            "Description": "Traditionell japanische Sojabohnensuppe mit Seetang | Frühlingszwiebeln\n<span class=\"text-rose-400\">traditional japanese miso soup with seaweed | scallions</span>",
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
+                    "Note": null,
+                    "Price": "4.50€"
+                },
+                {
+                    "Label": "b. Lachs <sub>b</sub> | <span class=\"text-rose-400\">salmon</span>",
+                    "Note": null,
+                    "Price": "5.50€"
+                }
+            ]
+        },
+        {
+            "Title": "21.KOKOS <sub>d</sub>",
+            "Note": null,
+            "Description": "Kokosmilch Suppe mit Gemüse | <span class=\"text-rose-400\">coconut soup with vegetables</span>",
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
+                    "Note": null,
+                    "Price": "5.00€"
+                },
+                {
+                    "Label": "b.Hühnerfleisch | <span class=\"text-rose-400\">chicken</span>",
+                    "Note": null,
+                    "Price": "5.50€"
+                },
+                {
+                    "Label": "c.Garnele <sub>c</sub> | <span class=\"text-rose-400\">shrimps</span>",
+                    "Note": null,
+                    "Price": "6.00€"
+                }
+            ]
+        },
+        {
+            "Title": "22.SPICY TOM YUM <sub>2,m</sub> 🌶️",
+            "Note": null,
+            "Description": "Zitronengras | Champion | Kirschtomaten | Bambus | Karotten | Frühlingszwiebeln | Koriander\n<span class=\"text-rose-400\">lemongrass | mushrooms | cherry tomato | bamboo | carrot | scallions | coriander</span>",
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
+                    "Note": null,
+                    "Price": "5.50€"
+                },
+                {
+                    "Label": "b.Hühnerfleisch <sub>l</sub> | <span class=\"text-rose-400\">chicken</span>",
+                    "Note": null,
+                    "Price": "6.00€"
+                },
+                {
+                    "Label": "c.Garnele <sub>c</sub> | <span class=\"text-rose-400\">shrimp</span>",
+                    "Note": null,
+                    "Price": "6.50€"
+                },
+                {
+                    "Label": "d. Lachs <sub>b</sub> | <span class=\"text-rose-400\">salmon</span>",
+                    "Note": null,
+                    "Price": "6.50€"
+                }
+            ]
+        },
+        {
+            "Title": "23.WAN TAN <sub>a,c,i,m</sub>",
+            "Note": null,
+            "Description": "Hühnerfleisch-Garnele Teigtaschen mit Gemüse | <span class=\"text-rose-400\">chicken and shrimp dumpling with vegetables</span>",
+            "Price": "6.00€",
+            "Options": null
+        },
+        {
+            "Title": "24.KAZOKU <sub>a,m,o</sub> 🌶️",
+            "Note": null,
+            "Description": "Süß-Sauer-Scharf Suppe mit Entenfleisch | <span class=\"text-rose-400\">sweet and sour soup with duck</span>",
+            "Price": "6.00€",
+            "Options": null
+        }
+    ]
+  },
+  {
+    "Category": "SALAT | <span class=\"text-rose-400\">SALADS</span>",
+    "Note": "",
+    "Description": "",
+    "Price": null,
+    "Icon": null,
+    "Items": [
+        {
+            "Title": "30.WAKAME <sub>2,f</sub> 🥬",
+            "Note": null,
+            "Description": "Algensalat mit geröstetem Sesam | <span class=\"text-rose-400\">seaweed with toasted sesam seeds</span>",
+            "Price": "5.50€",
+            "Options": null
+        },
+        {
+            "Title": "31.GEMISCHTER SALAT <sub>l,m</sub> 🥬",
+            "Note": null,
+            "Description": "mit hausgemachter Senfdressing |\n<span class=\"text-rose-400\">mixed salad with homemade mustard dressing</span>",
+            "Price": "7.50€",
+            "Options": null
+        },
+        {
+            "Title": "32.GEMISCHTER SALAT | GEB. HÜHNERBRUSTFILET | hausgemachter Dressing <sub>i,l,m</sub>",
+            "Note": null,
+            "Description": "<span class=\"text-rose-400\">mixed salad | crispy breaded chicken breast | homemade dressing</span>",
+            "Price": "9.50€",
+            "Options": null
+        },
+        {
+            "Title": "33.KAZOKU SALAT <sub>h,l,m</sub> | <span class=\"text-rose-400\">KAZOKU SALAD</span>",
+            "Note": null,
+            "Description": "Gemischter Salat mit Glasnudeln | Röstzwiebeln | Erdnüsse | Koriander | hausgemachte Dressing\n<span class=\"text-rose-400\">mixed salad with glass noodle | fried onions | peanuts | coriander | homemade dressing\nsautierter | sauteed</span>",
+            "Price": null,
+            "Options": [
+                {
+                    "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
+                    "Note": null,
+                    "Price": "9.00€"
+                },
+                {
+                    "Label": "b.Hühnerfleisch | <span class=\"text-rose-400\">chicken</span>",
+                    "Note": null,
+                    "Price": "9.50€"
+                },
+                {
+                    "Label": "c. Rind | <span class=\"text-rose-400\">beef</span>",
+                    "Note": null,
+                    "Price": "10.50€"
+                }
+            ]
+        },
+        {
+            "Title": "34.NOM XOAI <sub>h,m</sub> | <span class=\"text-rose-400\">MANGO SALAD</span>",
+            "Note": null,
+            "Description": "Mango | Karotte | Röstzwiebeln | Erdnüsse | Koriander | hausgemachte Limetten Dressing\n<span class=\"text-rose-400\">mango | carrot | fried onions | peanuts | coriander | homemade lime dressing</span>",
+            "Price": "8.00€",
+            "Options": [
+                {
+                    "Label": "b. mit Garnele <sub>c</sub> | <span class=\"text-rose-400\">with shrimps</span>",
+                    "Note": "Getrocknete Garnele. In Dashi-Brühe eingelegt. Sautiert in Wok\n<span class=\"text-rose-400\">Dried shrimp marinated in dashi broth. Sauteed in a Wok</span>",
+                    "Price": "10.50€"
+                }
+            ]
+        }
+    ]
+  }
 ]
