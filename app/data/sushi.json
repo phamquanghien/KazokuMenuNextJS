@@ -74,7 +74,7 @@
             {
                 "Title": "210.LACHS CRISPY",
                 "Note": null,
-                "Description": "Salmon | <span class=\"text-rose-400\">cream cheese</span>",
+                "Description": "<span class=\"text-rose-400\">Salmon | cream cheese</span>",
                 "Price": "8.50€",
                 "Options": null
             },
@@ -88,28 +88,28 @@
             {
                 "Title": "212.EBI AVO CRISPY",
                 "Note": null,
-                "Description": "prawn | <span class=\"text-rose-400\">avocado</span>",
+                "Description": "<span class=\"text-rose-400\">prawn | avocado</span>",
                 "Price": "9.00€",
                 "Options": null
             },
             {
                 "Title": "213.SURIMI AVO CRISPY",
                 "Note": null,
-                "Description": "surimi | <span class=\"text-rose-400\">avocado</span>",
+                "Description": "<span class=\"text-rose-400\">surimi | avocado</span>",
                 "Price": "9.00€",
                 "Options": null
             },
             {
-                "Title": "214.KAPPA CRISPY",
+                "Title": "214.KAPPA CRISPY 🥬",
                 "Note": null,
-                "Description": "cucumber 🥬 | <span class=\"text-rose-400\">cucumber</span>",
+                "Description": "<span class=\"text-rose-400\">cucumber</span>",
                 "Price": "8.00€",
                 "Options": null
             },
             {
-                "Title": "215.AVO CRISPY",
+                "Title": "215.AVO CRISPY 🥬",
                 "Note": null,
-                "Description": "avocado 🥬 | <span class=\"text-rose-400\">avocado</span>",
+                "Description": "<span class=\"text-rose-400\">avocado</span>",
                 "Price": "8.00€",
                 "Options": null
             }
@@ -158,9 +158,9 @@
                 "Options": null
             },
             {
-                "Title": "225.CRUNCHY VEGAN",
+                "Title": "225.CRUNCHY VEGAN 🥬",
                 "Note": null,
-                "Description": "Avocado 🥬 | grüner Spargel | Gurke\n<span class=\"text-rose-400\">avocado | green asparagus | cucumber</span>",
+                "Description": "Avocado | grüner Spargel | Gurke\n<span class=\"text-rose-400\">avocado | green asparagus | cucumber</span>",
                 "Price": "12.00€",
                 "Options": null
             }
@@ -174,16 +174,16 @@
         "Icon": null,
         "Items": [
             {
-                "Title": "BENTO 1",
+                "Title": "BENTO 1 🥬",
                 "Note": null,
-                "Description": "8 Kappa Maki 🥬 | 8 Avocado Maki | 5 Vegeta Classic\n<span class=\"text-rose-400\">8 cucumber maki | 8 avocado maki | 5 vegeta classic</span>",
+                "Description": "8 Kappa Maki | 8 Avocado Maki | 5 Vegeta Classic\n<span class=\"text-rose-400\">8 cucumber maki | 8 avocado maki | 5 vegeta classic</span>",
                 "Price": "14.00€",
                 "Options": null
             },
             {
-                "Title": "BENTO 2",
+                "Title": "BENTO 2 🥬",
                 "Note": null,
-                "Description": "8 Kappa Maki 🥬 | 5 Tammy Rolls | 8 Crispy Avocado\n<span class=\"text-rose-400\">8 cucumber maki | 5 Tammy rolls | 8 crispy avocado</span>",
+                "Description": "8 Kappa Maki | 5 Tammy Rolls | 8 Crispy Avocado\n<span class=\"text-rose-400\">8 cucumber maki | 5 Tammy rolls | 8 crispy avocado</span>",
                 "Price": "17.00€",
                 "Options": null
             },
@@ -260,9 +260,9 @@
         ]
     },
     {
-        "Category": "KAZOKU ÜBERRASCHUNGSPLATTE | <span class=\"text-rose-400\">„Surprice Surprice“</span>",
+        "Category": "<span class=\"text-rose-400\">„Surprice Surprice“</span>",
         "Note": "",
-        "Description": "Falls Sie sich nicht entscheiden können, welches leckere Sushi Sie bei uns essen möchten, bestellen Sie doch einfach unsere „Surprise Plate“. Wir nehmen Ihnen Ihre Entscheidung gerne ab und zaubern Ihnen etwas überraschend köstliches und kreatives auf Ihre Platte.\n<span class=\"text-rose-400\">If you can’t decide which delicious sushi you would like to eat with us, simply order our surprise plate. We will be happy to make the decision for you and conjure something delicious and creative on your plate.</span>\n\nEin Sushi Platte, die individuell auf Ihre Vorlieben zusammengestellt wird...\n<span class=\"text-rose-400\">A custom sushi platter tailored entirely to your preferences...</span>",
+        "Description": "Falls Sie sich nicht entscheiden können, welches leckere Sushi Sie bei uns essen möchten, bestellen Sie doch einfach unsere „ Surprise Plate“. Wir nehmen Ihnen Ihre Entscheidung gerne ab und zaubern Ihnen etwas überaschend köstliches und kreatives auf Ihre Platte.\n<span class=\"text-rose-400\">If you can’t decide which delicious sushi you would like to it with us, simply order our suprise plate.We will be happy to make the decision for you amd conjure something delicious and creative on your plate.</span>",
         "Price": null,
         "Icon": null,
         "Items": [
@@ -297,7 +297,7 @@
         ]
     },
     {
-        "Category": "SASHIMI <sub>(6 Stk)</sub>",
+        "Category": "SASHIMI (6 Stk)",
         "Note": "",
         "Description": "",
         "Price": null,
@@ -313,7 +313,7 @@
             {
                 "Title": "102.TUNA",
                 "Note": null,
-                "Description": "Thunfisch | <span class=\"text-rose-400\">tuna</span>",
+                "Description": null,
                 "Price": "17.00€",
                 "Options": null
             },
@@ -327,7 +327,7 @@
         ]
     },
     {
-        "Category": "NIGIRI <sub>(2 Stk)</sub>",
+        "Category": "NIGIRI (2 Stk)",
         "Note": "",
         "Description": "",
         "Price": null,
@@ -371,28 +371,28 @@
             {
                 "Title": "116.AVOCADO",
                 "Note": null,
-                "Description": "Avocado 🥬 | <span class=\"text-rose-400\">avocado</span>",
+                "Description": null,
                 "Price": "5.00€",
                 "Options": null
             },
             {
                 "Title": "117.ASUPARAGASU",
                 "Note": null,
-                "Description": "grüner Spargel 🥬 | <span class=\"text-rose-400\">green asparagus</span>",
+                "Description": "grüner Spargel | <span class=\"text-rose-400\">green asparagus</span>",
                 "Price": "5.00€",
                 "Options": null
             },
             {
                 "Title": "118.INAGI",
                 "Note": null,
-                "Description": "Tofu 🥬 | <span class=\"text-rose-400\">tofu</span>",
+                "Description": "Tofu | <span class=\"text-rose-400\">tofu</span>",
                 "Price": "5.00€",
                 "Options": null
             }
         ]
     },
     {
-        "Category": "NIGIRI SPEZIAL <sub>(2 Stk)</sub>",
+        "Category": "NIGIRI SPEZIAL (2 Stk)",
         "Note": "",
         "Description": "",
         "Price": null,
@@ -443,7 +443,7 @@
         ]
     },
     {
-        "Category": "MAKI <sub>(8 Stk)</sub>",
+        "Category": "MAKI (8 Stk)",
         "Note": "",
         "Description": "",
         "Price": null,
@@ -494,28 +494,28 @@
             {
                 "Title": "146.SURIMI AVOCADO",
                 "Note": null,
-                "Description": "Surimi | <span class=\"text-rose-400\">surimi | avocado</span>",
+                "Description": "<span class=\"text-rose-400\">surimi | avocado</span>",
                 "Price": "5.50€",
                 "Options": null
             },
             {
                 "Title": "147.KAPPA",
                 "Note": null,
-                "Description": "Gurke | Sesam 🥬 | <span class=\"text-rose-400\">cucumber | sesam</span>",
+                "Description": "Gurke | Sesam | <span class=\"text-rose-400\">cucumber | sesam</span>",
                 "Price": "5.00€",
                 "Options": null
             },
             {
                 "Title": "148.AVOCADO",
                 "Note": null,
-                "Description": "Avocado | Sesam 🥬 | <span class=\"text-rose-400\">avocado | sesam</span>",
+                "Description": "Avocado | Sesam | <span class=\"text-rose-400\">avocado | sesam</span>",
                 "Price": "5.00€",
                 "Options": null
             },
             {
                 "Title": "149.ROTE PAPRIKA",
                 "Note": null,
-                "Description": "Paprika | Sesam 🥬 | <span class=\"text-rose-400\">red pepper | sesam</span>",
+                "Description": "<span class=\"text-rose-400\">red pepper | sesam</span>",
                 "Price": "5.00€",
                 "Options": null
             },
@@ -529,14 +529,14 @@
             {
                 "Title": "151.ASUPARAGASU",
                 "Note": null,
-                "Description": "Grüner Spargel | Sesam 🥬 | <span class=\"text-rose-400\">green asparagus | sesam</span>",
+                "Description": "Grüner Spargel | Sesam | <span class=\"text-rose-400\">green asparagus | sesam</span>",
                 "Price": "5.50€",
                 "Options": null
             }
         ]
     },
     {
-        "Category": "URAMAKI CLASSIC ROLLS <sub>(5 Stk)</sub>",
+        "Category": "URAMAKI CLASSIC ROLLS (5 Stk)",
         "Note": "",
         "Description": "",
         "Price": null,
@@ -601,14 +601,14 @@
             {
                 "Title": "168.VEGETA CLASSIC",
                 "Note": null,
-                "Description": "Avocado | grüner Spargel | Gurke | Sesam 🥬\n<span class=\"text-rose-400\">avocado | green asparagus | cucumbers | sesame</span>",
+                "Description": "Avocado | grüner Spargel | Gurke | Sesam\n<span class=\"text-rose-400\">avocado | green asparagus | cucumbers | sesame</span>",
                 "Price": "5.50€",
                 "Options": null
             }
         ]
     },
     {
-        "Category": "URAMAKI SPECIAL ROLLS <sub>(5 Stk)</sub>",
+        "Category": "URAMAKI SPECIAL ROLLS (5 Stk)",
         "Note": "",
         "Description": "",
         "Price": null,
@@ -743,21 +743,21 @@
             {
                 "Title": "198.BUDDHA ROLLS",
                 "Note": null,
-                "Description": "Grüner Spargel | Gurke | umwickelt mit Avocado 🥬\n<span class=\"text-rose-400\">green asparagus | cucumber | coat of avocado</span>",
+                "Description": "Grüner Spargel | Gurke | umwickelt mit Avocado\n<span class=\"text-rose-400\">green asparagus | cucumber | coat of avocado</span>",
                 "Price": "7.00€",
                 "Options": null
             },
             {
                 "Title": "199.ORCHIDEE ROLLS",
                 "Note": null,
-                "Description": "Tempura Spargel | Gurke | umwickelt mit Avocado | Kazoku Sauce 🥬\n<span class=\"text-rose-400\">tempura asparagus | cucumber | coat of avocado | Kazoku sauce</span>",
+                "Description": "Tempura Spargel | Gurke | umwickelt mit Avocado | Kazoku Sauce\n<span class=\"text-rose-400\">tempura asparagus | cucumber | coat of avocado | Kazoku sauce</span>",
                 "Price": "7.50€",
                 "Options": null
             },
             {
                 "Title": "200.TAMMY ROLLS",
                 "Note": null,
-                "Description": "Tempura Lauchzwiebeln (weiße) | Gurke | umwickelt mit Avocado | Kazoku Sauce | Sesam 🥬\n<span class=\"text-rose-400\">tempura scallion (white part) | cucumber | coat of avocado | Kazoku sauce | sesame</span>",
+                "Description": "Tempura Lauchzwiebeln (weiße) | Gurke | umwickelt mit Avocado | Kazoku Sauce | Sesam\n<span class=\"text-rose-400\">tempura scallion (white part) | cucumber | coat of avocado | Kazoku sauce | sesame</span>",
                 "Price": "7.50€",
                 "Options": null
             },
@@ -778,7 +778,7 @@
             {
                 "Title": "203.PIZZA AVOCADO",
                 "Note": null,
-                "Description": "Knusprig gebackenem Sushi Reis | Avocado Tatar | Chili d´Espelette | Kazoku Sauce 🥬\n<span class=\"text-rose-400\">crispy sushi reis | avocado tatare | chili d´espelette | Kazoku sauce</span>",
+                "Description": "Knusprig gebackenem Sushi Reis | Avocado Tatar | Chili d´Espelette | Kazoku Sauce\n<span class=\"text-rose-400\">crispy sushi reis | avocado tatare | chili d´espelette | Kazoku sauce</span>",
                 "Price": "8.50€",
                 "Options": null
             },
@@ -792,7 +792,7 @@
             {
                 "Title": "205.AVOCADO OSHI",
                 "Note": null,
-                "Description": "Gepresste Sushi Reis | Nori | Avocado Tatar | Chilli Mayonaise | flammbiert | Chili d´Espelette | Kazoku Sauce 🥬\n<span class=\"text-rose-400\">pressed sushi reis | nori | avocado tatare | chili mayonnaise | flambeed | chili d´espelette | Kazoku sauce</span>",
+                "Description": "Gepresste Sushi Reis | Nori | Avocado Tatar | Chilli Mayonaise | flammbiert | Chili d´Espelette | Kazoku Sauce\n<span class=\"text-rose-400\">pressed sushi reis | nori | avocado tatare | chili mayonnaise | flambeed | chili d´espelette | Kazoku sauce</span>",
                 "Price": "8.50€",
                 "Options": null
             }
