@@ -1,810 +1,313 @@
 [
     {
-        "Category": "Kindermenü",
-        "Note": null,
-        "Description": null,
-        "Price": "11.50€",
-        "Icon": null,
-        "Items": [
-            {
-                "Title": "24. Paniertes Hühnerfleisch in Süßsauer Sauce und Reis",
-                "Note": "(A,I,M)",
-                "Description": null,
-                "Price": null,
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "25. Gebratene Nudeln mit Hühnerfleisch und Gemüse",
-                "Note": "(A,I,M)",
-                "Description": null,
-                "Price": null,
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "26. Gebratener Reis mit Hühnerfleisch und Gemüse",
-                "Note": "(A,I,M)",
-                "Description": null,
-                "Price": null,
-                "Icon": null,
-                "Options": null
-            }
-        ]
-    },
-    {
-        "Category": "Salat",
-        "Note": null,
-        "Description": null,
+        "Category": "VORSPEISE | <span class=\"text-rose-400\">APPETIZER</span>",
+        "Note": "",
+        "Description": "",
         "Price": null,
         "Icon": null,
         "Items": [
             {
-                "Title": "30. Gemischter Salat",
-                "Note": "(H,L,M)",
-                "Description": null,
+                "Title": "1.EDAMAME KAZOKU STYLE <sub>m</sub>",
+                "Note": null,
+                "Description": "Japanische grüne Sojabohnen mit Meersalz\n<span class=\"text-rose-400\">japanese steamed and lightly salted green soy bean</span>",
+                "Price": "6.00€",
+                "Options": null
+            },
+            {
+                "Title": "2.GYOZA <sub>f,i,m</sub> (4 Stk)",
+                "Note": null,
+                "Description": "Teigtaschen mit Ponzu Sauce\n<span class=\"text-rose-400\">dumpling with ponzu sauce</span>",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a.Gemüse | <span class=\"text-rose-400\">vegetables</span>",
+                        "Note": null,
+                        "Price": "6.50€"
+                    }
+                ]
+            },
+            {
+                "Title": "3.HACAO <sub>l,m</sub> (4 Stk)",
+                "Note": null,
+                "Description": "gedämpfte Teigtaschen und Ponzu Sauce\n<span class=\"text-rose-400\">steamed dumplings with ponzu sauce</span>",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a.Gemüse | <span class=\"text-rose-400\">vegetable</span>",
+                        "Note": null,
+                        "Price": "6.50€"
+                    }
+                ]
+            },
+            {
+                "Title": "6.SWEET POTATO FRIES <sub>i</sub>",
+                "Note": null,
+                "Description": "Süßkartoffeln-Pommes mit Chili Mayonnaise\n<span class=\"text-rose-400\">potatoes fries with chili mayonnaise</span>",
+                "Price": "6.50€",
+                "Options": null
+            },
+            {
+                "Title": "9.VEGAN KAZOKU PLATTE <sub>f,h,i,m</sub>",
+                "Note": null,
+                "Description": "Gemischte Vorspeisenplatte für 2 Personen\n2 Sommerrolle Tofu | Edamame | 2 Avocado Tempura | 4 Stk. Gyoza Tofu | 4 Stk. Mini Frühlingrolle\n<span class=\"text-rose-400\">mixed appetizer platter for two\n2 summer rolls tofu | edamame | 2 avocado tempura | 4 pieces gyoza tofu | 4 pieces mini spring roll</span>",
+                "Price": "19.50€",
+                "Options": null
+            },
+            {
+                "Title": "10.AVOCADO TATAR <sub>2,f,m</sub>",
+                "Note": null,
+                "Description": "Avocado | Babyleaf | Piment d' Espelette | Sesam | Chili Mayonnaise | Mango Sauce | Yuzu-Dressing\n<span class=\"text-rose-400\">avocado | babyleaf | piment d' Espelette | sesame | chili mayonnaise | mango sauce | yuzu dressing</span>",
+                "Price": "9.50€",
+                "Options": null
+            },
+            {
+                "Title": "13.SUMMER ROLLS <sub>m</sub> (2 Stk)",
+                "Note": null,
+                "Description": "Reispapier | Reisnudeln | gemischten Salat | Koriander | Minze | hausgemachter Erdnuss-Hoisin-Dip\n<span class=\"text-rose-400\">rice paper | rice noodles | salat | Coriander | mint | homemade peanut hoisin dip</span>",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
+                        "Note": null,
+                        "Price": "6.00€"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Category": "SUPPE | <span class=\"text-rose-400\">SOUPS</span>",
+        "Note": "",
+        "Description": "",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "20.MISO <sub>m</sub>",
+                "Note": null,
+                "Description": "Traditionell japanische Sojabohnensuppe mit Seetang | Frühlingszwiebeln\n<span class=\"text-rose-400\">Traditional japanese miso soup with seaweed | scallions</span>",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
+                        "Note": null,
+                        "Price": "4.50€"
+                    }
+                ]
+            },
+            {
+                "Title": "21.KOKOS <sub>d</sub>",
+                "Note": null,
+                "Description": "Kokosmilch Suppe mit Gemüse\n<span class=\"text-rose-400\">coconut soup with vegetables</span>",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
+                        "Note": null,
+                        "Price": "5.00€"
+                    }
+                ]
+            },
+            {
+                "Title": "22.SPICY TOM YUM <sub>2,m</sub>",
+                "Note": null,
+                "Description": "Zitronengras | Champignon | Kirschtomaten | Bambus | Karotten | Frühlingszwiebeln | Koriander\n<span class=\"text-rose-400\">Lemongrass | mushrooms | cherry tomato | bamboo | carrot | scallions | coriander</span>",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
+                        "Note": null,
+                        "Price": "5.50€"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Category": "SALAT | <span class=\"text-rose-400\">SALADS</span>",
+        "Note": "",
+        "Description": "",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "30.WAKAME <sub>2,f</sub>",
+                "Note": null,
+                "Description": "Algensalat mit geröstetem Sesam\n<span class=\"text-rose-400\">seaweed with toasted sesam seeds</span>",
+                "Price": "5.50€",
+                "Options": null
+            },
+            {
+                "Title": "31.GEMISCHTER SALAT <sub>l,m</sub>",
+                "Note": null,
+                "Description": "mit hausgemachter Senfdressing\n<span class=\"text-rose-400\">mixed salad with homemade mustard dressing</span>",
                 "Price": "7.00€",
-                "Icon": null,
-                "Options": [
-                    {
-                        "Label": "a. mit Honig Dressing",
-                        "Note": null,
-                        "Price": null
-                    },
-                    {
-                        "Label": "b. Kazoku Dressing(leicht scharfe Dressing)",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "31. Gemischter Salat mit parnierte Hühnerfleisch",
-                "Note": "(H,L,M)",
-                "Description": null,
-                "Price": "8.90€",
-                "Icon": null,
-                "Options": [
-                    {
-                        "Label": "a. Honig Dressing",
-                        "Note": null,
-                        "Price": null
-                    },
-                    {
-                        "Label": "b. Kazoku Dressing (leichte scharfe Dressing)",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "32. Kazoku Salat",
-                "Note": "(H,L,M)",
-                "Description": "Glasnudeln, gebratene Rinderfleisch, gemischter Salat,Röstzwiebeln, Erdnüsse, Koriander und hausgeachte Dressing",
-                "Price": "9.90€",
-                "Icon": null,
                 "Options": null
             },
             {
-                "Title": "33. Nom Xoai",
+                "Title": "V33.KAZOKU SALAT <sub>h,l,m</sub> | <span class=\"text-rose-400\">KAZOKU SALAD</span>",
                 "Note": null,
-                "Description": null,
+                "Description": "Gemischter Salat mit Glasnudeln | Röstzwiebeln | Erdnüsse | Koriander | hausgemachte Dressing\n<span class=\"text-rose-400\">mixed salad with glass noodle | fried onions | peanuts | coriander | homemade dressing</span>",
                 "Price": null,
-                "Icon": null,
                 "Options": [
                     {
-                        "Label": "Mangosalat, Röstzwiebeln, Erdnüsse, Koriander, hausgemachte leicht scharfe",
+                        "Label": "a. sautierter Tofu <sub>m</sub> | <span class=\"text-rose-400\">sauteed tofu</span>",
                         "Note": null,
-                        "Price": null
-                    },
-                    {
-                        "Label": "Limetten Dressing",
-                        "Note": null,
-                        "Price": "7.90€"
-                    },
-                    {
-                        "Label": "mit Garnelen",
-                        "Note": null,
-                        "Price": "9.50€"
+                        "Price": "9.00€"
                     }
                 ]
+            },
+            {
+                "Title": "V34.NOM XOAI <sub>h,m</sub> | <span class=\"text-rose-400\">MANGO SALAD</span>",
+                "Note": null,
+                "Description": "Mango | Karotte | Röstzwiebeln | Erdnüsse | Koriander | hausgemachte Limetten Dressing\n<span class=\"text-rose-400\">mango | carrot | fried onions | peanuts | coriander | homemade lime dressing</span>",
+                "Price": "8.00€",
+                "Options": null
             }
         ]
     },
     {
-        "Category": "Bun - Reisnudeln",
-        "Note": "(B,F,H,I)",
-        "Description": null,
+        "Category": "WARME SPEISEN <sub>f</sub> | <span class=\"text-rose-400\">WARM DISHES „TOFU“</span>",
+        "Note": "",
+        "Description": "Frische Gemüse der Saison in hausgemachte Sauce, serviert mit Duftreis und Sesam\n<span class=\"text-rose-400\">Fresh seasonal vegetables in homemade sauce, served with jasmin rice and sesame</span>",
         "Price": null,
         "Icon": null,
         "Items": [
             {
-                "Title": "34. gemischter Reisnudeln, Erdnüssen mit Kazoku hausgemachte Limette Fischsauce, dazu frischen Salat",
+                "Title": "V50.SOJA SAUCE <sub>m</sub>",
                 "Note": null,
                 "Description": null,
-                "Price": null,
-                "Icon": null,
-                "Options": [
-                    {
-                        "Label": "a. Tofu",
-                        "Note": "(M)",
-                        "Price": "13.50€",
-                        "Icon": "🥬"
-                    },
-                    {
-                        "Label": "b. Rind",
-                        "Note": null,
-                        "Price": "16.90€"
-                    },
-                    {
-                        "Label": "c. Nem-vietnamesische Gebackene Frühlingsrollen Hackfleisch",
-                        "Note": null,
-                        "Price": "15.50€"
-                    },
-                    {
-                        "Label": "d. Lachs",
-                        "Note": "(B)",
-                        "Price": "17.50€"
-                    }
-                ]
+                "Price": "15.00€",
+                "Options": null
+            },
+            {
+                "Title": "V51.HOISIN SAUCE <sub>2,i</sub>",
+                "Note": null,
+                "Description": null,
+                "Price": "15.00€",
+                "Options": null
+            },
+            {
+                "Title": "V52.ROTE CURRY SAUCE <sub>2</sub>",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">RED CURRY SAUCE</span>",
+                "Price": "15.00€",
+                "Options": null
+            },
+            {
+                "Title": "V53.GELBE CURRY SAUCE <sub>2</sub>",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">YELLOW CURRY SAUCE</span>",
+                "Price": "15.00€",
+                "Options": null
+            },
+            {
+                "Title": "V54.ERDNUSS SAUCE <sub>h</sub>",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">PEANUTS SAUCE</span>",
+                "Price": "15.00€",
+                "Options": null
+            },
+            {
+                "Title": "V55.SÜSS-SAUER SAUCE <sub>2</sub>",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">SWEET AND SOUR SAUCE</span>",
+                "Price": "15.00€",
+                "Options": null
+            },
+            {
+                "Title": "V56.XAO XA OT",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">STIR-FRIED LEMONGRASS AND CHILI</span>",
+                "Price": "15.00€",
+                "Options": null
+            },
+            {
+                "Title": "V57.KAZOKU SPEZIALITÄT",
+                "Note": null,
+                "Description": "„Scharf oder nicht Scharf“\n<span class=\"text-rose-400\">KAZOKU SPECIALTY „spicy or not spicy“</span>",
+                "Price": "15.50€",
+                "Options": null
             }
         ]
     },
     {
-        "Category": "PHO - Nudelsuppe",
-        "Note": "(M,I)",
-        "Description": null,
+        "Category": "GEBRATENER REIS <sub>a,m</sub> | <span class=\"text-rose-400\">FRIED RICE</span>",
+        "Note": "",
+        "Description": "ist ein Reisgericht, das in einem Wok zubereitet und oft mit anderen Zutaten wie Gemüse zubereitet wird. Es wird oft allein oder als Beilage zu einem anderen Gericht gegessen.\n<span class=\"text-rose-400\">is a rice dish that is tossed in a wok and often cooked with other ingredients such vegetables. It is often alone or as a side dish to another dish</span>",
         "Price": null,
         "Icon": null,
         "Items": [
             {
-                "Title": "35. traditionelle Reisbandnudelsuppe mit Frühlingszwiebeln, Koriander, dazu:",
+                "Title": "V60.GEBRATENER REIS",
                 "Note": null,
                 "Description": null,
                 "Price": null,
-                "Icon": null,
                 "Options": [
                     {
-                        "Label": "a. Tofu",
+                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
                         "Note": null,
-                        "Price": "14.90€",
-                        "Icon": "🥬"
-                    },
-                    {
-                        "Label": "b. Hühnerfleisch",
-                        "Note": null,
-                        "Price": "15.50€"
-                    },
-                    {
-                        "Label": "c. Rind",
-                        "Note": null,
-                        "Price": "17.50€"
+                        "Price": "15.00€"
                     }
                 ]
             }
         ]
     },
     {
-        "Category": "Pad Thai",
-        "Note": "(M,I,F,)",
-        "Description": null,
-        "Price": null,
-        "Icon": "🌶️",
-        "Items": [
-            {
-                "Title": "36. ist ein traditionelles thailändisches gebratenes Nudelgericht.",
-                "Note": null,
-                "Description": "Das Gericht besteht aus Reisnudeln , gebraten mit Eiern, etwas rotem Chili, hausgemachte Pad Thai Sauce.",
-                "Price": null,
-                "Icon": null,
-                "Options": [
-                    {
-                        "Label": "a. Tofu",
-                        "Note": null,
-                        "Price": "14.90€"
-                    },
-                    {
-                        "Label": "b. Garnelen",
-                        "Note": "(K)",
-                        "Price": "17.90€"
-                    },
-                    {
-                        "Label": "c. Gebackenen Hühnerbrust",
-                        "Note": "(I)",
-                        "Price": "16.90€"
-                    },
-                    {
-                        "Label": "d. Ente",
-                        "Note": "(I)",
-                        "Price": "17.90€"
-                    },
-                    {
-                        "Label": "d. Tofu, Garnele, Ente",
-                        "Note": "(I,K)",
-                        "Price": "21.50€"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Category": "UDON",
-        "Note": "(M,I)",
-        "Description": null,
+        "Category": "NUDELN | <span class=\"text-rose-400\">NOODLES</span>",
+        "Note": "",
+        "Description": "",
         "Price": null,
         "Icon": null,
         "Items": [
             {
-                "Title": "37. dicke japanische Nudeln aus Weizenmehl,gebraten mit Gemüse und",
+                "Title": "V61.BUN | <span class=\"text-rose-400\">RICE NOODLES</span>",
                 "Note": null,
-                "Description": null,
-                "Price": null,
-                "Icon": null,
+                "Description": "gemischter Reisnudeln, Erdnüssen mit hausgemachte Limette Dressing, dazu frischen Salat, Koriander\n<span class=\"text-rose-400\">Mixed rice noodles, peanuts with homemade lime dressing, serve with fresh salad, coriander</span>",
+                "Price": "15.00€",
                 "Options": [
                     {
-                        "Label": "a. Tofu",
-                        "Note": null,
-                        "Price": "14.50€"
-                    },
-                    {
-                        "Label": "b. Hühnerfleisch",
-                        "Note": null,
-                        "Price": "15.90€"
-                    },
-                    {
-                        "Label": "c. Gebackenen Hühnerbrust",
-                        "Note": null,
-                        "Price": "16.90€"
-                    },
-                    {
-                        "Label": "e. Rind",
-                        "Note": null,
-                        "Price": "16.90€"
-                    },
-                    {
-                        "Label": "f. Ente",
-                        "Note": null,
-                        "Price": "17.90€"
-                    },
-                    {
-                        "Label": "g. Garnele",
-                        "Note": "(K)",
-                        "Price": "17.90€"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Category": "Gebratener Reis",
-        "Note": "(A,I,F,M,O)",
-        "Description": null,
-        "Price": null,
-        "Icon": null,
-        "Items": [
-            {
-                "Title": "38. ist ein Reisgericht, das in einem Wok zubereitet und oft mit anderen Zutaten wie Eiern, Gemüse zubereitet wird. Es wird oft allein oder als Beilage zu einem anderen Gericht gegessen",
-                "Note": null,
-                "Description": null,
-                "Price": null,
-                "Icon": null,
-                "Options": [
-                    {
-                        "Label": "a. Tofu",
-                        "Note": null,
-                        "Price": "14.90€"
-                    },
-                    {
-                        "Label": "b. Hühnerfleisch",
-                        "Note": null,
-                        "Price": "15.50€"
-                    },
-                    {
-                        "Label": "c. gebackener Hähnchenbrustfilet",
-                        "Note": null,
-                        "Price": "16.90€"
-                    },
-                    {
-                        "Label": "e. Rind",
-                        "Note": null,
-                        "Price": "16.90€"
-                    },
-                    {
-                        "Label": "f. Ente",
-                        "Note": null,
-                        "Price": "17.90€"
-                    },
-                    {
-                        "Label": "g. Garnele",
-                        "Note": "(K)",
-                        "Price": "17.90€"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Category": "Gebratene Nudeln",
-        "Note": "(A,I,F,O,M)",
-        "Description": null,
-        "Price": null,
-        "Icon": null,
-        "Items": [
-            {
-                "Title": "39. ist die allgemeine Bezeichnung für Gerichte, die aus der Hauptzutat Nudeln im Wok hergestellt werden. Dies ist eines der beliebtesten Streetfood in Asien.",
-                "Note": null,
-                "Description": null,
-                "Price": null,
-                "Icon": null,
-                "Options": [
-                    {
-                        "Label": "a. Tofu",
-                        "Note": null,
-                        "Price": "14.90€"
-                    },
-                    {
-                        "Label": "b. Hühnerfleisch",
-                        "Note": null,
-                        "Price": "15.50€"
-                    },
-                    {
-                        "Label": "c. gebackener Hähnchenbrustfilet",
-                        "Note": null,
-                        "Price": "16.90€"
-                    },
-                    {
-                        "Label": "e. Rind",
-                        "Note": null,
-                        "Price": "16.90€"
-                    },
-                    {
-                        "Label": "f. Ente",
-                        "Note": null,
-                        "Price": "17.90€"
-                    },
-                    {
-                        "Label": "g. Garnele",
-                        "Note": "(K)",
-                        "Price": "17.90€"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Category": "Rind",
-        "Note": "(M,I,O,E)",
-        "Description": "Gerichte mit Gemüse/Duftreis/Sesam serviert",
-        "Price": null,
-        "Icon": null,
-        "Items": [
-            {
-                "Title": "40. BO XAO RAU",
-                "Note": null,
-                "Description": "Rindfleisch gebraten in Sojasauce",
-                "Price": "16.90€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "41.BO XAO HOISIN",
-                "Note": null,
-                "Description": "Rindfleisch gebraten in Hoisin-Sauce ( mit Zwiebeln und Knoblauch)",
-                "Price": "16.90€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "42.BO XAO CARI",
-                "Note": null,
-                "Description": "Rindfleisch gebraten in rotem Curry-Sauce",
-                "Price": "16.90€",
-                "Icon": "🌶️",
-                "Options": null
-            },
-            {
-                "Title": "43. BO XAO SA OT",
-                "Note": null,
-                "Description": "Rindfleisch gebraten mit Zitronengras",
-                "Price": "16.90€",
-                "Icon": "🌶️",
-                "Options": null
-            },
-            {
-                "Title": "44. BO SPEZIALITÄT",
-                "Note": null,
-                "Description": "Rindfleisch gebraten in hausgemachte Spezialsauce",
-                "Price": "17.50€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "45. BO SPEZIALITÄT Scharf",
-                "Note": null,
-                "Description": "Rindfleisch gebraten in hausgemachte scharfes Spezial-Sauce (mit Chili)",
-                "Price": "17.90€",
-                "Icon": "🌶️🌶️",
-                "Options": null
-            }
-        ]
-    },
-    {
-        "Category": "Hühnerfleisch",
-        "Note": "(A,I,F,M,H)",
-        "Description": "Gericht mit Gemüse/Duftreis/Sesam service",
-        "Price": null,
-        "Icon": null,
-        "Items": [
-            {
-                "Title": "50. GA XAO RAU",
-                "Note": null,
-                "Description": null,
-                "Price": null,
-                "Icon": null,
-                "Options": [
-                    {
-                        "Label": "a. natur gebratenes Hühnerfleisch in Soja-Sauce",
-                        "Note": null,
-                        "Price": "15.90€"
-                    },
-                    {
-                        "Label": "b. gebackenes Hühnerbrustfilet und Sojasauce",
-                        "Note": null,
-                        "Price": "16.90€"
-                    }
-                ]
-            },
-            {
-                "Title": "51. GA XAO HOISIN",
-                "Note": null,
-                "Description": null,
-                "Price": null,
-                "Icon": null,
-                "Options": [
-                    {
-                        "Label": "a. natur gebratenes Hühnerfleisch in Hoisin-Sauce",
-                        "Note": null,
-                        "Price": "15.90€"
-                    },
-                    {
-                        "Label": "b. gebackenes Hühnerbrustfilet und Hoisin-Sauce",
-                        "Note": null,
-                        "Price": "16.90€"
-                    }
-                ]
-            },
-            {
-                "Title": "52. GA XAO CARI ROT",
-                "Note": null,
-                "Description": null,
-                "Price": null,
-                "Icon": "🌶️",
-                "Options": [
-                    {
-                        "Label": "a. natur gebratenes Hühnerfleisch in rotem Curry-Sauce",
-                        "Note": null,
-                        "Price": "15.90€"
-                    },
-                    {
-                        "Label": "b. gebackenes Hühnerbrustfilet und rotem Curry-Sauce",
-                        "Note": null,
-                        "Price": "16.90€"
-                    }
-                ]
-            },
-            {
-                "Title": "53. GA XAO CARI GELB",
-                "Note": null,
-                "Description": null,
-                "Price": null,
-                "Icon": null,
-                "Options": [
-                    {
-                        "Label": "a. natur gebratenes Hühnerfleisch in gelbem Curry-Sauce",
-                        "Note": null,
-                        "Price": "15.90€"
-                    },
-                    {
-                        "Label": "b. gebackenes Hühnerbrustfilet und gelbem Curry-Sauce",
-                        "Note": null,
-                        "Price": "16.90€"
-                    }
-                ]
-            },
-            {
-                "Title": "54. GA XAO SOT LAC",
-                "Note": null,
-                "Description": null,
-                "Price": null,
-                "Icon": "🌶️",
-                "Options": [
-                    {
-                        "Label": "a. natur gebratenes Hühnerfleisch in Erdnuss-Sauce",
-                        "Note": null,
-                        "Price": "15.90€"
-                    },
-                    {
-                        "Label": "b. gebackenes Hühnerbrustfilet und Erdnuss-Sauce",
-                        "Note": null,
-                        "Price": "16.90€"
-                    }
-                ]
-            },
-            {
-                "Title": "55. GA CHIEN CHUA NGOT",
-                "Note": null,
-                "Description": null,
-                "Price": null,
-                "Icon": null,
-                "Options": [
-                    {
-                        "Label": "gebackenes Hühnerbrustfilet und Süß-Sauer-Sauce",
-                        "Note": null,
-                        "Price": "16.90€"
-                    }
-                ]
-            },
-            {
-                "Title": "56. GA SPEZIALITÄT",
-                "Note": null,
-                "Description": null,
-                "Price": null,
-                "Icon": "🌶️",
-                "Options": [
-                    {
-                        "Label": "a. natur gebratenes Hühnerfleisch in hausgemachte Spezialsauce",
-                        "Note": null,
-                        "Price": "16.50€"
-                    },
-                    {
-                        "Label": "b. gebackenes Hühnerbrustfilet und hausgemachte Spezial-Sauce",
-                        "Note": null,
-                        "Price": "17.50€"
-                    }
-                ]
-            },
-            {
-                "Title": "57. GA SPEZIALITÄT Scharf",
-                "Note": null,
-                "Description": null,
-                "Price": null,
-                "Icon": "🌶️🌶️",
-                "Options": [
-                    {
-                        "Label": "a. natur gebratenes Hühnerfleisch in hausgemachte scharfer",
-                        "Note": null,
-                        "Price": null
-                    },
-                    {
-                        "Label": "Spezial-Sauce (mit Chili)",
-                        "Note": null,
-                        "Price": "16.90€"
-                    },
-                    {
-                        "Label": "b. gebackenes Hühnerbrustfilet und hausgemachte scharfer",
-                        "Note": null,
-                        "Price": null
-                    },
-                    {
-                        "Label": "Spezial-Sauce (mit Chili)",
-                        "Note": null,
-                        "Price": "17.90€"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Category": "Ente",
-        "Note": "(M,A,F,E,O)",
-        "Description": "Gerichte mit Gemüse/Duftreis/Sesam serviert",
-        "Price": null,
-        "Icon": null,
-        "Items": [
-            {
-                "Title": "60. COM VIT",
-                "Note": null,
-                "Description": "knusprige Ente in Soja-Sauce",
-                "Price": "17.90€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "61. VIT SOT HOISIN",
-                "Note": null,
-                "Description": "knusprige Ente in Hoisin-Sauce",
-                "Price": "17.90€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "62. VIT SOT CARI ROT",
-                "Note": null,
-                "Description": "knusprige Ente in rotem Curry-Sauce",
-                "Price": "17.90€",
-                "Icon": "🌶️",
-                "Options": null
-            },
-            {
-                "Title": "63. VIT SOT CARI GELB",
-                "Note": null,
-                "Description": "knusprige Ente in gelbem Curry-Sauce",
-                "Price": "17.90€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "64. VIT SOT LAC",
-                "Note": null,
-                "Description": "knusprige Ente in Erdnuss-Sauce",
-                "Price": "17.90€",
-                "Icon": "🌶️",
-                "Options": null
-            },
-            {
-                "Title": "65.VIT CHUA NGOT",
-                "Note": null,
-                "Description": "knusprige Ente in Süß-Sauer-Sauce",
-                "Price": "17.90€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "66. VIT SPEZIALITÄT",
-                "Note": null,
-                "Description": "knusprige Ente in hausgemachte Spezialsauce",
-                "Price": "18.50€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "67. VIT SPEZIALITÄT Scharf",
-                "Note": null,
-                "Description": "knusprige Ente in hausgemachte scharfes Spezial-Sauce ( mit Chili)",
-                "Price": "18.90€",
-                "Icon": "🌶️🌶️",
-                "Options": null
-            }
-        ]
-    },
-    {
-        "Category": "Garnele",
-        "Note": "(K,A,I,F,O)",
-        "Description": "Gerichte mit Gemüse/Duftreis/Sesam serviert",
-        "Price": null,
-        "Icon": null,
-        "Items": [
-            {
-                "Title": "70. TOM XAO RAU",
-                "Note": null,
-                "Description": "Riesengarnele gebraten in Sojasauce",
-                "Price": "23.00€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "71. TOM XAO HOISIN",
-                "Note": null,
-                "Description": "Riesengarnele gebraten in Hoisin-Sauce ( mit Zwiebeln und Knoblauch)",
-                "Price": "23.50€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "72. TOM XAO CARI",
-                "Note": null,
-                "Description": "Riesengarnele gebraten in rotem Curry-Sauce",
-                "Price": "23.50€",
-                "Icon": "🌶️",
-                "Options": null
-            },
-            {
-                "Title": "73. TOM XAO SA OT",
-                "Note": null,
-                "Description": "Riesengarnele gebraten mit Zitronengras",
-                "Price": "23.90€",
-                "Icon": "🌶️",
-                "Options": null
-            },
-            {
-                "Title": "74. TOM SPEZIALITÄT",
-                "Note": null,
-                "Description": "Riesengarnele gebraten in hausgemachte Spezial-Sauce",
-                "Price": "24.50€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "75. TOM SPEZIALITÄT Scharf",
-                "Note": null,
-                "Description": "Riesengarnele gebraten in hausgemachte scharfes Spezial-Sauce (mit Chili)",
-                "Price": "24.90€",
-                "Icon": "🌶️🌶️",
-                "Options": null
-            },
-            {
-                "Title": "76.TOM CHUA NGOT",
-                "Note": null,
-                "Description": "parnierte Riesengarnele in Süß-Sauer-Sauce",
-                "Price": "24.50€",
-                "Icon": null,
-                "Options": null
-            }
-        ]
-    },
-    {
-        "Category": "Lachs",
-        "Note": "(A,I,F,O,B)",
-        "Description": "Gerichte mit Gemüse/Duftreis/Sesam serviert",
-        "Price": null,
-        "Icon": null,
-        "Items": [
-            {
-                "Title": "80. CA XAO RAU",
-                "Note": null,
-                "Description": null,
-                "Price": "22.50€",
-                "Icon": null,
-                "Options": [
-                    {
-                        "Label": "Lachs gebraten, Gemüse und Sojasauce",
+                        "Label": "a. sautierter Tofu <sub>m</sub> | <span class=\"text-rose-400\">sauteed tofu</span>",
                         "Note": null,
                         "Price": null
                     }
                 ]
             },
             {
-                "Title": "81. CA XAO HOISIN",
+                "Title": "V62.PHO <sub>e,m</sub>",
                 "Note": null,
-                "Description": null,
-                "Price": "23.50€",
-                "Icon": null,
+                "Description": "traditionelle vietnamesische Reisbandnudelsuppe mit Frühlingszwiebeln, Koriander\n<span class=\"text-rose-400\">Traditional vietnamese rice noodle soup with spring onions, coriander</span>",
+                "Price": "15.00€",
                 "Options": [
                     {
-                        "Label": "Lachs gebraten, Gemüse und Hoisin-Sauce ( mit Zwiebeln und Knoblauch)",
+                        "Label": "a. Tofu <sub>m,o</sub> | <span class=\"text-rose-400\">tofu</span>",
                         "Note": null,
                         "Price": null
                     }
                 ]
             },
             {
-                "Title": "82. CA SOT CARI ROT",
+                "Title": "63.PHO ROTE CURRY | <span class=\"text-rose-400\">PHO RED CURRY 🌶️</span>",
                 "Note": null,
-                "Description": null,
-                "Price": "23.50€",
-                "Icon": "🌶️",
+                "Description": "mit Gemüse\n<span class=\"text-rose-400\">with vegetable</span>",
+                "Price": "15.00€",
                 "Options": [
                     {
-                        "Label": "Lachs gebraten mit rotem Curry Sauce",
+                        "Label": "a. Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
                         "Note": null,
                         "Price": null
                     }
                 ]
             },
             {
-                "Title": "83. CA SPEZIALITÄT",
+                "Title": "V64.PAD THAI <sub>2,a,i,m</sub>",
                 "Note": null,
-                "Description": null,
-                "Price": "24.50€",
-                "Icon": null,
+                "Description": "ist ein traditionelles thailändisches gebratenes Nudelgericht. Das Gericht besteht aus Reisnudeln, gebraten, rotem Chili, hausgemachte Pad Thai Sauce. Koriander | Erdnüsse\n<span class=\"text-rose-400\">Is a traditional Thai fried noodle dish. The dish consists of rice noodles fried, red chili, and homemade pad Thai sauce. Coriander | peanuts</span>",
+                "Price": "15.00€",
                 "Options": [
                     {
-                        "Label": "Lachs gebraten, Gemüse mit hausgemachte Spezial-Sauce",
+                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
                         "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "84. CA SPEZIALITÄT Scharf",
-                "Note": null,
-                "Description": null,
-                "Price": "24.90€",
-                "Icon": "🌶️🌶️",
-                "Options": [
-                    {
-                        "Label": "Lachs gebraten, Gemüse mit hausgemachte scharfes Spezial-Sauce",
-                        "Note": "(mit Chili)",
                         "Price": null
                     }
                 ]
@@ -812,86 +315,315 @@
         ]
     },
     {
-        "Category": "KAZOKU POKE BOWL",
-        "Note": "(M,F,B,K)",
-        "Description": "Große Sushi Reis-Bowl mit Babyleaf Mix, Algensalat, Edamame, Avocado, Mais, Sesam, Sesam Dressing, Kazoku Mayo und Sauce",
+        "Category": "UDON <sub>i,m</sub> | <span class=\"text-rose-400\">UDON</span>",
+        "Note": "",
+        "Description": "",
         "Price": null,
         "Icon": null,
         "Items": [
             {
-                "Title": "90. TOFU BOWL",
+                "Title": "V65.gebratene dicke japanischeWeizennudeln  mit Gemüse. Koriander | Erdnüsse",
                 "Note": null,
-                "Description": null,
-                "Price": "12.90€",
-                "Icon": "🥬",
+                "Description": "<span class=\"text-rose-400\">fried thick Japanese wheat noodles with vegetables. Coriander | peanuts</span>",
+                "Price": null,
                 "Options": [
                     {
-                        "Label": "mit gebackenem Tofu",
+                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
                         "Note": null,
-                        "Price": null
+                        "Price": "15.00€"
                     }
                 ]
             },
             {
-                "Title": "91. FLAMBIERTER LACHS BOWL",
+                "Title": "V66.dicke japanische Weizennudeln  mit Gemüse in Rotem  Curry 🌶️",
                 "Note": null,
-                "Description": null,
-                "Price": "15.90€",
-                "Icon": null,
+                "Description": "<span class=\"text-rose-400\">thick japanese wheat noodles with vegetables in red curry</span>",
+                "Price": null,
                 "Options": [
                     {
-                        "Label": "Mit flambierter Lachs",
+                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
                         "Note": null,
-                        "Price": null
+                        "Price": "15.00€"
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "Category": "GEBRATENE NUDELN <sub>a,i,m</sub> | <span class=\"text-rose-400\">FRIED NOODLES</span>",
+        "Note": "",
+        "Description": "ist die allgemeine Bezeichnung für Gerichte, die aus der Hauptzutat Nudeln im Wok hergestellt werden. Dies ist eines des beliebtesten Streetfood in Asien.\n<span class=\"text-rose-400\">Is a general term for dishes made with noodles as the main ingredient, cooked in a wok. This is one of the most popular street foods in asien</span>",
+        "Price": null,
+        "Icon": null,
+        "Items": [
             {
-                "Title": "92. ROHER LACHS BOWL",
-                "Note": null,
-                "Description": null,
-                "Price": "14.90€",
-                "Icon": "🌶️",
-                "Options": [
-                    {
-                        "Label": "mit rohem Lachs",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "93. TUNA BOWL",
-                "Note": null,
-                "Description": null,
-                "Price": "15.90€",
-                "Icon": null,
-                "Options": [
-                    {
-                        "Label": "mit flambierter Thunfisch",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "94. CHICKEN BOWL",
+                "Title": "V67.GEBRATENE NUDELN",
                 "Note": null,
                 "Description": null,
                 "Price": null,
-                "Icon": null,
                 "Options": [
                     {
-                        "Label": "a. Yakitori",
+                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
                         "Note": null,
-                        "Price": "14.90€"
-                    },
-                    {
-                        "Label": "b. gebackener Hähnchenbrustfilet",
-                        "Note": null,
-                        "Price": "16.90€"
+                        "Price": "15.00€"
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "Category": "EXTRA",
+        "Note": "",
+        "Description": "",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "400.Jasmin Reis",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">jasmine rice</span>",
+                "Price": "3.00€",
+                "Options": null
+            },
+            {
+                "Title": "401.Sushi Reis",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">sushi rice</span>",
+                "Price": "3.50€",
+                "Options": null
+            },
+            {
+                "Title": "402.Wasabi",
+                "Note": null,
+                "Description": null,
+                "Price": "2.00€",
+                "Options": null
+            },
+            {
+                "Title": "403.Ingwer",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">ginger</span>",
+                "Price": "2.00€",
+                "Options": null
+            },
+            {
+                "Title": "404.Sauce nach Wahl",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">sauce of choice</span>",
+                "Price": "2.50€",
+                "Options": null
+            },
+            {
+                "Title": "405.gebratener Reis / Nudeln",
+                "Note": null,
+                "Description": "anstatt gekochtem Reis beim Reisgerichte\n<span class=\"text-rose-400\">Fried reis | noodles (instead of jasmin reis)</span>",
+                "Price": "3.00€",
+                "Options": null
+            }
+        ]
+    },
+    {
+        "Category": "KAZOKU POKE BOWL <sub>2,f,m</sub>",
+        "Note": null,
+        "Description": "Große Sushi Reis-Bowl mit Babyleaf | Algensalat | Edamame | Avocado | Mais | Gurken | Sesam | Sesam Dressing | Chili-Mayonnaise | Kazoku sauce\n<span class=\"text-rose-400\">Large sushi rice bowl with baby leaf | seaweed | edamame | avocado | corn | cucumbers | sesame | sesame dressing | Kazoku chili mayonnaise | Kazoku sauce</span>",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "90.TOFU BOWL",
+                "Note": null,
+                "Description": "gebackenem Tofu <sub>m</sub> | <span class=\"text-rose-400\">fried tofu</span>",
+                "Price": "14.00€",
+                "Options": null
+            }
+        ]
+    },
+    {
+        "Category": "FRITTIERTE ROLLS | <span class=\"text-rose-400\">FRIED ROLLS</span>",
+        "Note": "",
+        "Description": "CRISPY MAKI (8 Stk)\nChili Mayonnaise / Kazoku Sauce | <span class=\"text-rose-400\">chili mayonnaise / Kazoku sauce</span>",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "214.KAPPA CRISPY",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">Cucumber</span>",
+                "Price": "8.00€",
+                "Options": null
+            },
+            {
+                "Title": "215.AVO CRISPY",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">Avocado</span>",
+                "Price": "8.00€",
+                "Options": null
+            }
+        ]
+    },
+    {
+        "Category": "FRITTIERTE ROLLS | <span class=\"text-rose-400\">FRIED ROLLS</span>",
+        "Note": "CRUNCHY ROLLS (8 Stk )",
+        "Description": "Chili Mayonnaise / Kazoku Sauce | <span class=\"text-rose-400\">chili mayonnaise / Kazoku sauce</span>",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "225.CRUNCHY VEGAN",
+                "Note": null,
+                "Description": "Avocado | grüner Spargel | Gurke\n<span class=\"text-rose-400\">avocado | green asparagus | cucumber</span>",
+                "Price": "12.00€",
+                "Options": null
+            }
+        ]
+    },
+    {
+        "Category": "BENTO SUSHI",
+        "Note": "",
+        "Description": "",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "BENTO 1",
+                "Note": null,
+                "Description": "8 Kappa Maki | 8 Avocado Maki | 5 Vegeta Rolls\n<span class=\"text-rose-400\">8 cucumber maki | 8 avocado maki | 5 Vegeta rolls</span>",
+                "Price": "14.00€",
+                "Options": null
+            },
+            {
+                "Title": "BENTO 2",
+                "Note": null,
+                "Description": "8 Kappa Maki | 5 Tammy Rolls | 8 Crispy Avocado\n<span class=\"text-rose-400\">8 cucumber maki | 5 Tammy rolls | 8 crispy avocado</span>",
+                "Price": "17.00€",
+                "Options": null
+            }
+        ]
+    },
+    {
+        "Category": "NIGIRI (2 Stk)",
+        "Note": "",
+        "Description": "",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "116.AVOCADO",
+                "Note": null,
+                "Description": null,
+                "Price": "5.00€",
+                "Options": null
+            },
+            {
+                "Title": "117.ASUPARAGASU",
+                "Note": null,
+                "Description": "grüner Spargel | <span class=\"text-rose-400\">green asparagus</span>",
+                "Price": "5.00€",
+                "Options": null
+            },
+            {
+                "Title": "118.INAGI",
+                "Note": null,
+                "Description": "Tofu | <span class=\"text-rose-400\">tofu</span>",
+                "Price": "5.00€",
+                "Options": null
+            }
+        ]
+    },
+    {
+        "Category": "MAKI  (8 Stk)",
+        "Note": "",
+        "Description": "",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "147.KAPPA",
+                "Note": null,
+                "Description": "Gurke | Sesam\n<span class=\"text-rose-400\">cucumber | sesam</span>",
+                "Price": "5.00€",
+                "Options": null
+            },
+            {
+                "Title": "148.AVOCADO",
+                "Note": null,
+                "Description": "Avocado | Sesam\n<span class=\"text-rose-400\">avocado | sesame</span>",
+                "Price": "5.00€",
+                "Options": null
+            },
+            {
+                "Title": "149.ROTE PAPRIKA",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">Red pepper | sesam</span>",
+                "Price": "5.00€",
+                "Options": null
+            },
+            {
+                "Title": "151.ASUPARAGASU",
+                "Note": null,
+                "Description": "Grüner Spargel | Sesam\n<span class=\"text-rose-400\">Green asparagus | sesam</span>",
+                "Price": "5.50€",
+                "Options": null
+            }
+        ]
+    },
+    {
+        "Category": "URAMAKI  CLASSIC  ROLLS (5 Stk)",
+        "Note": "",
+        "Description": "",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "168.VEGETA ROLLS",
+                "Note": null,
+                "Description": "Avocado | grüner Spargel | Gurke | Sesam\n<span class=\"text-rose-400\">Avocado | green asparagus | cucumbers | sesame</span>",
+                "Price": "5.50€",
+                "Options": null
+            }
+        ]
+    },
+    {
+        "Category": "URAMAKI  SPEZIAL  ROLLS (5 Stk)",
+        "Note": "",
+        "Description": "",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "198.BUDDHA ROLLS",
+                "Note": null,
+                "Description": "Grüner Spargel | Gurke | umwickelt mit Avocado\n<span class=\"text-rose-400\">green asparagus | cucumber | coat of avocado</span>",
+                "Price": "7.00€",
+                "Options": null
+            },
+            {
+                "Title": "199.ORCHIDEE ROLLS",
+                "Note": null,
+                "Description": "Tempura Spargel | Gurke | umwickelt mit Avocado | Kazoku Sauce\n<span class=\"text-rose-400\">tempura asparagus | cucumber | coat of avocado | Kazoku sauce</span>",
+                "Price": "7.50€",
+                "Options": null
+            },
+            {
+                "Title": "200.TAMMY ROLLS",
+                "Note": null,
+                "Description": "Tempura Lauchzwiebeln (weiße) | Gurke | umwickelt mit Avocado | Kazoku Sauce | Sesam\n<span class=\"text-rose-400\">tempura scallion (white part) | cucumber | coat of avocado | Kazoku sauce | sesame</span>",
+                "Price": "7.50€",
+                "Options": null
+            },
+            {
+                "Title": "203.PIZZA AVOCADO",
+                "Note": null,
+                "Description": "Knusprig gebackenem Sushi Reis | Avocado Tatar | Chili d´Espelette | Kazoku Sauce\n<span class=\"text-rose-400\">crispy sushi reis | avocado tatare | chili d´espelette | Kazoku sauce</span>",
+                "Price": "8.50€",
+                "Options": null
+            },
+            {
+                "Title": "205.AVOCADO OSHI",
+                "Note": null,
+                "Description": "Gepresste Sushi Reis | Nori | Avocado Tatar | Chilli Mayonaise | flammbiert | Chili d´Espelette | Kazoku Sauce\n<span class=\"text-rose-400\">pressed sushi reis | nori | avocado tatare | chili mayonnaise | flambeed | chili d´espelette | Kazoku sauce</span>",
+                "Price": "8.50€",
+                "Options": null
             }
         ]
     }
