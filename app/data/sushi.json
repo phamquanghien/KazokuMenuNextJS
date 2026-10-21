@@ -1,1319 +1,799 @@
 [
     {
+        "Category": "KAZOKU POKE BOWL <sub>2,f,m</sub>",
+        "Note": "",
+        "Description": "Große Sushi Reis-Bowl mit Babyleaf | Algensalat | Edamame | Avocado | Mais | Gurken | Sesam | Sesam Dressing | Chili-Mayonnaise | Kazoku sauce\n<span class=\"text-rose-400\">Large sushi rice bowl with baby leaf | seaweed | edamame | avocado | corn | cucumbers | sesame | sesame dressing | Kazoku chili mayonnaise | Kazoku sauce</span>",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "90.TOFU BOWL",
+                "Note": null,
+                "Description": "gebackenem Tofu <sub>m</sub> | <span class=\"text-rose-400\">fried tofu</span> 🥬",
+                "Price": "14.00€",
+                "Options": null
+            },
+            {
+                "Title": "91.SALMON BOWL",
+                "Note": null,
+                "Description": "5 Scheiben | <span class=\"text-rose-400\">5 slices</span>",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a. rohem Lachs <sub>b</sub> | <span class=\"text-rose-400\">raw salmon</span>",
+                        "Note": null,
+                        "Price": "15.50€"
+                    },
+                    {
+                        "Label": "b. flambierter Lachs\n<span class=\"text-rose-400\">flambeed salmon</span>",
+                        "Note": null,
+                        "Price": "16.50€"
+                    }
+                ]
+            },
+            {
+                "Title": "92.TUNA BOWL",
+                "Note": null,
+                "Description": "5 Scheiben | <span class=\"text-rose-400\">5 slices</span>",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "flambierter Thunfisch <sub>b</sub> | <span class=\"text-rose-400\">flambeed tuna</span>",
+                        "Note": null,
+                        "Price": "17.00€"
+                    }
+                ]
+            },
+            {
+                "Title": "93.CHICKEN BOWL",
+                "Note": null,
+                "Description": null,
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a. Yakitori <sub>f,m</sub> (3)",
+                        "Note": null,
+                        "Price": "15.00€"
+                    },
+                    {
+                        "Label": "b. geb. Hähnchenbrustfilet <sub>i,m</sub>\n<span class=\"text-rose-400\">crispy breaded chicken breast</span>",
+                        "Note": null,
+                        "Price": "16.50€"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Category": "FRITTIERTE ROLLS | <span class=\"text-rose-400\">FRIED ROLLS</span>",
+        "Note": "",
+        "Description": "CRISPY MAKI (8 Stk)\nChili Mayonnaise / Kazoku Sauce | <span class=\"text-rose-400\">chili mayonnaise / Kazoku sauce</span>",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "210.LACHS CRISPY",
+                "Note": null,
+                "Description": "Salmon | <span class=\"text-rose-400\">cream cheese</span>",
+                "Price": "8.50€",
+                "Options": null
+            },
+            {
+                "Title": "211.TUNA CRISPY",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">tuna</span>",
+                "Price": "9.00€",
+                "Options": null
+            },
+            {
+                "Title": "212.EBI AVO CRISPY",
+                "Note": null,
+                "Description": "prawn | <span class=\"text-rose-400\">avocado</span>",
+                "Price": "9.00€",
+                "Options": null
+            },
+            {
+                "Title": "213.SURIMI AVO CRISPY",
+                "Note": null,
+                "Description": "surimi | <span class=\"text-rose-400\">avocado</span>",
+                "Price": "9.00€",
+                "Options": null
+            },
+            {
+                "Title": "214.KAPPA CRISPY",
+                "Note": null,
+                "Description": "cucumber 🥬 | <span class=\"text-rose-400\">cucumber</span>",
+                "Price": "8.00€",
+                "Options": null
+            },
+            {
+                "Title": "215.AVO CRISPY",
+                "Note": null,
+                "Description": "avocado 🥬 | <span class=\"text-rose-400\">avocado</span>",
+                "Price": "8.00€",
+                "Options": null
+            }
+        ]
+    },
+    {
+        "Category": "CRUNCHY ROLLS (8 Stk)",
+        "Note": "",
+        "Description": "Chili Mayonnaise / Kazoku Sauce | <span class=\"text-rose-400\">chili mayonnaise / Kazoku sauce</span>",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "220.CRUNCHY SALMON",
+                "Note": null,
+                "Description": "Lachs | Frischkäse | Avocado\n<span class=\"text-rose-400\">salmon | cream cheese | avocado</span>",
+                "Price": "13.00€",
+                "Options": null
+            },
+            {
+                "Title": "221.CRUNCHY CHICKEN",
+                "Note": null,
+                "Description": "Hühnerfleisch | Avocado\n<span class=\"text-rose-400\">chicken | avocado</span>",
+                "Price": "12.50€",
+                "Options": null
+            },
+            {
+                "Title": "222.CRUNCHY EBI",
+                "Note": null,
+                "Description": "Ebi | Avocado\n<span class=\"text-rose-400\">prawn | avocado</span>",
+                "Price": "14.00€",
+                "Options": null
+            },
+            {
+                "Title": "223.CRUNCHY TUNA",
+                "Note": null,
+                "Description": "Thunfisch | Avocado\n<span class=\"text-rose-400\">tuna | avocado</span>",
+                "Price": "14.00€",
+                "Options": null
+            },
+            {
+                "Title": "224.CRUNCHY SALMON/TUNA",
+                "Note": null,
+                "Description": "Lachs | Thunfisch | Avocado\n<span class=\"text-rose-400\">salmon | tuna | avocado</span>",
+                "Price": "13.50€",
+                "Options": null
+            },
+            {
+                "Title": "225.CRUNCHY VEGAN",
+                "Note": null,
+                "Description": "Avocado 🥬 | grüner Spargel | Gurke\n<span class=\"text-rose-400\">avocado | green asparagus | cucumber</span>",
+                "Price": "12.00€",
+                "Options": null
+            }
+        ]
+    },
+    {
         "Category": "BENTO SUSHI",
-        "Note": null,
-        "Description": null,
+        "Note": "",
+        "Description": "",
         "Price": null,
         "Icon": null,
         "Items": [
             {
                 "Title": "BENTO 1",
                 "Note": null,
-                "Description": null,
-                "Price": "13.00€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "8 Kappa Maki, 8 Avocado Maki, 5 Vegeta I.O",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
+                "Description": "8 Kappa Maki 🥬 | 8 Avocado Maki | 5 Vegeta Classic\n<span class=\"text-rose-400\">8 cucumber maki | 8 avocado maki | 5 vegeta classic</span>",
+                "Price": "14.00€",
+                "Options": null
             },
             {
                 "Title": "BENTO 2",
                 "Note": null,
-                "Description": null,
-                "Price": "15.50€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "8 Kappa Maki, 5 Tammy Rolls, 8 gebackene Orchidee",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
+                "Description": "8 Kappa Maki 🥬 | 5 Tammy Rolls | 8 Crispy Avocado\n<span class=\"text-rose-400\">8 cucumber maki | 5 Tammy rolls | 8 crispy avocado</span>",
+                "Price": "17.00€",
+                "Options": null
             },
             {
                 "Title": "BENTO 3",
-                "Note": null,"Description": null,
-                "Price": "14.00€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "8 Sake Maki, 8 Tekka Maki, 5 California I.O",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
+                "Note": null,
+                "Description": "2 Nigiri Lachs | 5 Sake Classic | 8 Sake Maki\n<span class=\"text-rose-400\">2 nigiri salmon | 5 salmon classic | 8 salmon maki</span>",
+                "Price": "15.00€",
+                "Options": null
             },
             {
                 "Title": "BENTO 4",
                 "Note": null,
-                "Description": null,
-                "Price": "13.50€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "8 Sake Maki, 5 California I.O, 5 Sake I.O",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
+                "Description": "2 Sake Aburi | 5 Lachs Rolls | 8 Lachs Crispy\n<span class=\"text-rose-400\">2 salmon aburi | 5 salmon rolls | 8 salmon crispy</span>",
+                "Price": "19.00€",
+                "Options": null
             },
             {
                 "Title": "BENTO 5",
                 "Note": null,
-                "Description": null,
-                "Price": "13.50€","Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "8 Sake Maki, 5 California I.O, 2 Nigiri (1 Sake,1 Maguro)",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
+                "Description": "2 Nigiri Maguro | 5 Spicy Tuna Classic | 8 Tuna Crispy\n<span class=\"text-rose-400\">2 nigiri tuna | 5 spicy tuna classic | 8 tuna crispy</span>",
+                "Price": "16.00€",
+                "Options": null
             },
             {
                 "Title": "BENTO 6",
                 "Note": null,
-                "Description": null,
-                "Price": "16.00€","Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "8 Sake Maki, 8 Tekka Maki, 4 Nigiri (2 Sake, 2 Maguro)",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
+                "Description": "2 Tuna Aburi | 5 Tuna Rolls | 8 Tuna Crispy\n<span class=\"text-rose-400\">2 tuna aburi | 5 tuna rolls | 8 tuna crispy</span>",
+                "Price": "21.00€",
+                "Options": null
             },
             {
                 "Title": "BENTO 7",
                 "Note": null,
-                "Description": null,
-                "Price": "17.50€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "8 Sake Maki, 5 California I.O, 4 Nigiri (2 Sake, 2 Maguro)",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
+                "Description": "8 Kappa Maki | 8 Avocado Maki | 8 Lachs Maki\n<span class=\"text-rose-400\">8 cucumber maki | 8 avocado maki | 8 salmon maki</span>",
+                "Price": "14.00€",
+                "Options": null
             },
             {
                 "Title": "BENTO 8",
                 "Note": null,
-                "Description": null,
-                "Price": "17.50€","Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "8 Sake Maki, 6 Nigiri (2 Sake, 2 Maguro, 2 Ebi)",
-                        "Note": null,
-                        "Price": null
-                        }
-                ]
+                "Description": "8 Sake Maki | 8 Tekka Maki | 4 Nigiri (2 Sake | 2 Maguro)\n<span class=\"text-rose-400\">8 salmon maki | 8 tuna maki | 4 nigiri (2 salmon, 2 tuna)</span>",
+                "Price": "20.50€",
+                "Options": null
             },
             {
                 "Title": "BENTO 9",
                 "Note": null,
-                "Description": null,
-                "Price": "16.00€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "5 Ebi Tempura Rolls, 5 California I.O, 8 gebackene Salmon",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
+                "Description": "10 Nigiri (3 Sake | 3 Maguro | 2 Ebi | 2 Jakobsmuscheln)\n<span class=\"text-rose-400\">10 nigiri (3 salmon | 3 tuna | 2 prawns | 2 scallops)</span>",
+                "Price": "26.00€",
+                "Options": null
             },
             {
                 "Title": "BENTO 10",
                 "Note": null,
-                "Description": null,
-                "Price": "16.50€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "5 Ebi Tempura Rolls, 2 Ebi Tempura, 8 gebackene Salomon",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
+                "Description": "8 Sake Maki | 5 California Classic | 2 Nigiri (1 Sake | 1 Maguro) | 8 Crunchy Tuna\n<span class=\"text-rose-400\">8 salmon maki | 5 California classic | 2 nigiri (1 salmon, 1 tuna) | 8 crunchy tuna</span>",
+                "Price": "28.00€",
+                "Options": null
             },
             {
                 "Title": "BENTO 11",
                 "Note": null,
-                "Description": null,
-                "Price": "21.00€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "10 Nigiri ( 3 Sake, 3 Maguro, 2 Ebi, 2 Jakobsmuscheln)",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
+                "Description": "5 Sakura Rolls | 5 Tuna Rolls | 4 Nigiri (2 Sake, 2 Maguro) | 6 Sashimi (3 Lachs, 3 Thunfisch)\n<span class=\"text-rose-400\">5 sakura rolls | 5 tuna rolls | 4 nigiri (2 salmon, 2 tuna) | 6 sashimi (3 salmon, 3 tuna)</span>",
+                "Price": "39.50€",
+                "Options": null
             },
             {
                 "Title": "BENTO 12",
                 "Note": null,
-                "Description": null,
-                "Price": "22.50€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "8 Sake Maki, 5 California I.O, 5 Sake I.O, 2 Nigiri (1 Sake, 1 Maguro), 8 gebackene Salmon",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "BENTO 13",
-                "Note": null,
-                "Description": null,
-                "Price": "21.00€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "8 Sake Maki, 5 California I.O, 4 Nigiri (2 Sake, 2 Maguro), 5 Ebi Tempura Rolls",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "BENTO 14",
-                "Note": null,
-                "Description": null,
-                "Price": "22.00€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "5 Chicken Rolls, 5 Yakitori I.O, 5 Ebi Tempura Rolls, 8 gebackene Chicken",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "BENTO 15",
-                "Note": null,
-                "Description": null,
-                "Price": "34.00€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "5 Sakura Rolls, 5 Tuna Rolls, 4 Nigiri (2 Sake, 2 Maguro), 6 Sashimi vom Lachs und",
-                        "Note": null,
-                        "Price": null
-                    },
-                    {
-                        "Label": "Thunfisch",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "BENTO 16",
-                "Note": null,
-                "Description": null,
-                "Price": "30.00€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "8 Sake Maki, 6 California I.O, 5 Sake I.O, 5 Ebi Tempura Rolls, 2 Ebi Tempura, 8 gebackene",
-                        "Note": null,
-                        "Price": null
-                    },
-                    {
-                        "Label": "Salmon",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "BENTO 17",
-                "Note": null,
-                "Description": null,
-                "Price": "38.50€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "8 Nigiri (4 Sake, 4 Maguro), 8 Sake Maki, 8 Tekka Maki, 5 Sakura Rolls, 5 Philadelphia Rolls",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "BENTO 18",
-                "Note": null,
-                "Description": null,
-                "Price": "38.50€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "4 Nigiri (2 Sake, 2 Maguro), 8 Sake Maki, 8 Tekka Maki, 5 California I.O, 5 Sake I.O, 5 Ebi",
-                        "Note": null,
-                        "Price": null
-                    },
-                    {
-                        "Label": "Tempura Rolls, 8 gebackene Salmon",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "BENTO 19",
-                "Note": null,
-                "Description": null,
-                "Price": "28.00€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "Kazoku Spezial (unsere Sushi-Spezial Empfehlung) für 1 Person",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "BENTO 20",
-                "Note": null,
-                "Description": null,
-                "Price": "56.00€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "Kazoku Spezial (Unsere Sushi-Spezial Empfehlung) für 2 Personen",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "BENTO 21",
-                "Note": null,
-                "Description": null,
-                "Price": "84.00€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "Kazoku Spezial (unsere Sushi-Spezial Empfehlung) für 3 Personen",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "BENTO 22",
-                "Note": null,
-                "Description": null,
-                "Price": "110.00€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "Kazoku Spezial (unsere Sushi-Spezial Empfehlung) für 4 Personen",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
+                "Description": "4 Nigiri (2 Sake | 2 Maguro) | 8 Sake Maki | 8 Tekka Maki | 5 California Rolls | 5 Sake Classic | 5 Ebi Tempura Rolls | 8 Tuna Crispy\n<span class=\"text-rose-400\">4 nigiri (2 salmon, 2 tuna) | 8 salmon maki | 8 tuna maki | 5 california rolls | 5 salmon classic | 5 ebi tempura rolls | 8 tuna crispy</span>",
+                "Price": "46.00€",
+                "Options": null
             }
         ]
     },
     {
-        "Category": "SASHIMI (6 Stk)",
-        "Note": null,
-        "Description": null,
+        "Category": "KAZOKU ÜBERRASCHUNGSPLATTE | <span class=\"text-rose-400\">„Surprice Surprice“</span>",
+        "Note": "",
+        "Description": "Falls Sie sich nicht entscheiden können, welches leckere Sushi Sie bei uns essen möchten, bestellen Sie doch einfach unsere „Surprise Plate“. Wir nehmen Ihnen Ihre Entscheidung gerne ab und zaubern Ihnen etwas überraschend köstliches und kreatives auf Ihre Platte.\n<span class=\"text-rose-400\">If you can’t decide which delicious sushi you would like to eat with us, simply order our surprise plate. We will be happy to make the decision for you and conjure something delicious and creative on your plate.</span>\n\nEin Sushi Platte, die individuell auf Ihre Vorlieben zusammengestellt wird...\n<span class=\"text-rose-400\">A custom sushi platter tailored entirely to your preferences...</span>",
         "Price": null,
         "Icon": null,
         "Items": [
             {
-                "Title": "101. LACHS",
+                "Title": "BENTO 19. KAZOKU ÜBERRASCHUNGSPLATTE FÜR 1 PERSON",
                 "Note": null,
-                "Description": null,
-                "Price": "13.00€",
-                "Icon": null,
+                "Description": "<span class=\"text-rose-400\">Surprise sushi plate for 1</span>",
+                "Price": "31.00€",
                 "Options": null
             },
             {
-                "Title": "102. TUNA",
+                "Title": "BENTO 20. KAZOKU ÜBERRASCHUNGSPLATTE FÜR 2 PERSONEN",
                 "Note": null,
-                "Description": null,
+                "Description": "<span class=\"text-rose-400\">Surprise sushi plate for 2</span>",
+                "Price": "62.00€",
+                "Options": null
+            },
+            {
+                "Title": "BENTO 21. KAZOKU ÜBERRASCHUNGSPLATTE FÜR 3 PERSONEN",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">Surprise sushi plate for 3</span>",
+                "Price": "93.00€",
+                "Options": null
+            },
+            {
+                "Title": "BENTO 22. KAZOKU ÜBERRASCHUNGSPLATTE FÜR 4 PERSONEN",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">Surprise sushi plate for 4</span>",
+                "Price": "124.00€",
+                "Options": null
+            }
+        ]
+    },
+    {
+        "Category": "SASHIMI <sub>(6 Stk)</sub>",
+        "Note": "",
+        "Description": "",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "101.LACHS",
+                "Note": null,
+                "Description": "Lachs | <span class=\"text-rose-400\">salmon</span>",
                 "Price": "15.00€",
-                "Icon": null,
                 "Options": null
             },
             {
-                "Title": "103. LACHS & TUNA",
+                "Title": "102.TUNA",
                 "Note": null,
-                "Description": null,
-                "Price": "14.00€",
-                "Icon": null,
-                "Options": null
-            }
-        ]
-    },
-    {
-        "Category": "NIGIRI (1 Stk)",
-        "Note": null,
-        "Description": null,
-        "Price": null,
-        "Icon": null,
-        "Items": [
-            {
-                "Title": "111. SAKE Lachs",
-                "Note": null,
-                "Description": null,
-                "Price": "2.50€",
-                "Icon": null,
+                "Description": "Thunfisch | <span class=\"text-rose-400\">tuna</span>",
+                "Price": "17.00€",
                 "Options": null
             },
             {
-                "Title": "112. MAGURO Tuna",
+                "Title": "103.LACHS & TUNA",
                 "Note": null,
-                "Description": null,
-                "Price": "2.70€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "113. EBI gekochte Garnelen",
-                "Note": null,
-                "Description": null,
-                "Price": "2.70€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "114. HOTATEGAI Jakobsmuscheln",
-                "Note": null,
-                "Description": null,
-                "Price": "3.00€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "115. UNAGI gegrillter Aal",
-                "Note": null,
-                "Description": null,
-                "Price": "3.00€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "116. AVOCADO",
-                "Note": null,
-                "Description": null,
-                "Price": "2.40€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "119. ASPARAGUS grüner Spargel",
-                "Note": null,
-                "Description": null,
-                "Price": "2.50€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "120. INAGI Tofutaschen",
-                "Note": null,
-                "Description": null,
-                "Price": "2.50€",
-                "Icon": null,
+                "Description": "<span class=\"text-rose-400\">Salmon & tuna</span>",
+                "Price": "16.00€",
                 "Options": null
             }
         ]
     },
     {
-        "Category": "NIGIRI SPEZIAL (1 Stk)",
-        "Note": null,
-        "Description": null,
+        "Category": "NIGIRI <sub>(2 Stk)</sub>",
+        "Note": "",
+        "Description": "",
         "Price": null,
         "Icon": null,
         "Items": [
             {
-                "Title": "130. SAKE ABURI",
+                "Title": "111.SAKE",
                 "Note": null,
-                "Description": "flambierter Lachs, Kazoku Sauce",
-                "Price": "3.00€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "131. TUNA ABURI",
-                "Note": null,
-                "Description": "flambierter Tuna, Kazoku Sauce",
-                "Price": "3.50€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "132. HOTATEGAI ABURI",
-                "Note": null,
-                "Description": "flambierter Jakobsmuscheln, Kazoku Sauce",
-                "Price": "3.80€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "133. SAKE ABURI AVOCADO",
-                "Note": null,
-                "Description": "flambierter Lachs, Avocado, Kazoku Sauce",
-                "Price": "3.80€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "134. SAKE ABURI UNAGI",
-                "Note": null,
-                "Description": "flambierter Lachs, Unagi, Kazoku Sauce",
-                "Price": "4.50€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "135. TUNA ABURI ASPARAGUS",
-                "Note": null,
-                "Description": "flambierter Tuna, grüner Spargel, Kazoku Sauce",
-                "Price": "3.90€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "136. SALMON ROSE",
-                "Note": null,
-                "Description": "flambierter Lachs Rose, Lachs Tatar, Avocado, Tobiko, Kazoku Sauce",
-                "Price": "4.50€",
-                "Icon": null,
-                "Options": null
-            }
-        ]
-    },
-    {
-        "Category": "MAKI (8 Stk)",
-        "Note": null,
-        "Description": null,
-        "Price": null,
-        "Icon": null,
-        "Items": [
-            {
-                "Title": "140. SAKE MAKI",
-                "Note": null,
-                "Description": "Lachs",
-                "Price": "5.00€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "141. SAKE AVOCADO MAKI",
-                "Note": null,
-                "Description": "Lachs, Avocado",
-                "Price": "5.20€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "142. SALMON CHEESE MAKI",
-                "Note": null,
-                "Description": "Lachs, Frischkäse",
-                "Price": "5.20€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "143. TEKKA MAKI",
-                "Note": null,
-                "Description": "Thunfisch",
+                "Description": "Lachs | <span class=\"text-rose-400\">salmon</span>",
                 "Price": "5.50€",
-                "Icon": null,
                 "Options": null
             },
             {
-                "Title": "144. TEKKA AVOCADO MAKI",
+                "Title": "112.MAGURO",
                 "Note": null,
-                "Description": "Thunfisch, Avocado",
-                "Price": "5.70€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "145. EBI AVOCADO MAKI",
-                "Note": null,
-                "Description": "Gekochte Garnelen, Avocado",
-                "Price": "5.00€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "146. EBI TEMPURA MAKI",
-                "Note": null,
-                "Description": "Tempura Garnelen, Kazoku Sauce",
-                "Price": "5.50€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "147. SPARGEL TEMPURA MAKI",
-                "Note": null,
-                "Description": "Tempura Spargel, Kazoku Sauce, Sesam",
-                "Price": "5.20€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "148. SPARGEL MAKI",
-                "Note": null,
-                "Description": "Spargel, Sesam",
-                "Price": "5.00€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "149. RUCOLA MAKI",
-                "Note": null,
-                "Description": "Rucola, Frischkäse, Sesam",
-                "Price": "4.00€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "150. UNAGI KAPPA MAKI",
-                "Note": null,
-                "Description": "Gegrillter Aal, Gurken, Kazoku Sauce",
-                "Price": "5.50€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "151. KAPPA MAKI",
-                "Note": null,
-                "Description": "Gurke, Sesam",
-                "Price": "4.50€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "152. AVOCADO MAKI",
-                "Note": null,
-                "Description": "Avocado, Sesam",
-                "Price": "4.50€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "154. INARI MAKI",
-                "Note": null,
-                "Description": "Tofutasche, Sesam",
-                "Price": "4.50€",
-                "Icon": null,
-                "Options": null
-            },
-            {
-                "Title": "155. KAMPYO MAKI",
-                "Note": null,
-                "Description": "eingelegter Kürbis, Sesam",
-                "Price": "4.50€",
-                "Icon": null,
-                "Options": null
-            }
-        ]
-    },
-    {
-        "Category": "CLASSIC ROLLS (5 Stk)",
-        "Note": null,
-        "Description": null,
-        "Price": null,
-        "Icon": null,
-        "Items": [
-            {
-                "Title": "160. SAKE I.O",
-                "Note": null,
-                "Description": null,
-                "Price": "5.00€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "Lachs, Avocado, Frischkäse, Sesam, Tobiko",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "161. MAGURO I.O",
-                "Note": null,
-                "Description": null,
-                "Price": "5.50€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "Thunfisch, Avocado, Sesam, Tobiko",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "162. CALIFORNIA I.O",
-                "Note": null,
-                "Description": null,
-                "Price": "5.00€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "Krebfleischiminat, Avocado, Gurke, Mayonnaise, Sesam, Tobiko",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "163. SPICY TUNA I.O",
-                "Note": null,
-                "Description": null,
-                "Price": "5.00€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "Thunfisch Tatar, Chilisauce, Gurke, Sesam, Tobiko",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "164. LACHS TATAR I.O",
-                "Note": null,
-                "Description": null,
-                "Price": "4.80€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "gekochter Lachs mit Chili-Mayo-Sauce, Gurke, Sesam",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "165. YAKITORI I.O",
-                "Note": null,
-                "Description": null,
-                "Price": "4.50€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "Hühnerfleisch, Avocado, Gurke, Röstzwiebeln , Kazoku Sauce",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "166. HÄHNCHEN ROLLS",
-                "Note": null,
-                "Description": null,
-                "Price": "5.50€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "Gebackenes Hühnchen, Gurke, Spicy Mayo",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "167. EBI TEMPURA ROLLS",
-                "Note": null,
-                "Description": null,
-                "Price": "5.50€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "Tempura Garnele, Avocado, Sesam, Tobiko, Kazoku Sauce",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "168. SALMON TEMPURA ROLLS",
-                "Note": null,
-                "Description": null,
-                "Price": "5.50€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "Gebackener Lachs, Avocado, Sesam, Kazoku Sauce",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "169. LACHS RUCOLA SPEZIAL ROLLS",
-                "Note": null,
-                "Description": null,
-                "Price": "5.50€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "Lachs, Frischkäse, Avocado, Rucola",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "170. RUCOLA I.O",
-                "Note": null,
-                "Description": null,
-                "Price": "4.50€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "Rucola mit Frischkäse, Sesam",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "171.VEGETA I.O",
-                "Note": null,
-                "Description": null,
-                "Price": "4.50€",
-                "Icon": null,
-                "Options":
-                [
-                    {
-                        "Label": "Avocado, Spargel, Gurke, Sesam",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Category": "KAZOKU SPEZIAL (5 Stk)",
-        "Note": null,
-        "Description": null,
-        "Price": null,
-        "Icon": null,
-        "Items": [
-            {
-                "Title": "180. SCALLOP TOWER",
-                "Note": null,
-                "Description": null,
-                "Price": "12.50€",
-                "Icon": null,
-                "Options": 
-                [
-                    {
-                        "Label": "California Rolls, Flambierter Jacobsmuscheln, Trüffel-Mayonnaise, Schnittlauch, Honig-Sauce",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "181. SHRIMP ROCK",
-                "Note": null,
-                "Description": null,
-                "Price": "12.50€",
-                "Icon": null,
-                "Options": 
-                [
-                    {
-                    "Label": "California Rolls, geb. Garnelen, Avocado Creme, Peperoni, Schnittlauch, Kazoku Sauce",
-                    "Note": null,
-                    "Price": null
-                }
-                ]
-            },
-            {
-                "Title": "182. LEE ROLLS",
-                "Note": null,
-                "Description": null,
-                "Price": "7.50€",
-                "Icon": null,
-                "Options": 
-                [
-                    {
-                    "Label": "Tempura Garnele, Avocado, Gurke, Sesam, Flambierter Lachs",
-                    "Note": null,
-                    "Price": null
-                }
-                ]
-            },
-            {
-                "Title": "183. PRAWN TOWER",
-                "Note": null,
-                "Description": null,
-                "Price": "8.50€",
-                "Icon": null,
-                "Options": 
-                [
-                    {
-                        "Label": "Tempura Gurke, Avocado, Avocadocreme, gebackene Garnele, Kazoku Sauce",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "184. KIM ROLLS",
-                "Note": null,
-                "Description": null,
-                "Price": "8.00€",
-                "Icon": null,
-                "Options": 
-                [
-                    {
-                        "Label": "Tempura Garnele, Avocado, Gurke, Sesam, Flambierter Thunfisch, Kazoku Sauce",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "185. FUJI ROLLS",
-                "Note": null,
-                "Description": null,
-                "Price": "8.00€",
-                "Icon": null,
-                "Options": 
-                [
-                    {
-                        "Label": "Tempura Garnele, Avocado, Gurke, Flambierter Rinderfilet, Trüffel-Mayonnaise",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "186. BEEF TRÜFFEL ROLLS",
-                "Note": null,
-                "Description": null,
-                "Price": "8.00€",
-                "Icon": null,
-                "Options": 
-                [
-                    {
-                        "Label": "Avocado, Spargel, Gurke, Sesam, Flambierter Rinderfilet, Trüffel-Mayonnaise",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
-            },
-            {
-                "Title": "187. CHICKEN ROLLS",
-                "Note": null,
-                "Description": null,
+                "Description": "Tuna | <span class=\"text-rose-400\">tuna</span>",
                 "Price": "6.50€",
-                "Icon": null,
-                "Options": [
-                  {
-                    "Label": "Gebackene Hühnchen, Gurke, Spicy Mayo, gebackene Fadennudeln",
-                    "Note": null,
-                    "Price": null
-                  }
-                ]
-              },
-              {
-                "Title": "188. PK FRIENDS ROLLS",
+                "Options": null
+            },
+            {
+                "Title": "113.EBI",
                 "Note": null,
-                "Description": null,
+                "Description": "Garnele | <span class=\"text-rose-400\">prawns</span>",
                 "Price": "6.50€",
-                "Icon": null,
-                "Options": [
-                  {
-                    "Label": "Gekochter Lachs, Spicy Mayo, Gurke, gebackene Fadennudeln",
-                    "Note": null,
-                    "Price": null
-                  }
-                ]
-              },
-              {
-                "Title": "189. LACHS ROLLS",
+                "Options": null
+            },
+            {
+                "Title": "114.HOTATEGAI",
                 "Note": null,
-                "Description": null,
-                "Price": "6.50€",
-                "Icon": null,
-                "Options": [
-                  {
-                    "Label": "Lachs, Avocado, Spicy Mayo, gebackene Fadennudeln",
-                    "Note": null,
-                    "Price": null
-                  }
-                ]
-              },
-              {
-                "Title": "190. RAINBOW ROLLS",
-                "Note": null,
-                "Description": null,
+                "Description": "Jakobsmuscheln | <span class=\"text-rose-400\">scallops</span>",
                 "Price": "7.00€",
-                "Icon": null,
-                "Options": [
-                  {
-                    "Label": "California Roll, umwickeln mit Lachs, Thunfisch, Avocado, Mayo, Tobiko",
-                    "Note": null,
-                    "Price": null
-                  }
-                ]
-              },
-              {
-                "Title": "191. TAIYO ROLLS",
-                "Note": null,
-                "Description": null,
-                "Price": "6.50€",
-                "Icon": null,
-                "Options": [
-                  {
-                    "Label": "California Roll umwickelt mit Lachs",
-                    "Note": null,
-                    "Price": null
-                  }
-                ]
-              },
-              {
-                "Title": "192. PHILADELPHIA ROLLS",
-                "Note": null,
-                "Description": null,
-                "Price": "7.00€",
-                "Icon": null,
-                "Options": [
-                  {
-                    "Label": "Lachs, Avocado, Frischkäse, umwickelt mit Thunfisch",
-                    "Note": null,
-                    "Price": null
-                  }
-                ]
-              },
-              {
-                "Title": "193. SAKURA ROLLS",
-                "Note": null,
-                "Description": null,
-                "Price": "6.50€",
-                "Icon": null,
-                "Options": [
-                  {
-                    "Label": "Lachs, Avocado, Frischkäse, Avocadocreme, Seetang-Chips",
-                    "Note": null,
-                    "Price": null
-                  }
-                ]
-              },
-              {
-                "Title": "194. ALASKA ROLLS",
-                "Note": null,
-                "Description": null,
-                "Price": "7.50€",
-                "Icon": null,
-                "Options": [
-                  {
-                    "Label": "Lachs, Avocado, Frischkäse, Sesam, umwickeln mit gegrilltem Aal, Kazoku Sauce",
-                    "Note": null,
-                    "Price": null
-                  }
-                ]
-              },
-              {
-                "Title": "195. IKESU ROLLS",
-                "Note": null,
-                "Description": null,
-                "Price": "7.50€",
-                "Icon": null,
-                "Options": [
-                  {
-                    "Label": "gegrillter Aal, Avocado, Gurke, Sesam, umwickelt mit Lachs, Kazoku Sauce",
-                    "Note": null,
-                    "Price": null
-                  }
-                ]
-              },
-              {
-                "Title": "196. TUNA ROLLS",
-                "Note": null,
-                "Description": null,
-                "Price": "7.00€",
-                "Icon": null,
-                "Options": [
-                  {
-                    "Label": "Thunfisch, Gurke, Kazoku Spicy Mayo, gebackene Fadennudeln",
-                    "Note": null,
-                    "Price": null
-                  }
-                ]
-              },
-              {
-                "Title": "197. VU ROLLS",
-                "Note": null,
-                "Description": null,
-                "Price": "7.00€",
-                "Icon": null,
-                "Options": [
-                  {
-                    "Label": "Avocado, Krebsfleisch Imitat, Sesam, umwickelt mit Flambierter Lachs, Röstzwiebeln, Kazoku Sauce",
-                    "Note": null,
-                    "Price": null
-                  }
-                ]
-              },
-              {
-                "Title": "198. LACHS OSHI",
-                "Note": null,
-                "Description": null,
-                "Price": "8.50€",
-                "Icon": null,
-                "Options": [
-                  {
-                    "Label": "Sushi Reis, Lachs, Flambierter Kazoku Mayo, Peperoni",
-                    "Note": null,
-                    "Price": null
-                  }
-                ]
-              },
-              {
-                "Title": "199. PIZZA LACHS",
-                "Note": null,
-                "Description": null,
-                "Price": "8.50€",
-                "Icon": null,
-                "Options": [
-                  {
-                    "Label": "Knusprig gebackenem Sushi Reis, Lachs Tatar",
-                    "Note": null,
-                    "Price": null
-                  }
-                ]
-              },
-              {
-                "Title": "200. PIZZA TUNA",
-                "Note": null,
-                "Description": null,
-                "Price": "8.50€",
-                "Icon": null,
-                "Options": [
-                  {
-                    "Label": "Knusprig gebackenem Sushi Reis, Thunfisch Tatar",
-                    "Note": null,
-                    "Price": null
-                  }
-                ]
-              },
-              {
-                "Title": "201. ORCHIDEE ROLLS",
-                "Note": null,
-                "Description": null,
-                "Price": "6.50€",
-                "Icon": null,
-                "Options": [
-                  {
-                    "Label": "Tempura Spargel, Avocado, Gurke, umwickelt mit Avocado",
-                    "Note": null,
-                    "Price": null
-                  }
-                ]
-              },
-              {
-                "Title": "202. BUDDHA ROLLS",
-                "Note": null,
-                "Description": null,
-                "Price": "6.50€",
-                "Icon": null,
-                "Options": [
-                  {
-                    "Label": "Avocado, Spargel, Gurke, umwickelt mit Avocado",
-                    "Note": null,
-                    "Price": null
-                  }
-                ]
-              },
-              {
-                "Title": "203. TAMMY ROLLS",
-                "Note": null,
-                "Description": null,
-                "Price": "6.50€",
-                "Icon": null,
-                "Options": [
-                  {
-                    "Label": "Gebackene Lauchzwiebeln, Avocado, Sesam, Blattspinat, Kazoku Sauce",
-                    "Note": null,
-                    "Price": null
-                  }
-                ]
-              }
-        ]
-    },
-    {
-        "Category": "KAZOKU GEBACKENE MAKI (8 Stk)",
-        "Note": null,
-        "Description": null,
-        "Price": null,
-        "Icon": null,
-        "Items": [
-            {
-                "Title": "210. SALMON CRUNCHY",
-                "Note": null,
-                "Description": null,
-                "Price": "8.00€",
-                "Icon": null,
-                "Options": [
-                    {
-                        "Label": "gebackene Salmon Cheese Maki",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
+                "Options": null
             },
             {
-                "Title": "211. TEKKA CRUNCHY",
+                "Title": "115.UNAGI",
                 "Note": null,
-                "Description": null,
-                "Price": "8.50€",
-                "Icon": null,
-                "Options": [
-                    {
-                        "Label": "gebackene Tekka Maki",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
+                "Description": "Aal | <span class=\"text-rose-400\">eel</span>",
+                "Price": "6.50€",
+                "Options": null
             },
             {
-                "Title": "212. EBI AVO CRUNCHY",
+                "Title": "116.AVOCADO",
                 "Note": null,
-                "Description": null,
-                "Price": "8.00€",
-                "Icon": null,
-                "Options": [
-                    {
-                        "Label": "gebackene Ebi Avocado Maki",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
+                "Description": "Avocado 🥬 | <span class=\"text-rose-400\">avocado</span>",
+                "Price": "5.00€",
+                "Options": null
             },
             {
-                "Title": "213. KAPPA CRUNCHY",
+                "Title": "117.ASUPARAGASU",
                 "Note": null,
-                "Description": null,
-                "Price": "7.50€",
-                "Icon": null,
-                "Options": [
-                    {
-                        "Label": "gebackene Kappa Maki",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
+                "Description": "grüner Spargel 🥬 | <span class=\"text-rose-400\">green asparagus</span>",
+                "Price": "5.00€",
+                "Options": null
             },
             {
-                "Title": "214. AVO CRUNCHY",
+                "Title": "118.INAGI",
                 "Note": null,
-                "Description": null,
-                "Price": "7.50€",
-                "Icon": null,
-                "Options": [
-                    {
-                        "Label": "gebackene Avocado Maki",
-                        "Note": null,
-                        "Price": null
-                    }
-                ]
+                "Description": "Tofu 🥬 | <span class=\"text-rose-400\">tofu</span>",
+                "Price": "5.00€",
+                "Options": null
             }
         ]
     },
     {
-        "Category": "KAZOKU GEBACKENE ROLLS (8 Stk)",
-        "Note": null,
-        "Description": null,
+        "Category": "NIGIRI SPEZIAL <sub>(2 Stk)</sub>",
+        "Note": "",
+        "Description": "",
         "Price": null,
         "Icon": null,
         "Items": [
             {
-                "Title": "220. GEBACKENE SALMON gebackene Rolle mit Lachs, Avocado",
+                "Title": "130.SAKE ABURI",
                 "Note": null,
-                "Description": null,
-                "Price": "12.00€",
-                "Icon": null,
+                "Description": "flambierter Lachs | Kazoku Sauce\n<span class=\"text-rose-400\">flambeed salmon | Kazoku sauce</span>",
+                "Price": "6.50€",
                 "Options": null
             },
             {
-                "Title": "221. GEBACKENE CHICKEN gebackene Rolle mit Hühnerfleisch, Avocado",
+                "Title": "131.SAKE ABURI AVOCADO",
                 "Note": null,
-                "Description": null,
-                "Price": "12.00€",
-                "Icon": null,
+                "Description": "flambierte Lachs | Avocado | Kazoku Sauce\n<span class=\"text-rose-400\">flambeed salmon | avocado | Kazoku sauce</span>",
+                "Price": "8.00€",
                 "Options": null
             },
             {
-                "Title": "222. GEBACKENE EBI gebackene Rolle mit Ebi, Avocado",
+                "Title": "132.TUNA ABURI",
                 "Note": null,
-                "Description": null,
-                "Price": "12.50€",
-                "Icon": null,
+                "Description": "flambierter Tuna | Kazoku Sauce\n<span class=\"text-rose-400\">flambeed tuna | Kazoku sauce</span>",
+                "Price": "7.50€",
                 "Options": null
             },
             {
-                "Title": "223. GEBACKENE TUNA gebackene Rolle mit Thunfisch, Avocado",
+                "Title": "133.SAKE ABURI UNAGI",
                 "Note": null,
-                "Description": null,
-                "Price": "12.50€",
-                "Icon": null,
+                "Description": "flambierter Lachs, Aal | Kazoku Sauce\n<span class=\"text-rose-400\">flambeed salmon, eel | Kazoku sauce</span>",
+                "Price": "9.00€",
                 "Options": null
             },
             {
-                "Title": "224. GEBACKENE VEGAN gebackene Rolle mit Avocado,Spargel, Gurke",
+                "Title": "134.HOTATEGAI ABURI",
                 "Note": null,
-                "Description": null,
-                "Price": "12.00€",
-                "Icon": null,
+                "Description": "flambierter Jakobsmuscheln | Kazoku Sauce\n<span class=\"text-rose-400\">flambeed scallops | Kazoku sauce</span>",
+                "Price": "9.00€",
+                "Options": null
+            },
+            {
+                "Title": "135.SALMON ROSE",
+                "Note": null,
+                "Description": "flambierter Lachs Rose | Lachs Tatar | Avocado | Tobiko | Kazoku Sauce\n<span class=\"text-rose-400\">flambeed salmon rose | salmon tatare | avocado | tobiko | Kazoku sauce</span>",
+                "Price": "10.00€",
+                "Options": null
+            }
+        ]
+    },
+    {
+        "Category": "MAKI <sub>(8 Stk)</sub>",
+        "Note": "",
+        "Description": "",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "140.SAKE",
+                "Note": null,
+                "Description": "Lachs | <span class=\"text-rose-400\">salmon</span>",
+                "Price": "5.50€",
+                "Options": null
+            },
+            {
+                "Title": "141.SAKE AVOCADO",
+                "Note": null,
+                "Description": "Lachs | Avocado\n<span class=\"text-rose-400\">salmon | avocado</span>",
+                "Price": "5.50€",
+                "Options": null
+            },
+            {
+                "Title": "142.SALMON CHEESE",
+                "Note": null,
+                "Description": "Lachs | Frischkäse\n<span class=\"text-rose-400\">salmon | cream cheese</span>",
+                "Price": "5.50€",
+                "Options": null
+            },
+            {
+                "Title": "143.TEKKA",
+                "Note": null,
+                "Description": "Thunfisch | <span class=\"text-rose-400\">tuna</span>",
+                "Price": "6.00€",
+                "Options": null
+            },
+            {
+                "Title": "144.TEKKA AVOCADO",
+                "Note": null,
+                "Description": "Thunfisch | Avocado\n<span class=\"text-rose-400\">tuna | avocado</span>",
+                "Price": "6.00€",
+                "Options": null
+            },
+            {
+                "Title": "145.EBI AVOCADO",
+                "Note": null,
+                "Description": "Garnelen | Avocado\n<span class=\"text-rose-400\">prawns | avocado</span>",
+                "Price": "6.00€",
+                "Options": null
+            },
+            {
+                "Title": "146.SURIMI AVOCADO",
+                "Note": null,
+                "Description": "Surimi | <span class=\"text-rose-400\">surimi | avocado</span>",
+                "Price": "5.50€",
+                "Options": null
+            },
+            {
+                "Title": "147.KAPPA",
+                "Note": null,
+                "Description": "Gurke | Sesam 🥬 | <span class=\"text-rose-400\">cucumber | sesam</span>",
+                "Price": "5.00€",
+                "Options": null
+            },
+            {
+                "Title": "148.AVOCADO",
+                "Note": null,
+                "Description": "Avocado | Sesam 🥬 | <span class=\"text-rose-400\">avocado | sesam</span>",
+                "Price": "5.00€",
+                "Options": null
+            },
+            {
+                "Title": "149.ROTE PAPRIKA",
+                "Note": null,
+                "Description": "Paprika | Sesam 🥬 | <span class=\"text-rose-400\">red pepper | sesam</span>",
+                "Price": "5.00€",
+                "Options": null
+            },
+            {
+                "Title": "150.UNAGI KAPPA MAKI",
+                "Note": null,
+                "Description": "Aal | Gurke | Kazoku Sauce\n<span class=\"text-rose-400\">eel | cucumber | Kazoku sauce</span>",
+                "Price": "6.00€",
+                "Options": null
+            },
+            {
+                "Title": "151.ASUPARAGASU",
+                "Note": null,
+                "Description": "Grüner Spargel | Sesam 🥬 | <span class=\"text-rose-400\">green asparagus | sesam</span>",
+                "Price": "5.50€",
+                "Options": null
+            }
+        ]
+    },
+    {
+        "Category": "URAMAKI CLASSIC ROLLS <sub>(5 Stk)</sub>",
+        "Note": "",
+        "Description": "",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "160.SAKE CLASSIC",
+                "Note": null,
+                "Description": "Lachs | Avocado | Frischkäse | Sesam | Tobiko\n<span class=\"text-rose-400\">salmon | avocado | cream cheese | sesame | tobiko</span>",
+                "Price": "6.00€",
+                "Options": null
+            },
+            {
+                "Title": "161.MAGURO CLASSIC",
+                "Note": null,
+                "Description": "Thunfisch | Avocado | Sesam | Tobiko\n<span class=\"text-rose-400\">tuna | avocado | sesame | tobiko</span>",
+                "Price": "6.50€",
+                "Options": null
+            },
+            {
+                "Title": "162.CALIFORNIA CLASSIC",
+                "Note": null,
+                "Description": "Surimi | Avocado | Gurke | Sesam | Tobiko\n<span class=\"text-rose-400\">surimi | avocado | cucumbers | sesame | tobiko</span>",
+                "Price": "6.00€",
+                "Options": null
+            },
+            {
+                "Title": "163.SPICY TUNA CLASSIC",
+                "Note": null,
+                "Description": "Thunfisch Tatar | Chilisauce | Gurke | Sesam\n<span class=\"text-rose-400\">tuna tatare | chili sauce | cucumber | sesame</span>",
+                "Price": "6.50€",
+                "Options": null
+            },
+            {
+                "Title": "164.YAKITORI CLASSIC",
+                "Note": null,
+                "Description": "Yakitori | Avocado | Gurke | Röstzwiebeln | Kazoku Sauce\n<span class=\"text-rose-400\">yakitori | avocado | cucumbers | fried onions | Kazoku sauce</span>",
+                "Price": "6.00€",
+                "Options": null
+            },
+            {
+                "Title": "165.EBI TEMPURA CLASSIC",
+                "Note": null,
+                "Description": "Tempura Garnele | Avocado | Sesam | Tobiko | Kazoku Sauce\n<span class=\"text-rose-400\">tempura prawn | avocado | sesame | tobiko | Kazoku sauce</span>",
+                "Price": "6.50€",
+                "Options": null
+            },
+            {
+                "Title": "166.LACHS RUCOLA ROLLS",
+                "Note": null,
+                "Description": "Lachs | Frischkäse | Avocado | Rucola\n<span class=\"text-rose-400\">salmon | cream cheese | avocado | arugula</span>",
+                "Price": "6.50€",
+                "Options": null
+            },
+            {
+                "Title": "167.SALMON TEMPURA CLASSIC",
+                "Note": null,
+                "Description": "Tempura Lachs | Frischkäse | Sesam | Kazoku Sauce\n<span class=\"text-rose-400\">tempura salmon | cream cheese | sesame | Kazoku sauce</span>",
+                "Price": "6.50€",
+                "Options": null
+            },
+            {
+                "Title": "168.VEGETA CLASSIC",
+                "Note": null,
+                "Description": "Avocado | grüner Spargel | Gurke | Sesam 🥬\n<span class=\"text-rose-400\">avocado | green asparagus | cucumbers | sesame</span>",
+                "Price": "5.50€",
+                "Options": null
+            }
+        ]
+    },
+    {
+        "Category": "URAMAKI SPECIAL ROLLS <sub>(5 Stk)</sub>",
+        "Note": "",
+        "Description": "",
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "180.SCALLOP TOWER",
+                "Note": null,
+                "Description": "California Rolls | flambierter Jakobsmuscheln | Chili Mayonnaise | Chili d´Espelette | weißer Trüffel Balsamico\n<span class=\"text-rose-400\">california rolls | flambeed scallops | chili mayonnaise | chili d´espelette | white truffle balsamic vinegar</span>",
+                "Price": "13.00€",
+                "Options": null
+            },
+            {
+                "Title": "181.SHRIMP ROCK",
+                "Note": null,
+                "Description": "California Rolls | Tempura Garnele | Avocado Tatar | Kazoku Sauce | Chili d´Espelette\n<span class=\"text-rose-400\">california rolls | tempura prawn | avocado tatare | Kazoku sauce | chili d´espelette</span>",
+                "Price": "13.00€",
+                "Options": null
+            },
+            {
+                "Title": "182.LEE ROLLS",
+                "Note": null,
+                "Description": "Tempura Garnele | Avocado | Gurke | Sesam | flambierter Lachs | Kazoku Sauce\n<span class=\"text-rose-400\">tempura prawn | avocado | cucumber | sesame | flambeed salmon | Kazoku sauce</span>",
+                "Price": "8.00€",
+                "Options": null
+            },
+            {
+                "Title": "183.PRAWN TOWER",
+                "Note": null,
+                "Description": "Kappa Crunchy | Avocado Tatar | Tempura Garnele | Kazoku Sauce\n<span class=\"text-rose-400\">kappa crunchy | avocado tatare | tempura prawn | Kazoku sauce</span>",
+                "Price": "9.00€",
+                "Options": null
+            },
+            {
+                "Title": "184.KIM ROLLS",
+                "Note": null,
+                "Description": "Tempura Garnele | Avocado | Gurke | Sesam | flambierter Thunfisch | Kazoku Sauce\n<span class=\"text-rose-400\">tempura prawn | avocado | cucumber | sesame | flambeed tuna | Kazoku sauce</span>",
+                "Price": "8.50€",
+                "Options": null
+            },
+            {
+                "Title": "185.FUJI ROLLS",
+                "Note": null,
+                "Description": "Tempura Garnele | Avocado | Gurke | flambierter Rinderfilet | Kazoku Sauce | Chili d´Espelette | weißer Trüffel Balsamico\n<span class=\"text-rose-400\">tempura prawn | avocado | cucumber | flambeed beef fillet | Kazoku sauce | chili d´espelette | white truffle balsamic vinegar</span>",
+                "Price": "9.00€",
+                "Options": null
+            },
+            {
+                "Title": "186.BEEF ROLLS",
+                "Note": null,
+                "Description": "Grüner Spargel | Flambierter Rinderfilet | Gurke | Sesam | Kazoku Sauce | Chili d´Espelette | weißer Trüffel Balsamico\n<span class=\"text-rose-400\">green asparagus | flambeed beef fillet | cucumber | sesame | Kazoku sauce | chili d´espelette | white truffle balsamic vinegar</span>",
+                "Price": "9.00€",
+                "Options": null
+            },
+            {
+                "Title": "187.CHICKEN ROLLS",
+                "Note": null,
+                "Description": "Crispy Hühnchen | Gurke | Chili Mayonnaise | gebackene Nudeln | Kazoku Sauce\n<span class=\"text-rose-400\">crispy chicken | cucumber | chili mayonnaise | fried noodle | Kazoku sauce</span>",
+                "Price": "7.00€",
+                "Options": null
+            },
+            {
+                "Title": "188.PUHI FRIENDS ROLLS",
+                "Note": null,
+                "Description": "Tempura Lachs | Frischkäse | Chili Mayonnaise | gebackene Nudeln\n<span class=\"text-rose-400\">tempura salmon | cream cheese | chili mayonnaise | fried noodle</span>",
+                "Price": "7.50€",
+                "Options": null
+            },
+            {
+                "Title": "189.LACHS ROLLS",
+                "Note": null,
+                "Description": "Lachs | Avocado | Chili Mayonnaise | gebackene Nudeln\n<span class=\"text-rose-400\">salmon | avocado | chili mayonnaise | fried noodle</span>",
+                "Price": "7.00€",
+                "Options": null
+            },
+            {
+                "Title": "190.RAINBOW ROLLS",
+                "Note": null,
+                "Description": "California Classic | Mantel aus Lachs, Thunfisch, Avocado | Chili Mayonnaise | Tobiko\n<span class=\"text-rose-400\">california rolls | coat of salmon, tuna, avocado | chili mayonnaise | tobiko</span>",
+                "Price": "8.00€",
+                "Options": null
+            },
+            {
+                "Title": "191.TAIYO ROLLS",
+                "Note": null,
+                "Description": "California Classic umwickelt mit Lachs\n<span class=\"text-rose-400\">california classic | coat of salmon</span>",
+                "Price": "7.50€",
+                "Options": null
+            },
+            {
+                "Title": "192.PHILADELPHIA ROLLS",
+                "Note": null,
+                "Description": "Lachs | Avocado | Frischkäse | umwickelt mit Thunfisch\n<span class=\"text-rose-400\">salmon | avocado | cream cheese | coat of tuna</span>",
+                "Price": "8.00€",
+                "Options": null
+            },
+            {
+                "Title": "193.SAKURA ROLLS",
+                "Note": null,
+                "Description": "Lachs | Gurke | Frischkäse | Avocado Tatar | Seetang-Chips\n<span class=\"text-rose-400\">salmon | cucumber | cream cheese | avocado tatare | seaweed chips</span>",
+                "Price": "8.00€",
+                "Options": null
+            },
+            {
+                "Title": "194.ALASKA ROLLS",
+                "Note": null,
+                "Description": "Lachs | Avocado | Frischkäse | Sesam | umwickeln mit gegrilltem Aal | Kazoku Sauce\n<span class=\"text-rose-400\">salmon | avocado | cream cheese | sesame | coat of eel | Kazoku sauce</span>",
+                "Price": "8.00€",
+                "Options": null
+            },
+            {
+                "Title": "195.IKESU ROLLS",
+                "Note": null,
+                "Description": "Aal | Avocado | Gurke | Sesam | umwickelt mit Lachs | Kazoku Sauce\n<span class=\"text-rose-400\">eel | avocado | cucumber | sesame | coat of salmon | Kazoku sauce</span>",
+                "Price": "8.00€",
+                "Options": null
+            },
+            {
+                "Title": "196.TUNA ROLLS",
+                "Note": null,
+                "Description": "Thunfisch | Gurke | Chili Mayonnaise | gebackene Nudeln\n<span class=\"text-rose-400\">tuna | cucumber | chili mayonnaise | fried noodles</span>",
+                "Price": "7.50€",
+                "Options": null
+            },
+            {
+                "Title": "197.VU ROLLS",
+                "Note": null,
+                "Description": "California Roll | umwickelt mit flambierter Lachs | Röstzwiebeln | Kazoku Sauce\n<span class=\"text-rose-400\">california rolls | coat of flambeed salmon | fried onions | Kazoku sauce</span>",
+                "Price": "8.00€",
+                "Options": null
+            },
+            {
+                "Title": "198.BUDDHA ROLLS",
+                "Note": null,
+                "Description": "Grüner Spargel | Gurke | umwickelt mit Avocado 🥬\n<span class=\"text-rose-400\">green asparagus | cucumber | coat of avocado</span>",
+                "Price": "7.00€",
+                "Options": null
+            },
+            {
+                "Title": "199.ORCHIDEE ROLLS",
+                "Note": null,
+                "Description": "Tempura Spargel | Gurke | umwickelt mit Avocado | Kazoku Sauce 🥬\n<span class=\"text-rose-400\">tempura asparagus | cucumber | coat of avocado | Kazoku sauce</span>",
+                "Price": "7.50€",
+                "Options": null
+            },
+            {
+                "Title": "200.TAMMY ROLLS",
+                "Note": null,
+                "Description": "Tempura Lauchzwiebeln (weiße) | Gurke | umwickelt mit Avocado | Kazoku Sauce | Sesam 🥬\n<span class=\"text-rose-400\">tempura scallion (white part) | cucumber | coat of avocado | Kazoku sauce | sesame</span>",
+                "Price": "7.50€",
+                "Options": null
+            },
+            {
+                "Title": "201.PIZZA LACHS",
+                "Note": null,
+                "Description": "Knusprig gebackenem Sushi Reis | Lachs Tatar | Chili d´Espelette | Kazoku Sauce\n<span class=\"text-rose-400\">crispy sushi reis | salmon tatare | chili d´espelette | Kazoku sauce</span>",
+                "Price": "9.00€",
+                "Options": null
+            },
+            {
+                "Title": "202.PIZZA TUNA",
+                "Note": null,
+                "Description": "Knusprig gebackenem Sushi Reis | Thunfisch Tatar | Chili d´Espelette | Kazoku Sauce\n<span class=\"text-rose-400\">crispy sushi reis | cream cheese | tuna tatare | chili d´espelette | Kazoku sauce</span>",
+                "Price": "9.50€",
+                "Options": null
+            },
+            {
+                "Title": "203.PIZZA AVOCADO",
+                "Note": null,
+                "Description": "Knusprig gebackenem Sushi Reis | Avocado Tatar | Chili d´Espelette | Kazoku Sauce 🥬\n<span class=\"text-rose-400\">crispy sushi reis | avocado tatare | chili d´espelette | Kazoku sauce</span>",
+                "Price": "8.50€",
+                "Options": null
+            },
+            {
+                "Title": "204.SALMON OSHI",
+                "Note": null,
+                "Description": "Gepresste Sushi Reis | Nori | Lachs | Chilli Mayonaise | flammbiert | Chili d´Espelette | Kazoku Sauce\n<span class=\"text-rose-400\">pressed sushi reis | nori | salmon | chili mayonnaise | flambeed | chili d´espelette | Kazoku sauce</span>",
+                "Price": "9.00€",
+                "Options": null
+            },
+            {
+                "Title": "205.AVOCADO OSHI",
+                "Note": null,
+                "Description": "Gepresste Sushi Reis | Nori | Avocado Tatar | Chilli Mayonaise | flammbiert | Chili d´Espelette | Kazoku Sauce 🥬\n<span class=\"text-rose-400\">pressed sushi reis | nori | avocado tatare | chili mayonnaise | flambeed | chili d´espelette | Kazoku sauce</span>",
+                "Price": "8.50€",
                 "Options": null
             }
         ]
