@@ -11,37 +11,9 @@
                 "Note": null,
                 "Description": null,
                 "Price": null,
-                "Options": null
-            },
-            {
-                "Title": "51.HOISIN SAUCE <sub>2,i</sub> 🌶️",
-                "Note": null,
-                "Description": null,
-                "Price": null,
-                "Options": null
-            },
-            {
-                "Title": "52.ROTE CURRY SAUCE <sub>2</sub> 🌶️🌶️",
-                "Note": null,
-                "Description": "<span class=\"text-rose-400\">RED CURRY SAUCE</span>",
-                "Price": null,
-                "Options": null
-            },
-            {
-                "Title": "53.GELBE CURRY SAUCE <sub>2</sub>",
-                "Note": null,
-                "Description": "<span class=\"text-rose-400\">YELLOW CURRY SAUCE</span>",
-                "Price": null,
-                "Options": null
-            },
-            {
-                "Title": "54.ERDNUSS SAUCE <sub>h</sub> 🌶️ | <span class=\"text-rose-400\">PEANUTS SAUCE</span>",
-                "Note": null,
-                "Description": "",
-                "Price": null,
                 "Options": [
                     {
-                        "Label": "a. Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
+                        "Label": "a. Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
                         "Note": null,
                         "Price": "15.00€"
                     },
@@ -52,13 +24,180 @@
                     },
                     {
                         "Label": "c. geb. Hühnerbrustfilet <sub>i</sub>",
-                        "Note": null,
+                        "Note": "<span class=\"text-rose-400\">crispy breaded chicken breast</span>",
                         "Price": "17.00€"
                     },
                     {
-                        "Label": "crispy breaded chicken breast",
+                        "Label": "d. Rind | <span class=\"text-rose-400\">beef</span>",
                         "Note": null,
-                        "Price": null
+                        "Price": "17.50€"
+                    },
+                    {
+                        "Label": "e. Ente <sub>i</sub> | <span class=\"text-rose-400\">duck</span>",
+                        "Note": null,
+                        "Price": "18.00€"
+                    },
+                    {
+                        "Label": "f. Lachs <sub>b</sub> | <span class=\"text-rose-400\">salmon</span>",
+                        "Note": null,
+                        "Price": "24.00€"
+                    },
+                    {
+                        "Label": "g. Riesengarnelen <sub>c</sub> | <span class=\"text-rose-400\">king prawns</span>",
+                        "Note": null,
+                        "Price": "24.00€"
+                    }
+                ]
+            },
+            {
+                "Title": "51.HOISIN SAUCE <sub>2,i</sub> 🌶️",
+                "Note": null,
+                "Description": null,
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a. Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
+                        "Note": null,
+                        "Price": "15.00€"
+                    },
+                    {
+                        "Label": "b. Hühnerfleisch | <span class=\"text-rose-400\">chicken</span>",
+                        "Note": null,
+                        "Price": "16.00€"
+                    },
+                    {
+                        "Label": "c. geb. Hühnerbrustfilet <sub>i</sub>",
+                        "Note": "<span class=\"text-rose-400\">crispy breaded chicken breast</span>",
+                        "Price": "17.00€"
+                    },
+                    {
+                        "Label": "d. Rind | <span class=\"text-rose-400\">beef</span>",
+                        "Note": null,
+                        "Price": "17.50€"
+                    },
+                    {
+                        "Label": "e. Ente <sub>i</sub> | <span class=\"text-rose-400\">duck</span>",
+                        "Note": null,
+                        "Price": "18.00€"
+                    },
+                    {
+                        "Label": "f. Lachs <sub>b</sub> | <span class=\"text-rose-400\">salmon</span>",
+                        "Note": null,
+                        "Price": "24.00€"
+                    },
+                    {
+                        "Label": "g. Riesengarnelen <sub>c</sub> | <span class=\"text-rose-400\">king prawns</span>",
+                        "Note": null,
+                        "Price": "24.00€"
+                    }
+                ]
+            },
+            {
+                "Title": "52.ROTE CURRY SAUCE <sub>2</sub> 🌶️🌶️",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">RED CURRY SAUCE</span>",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a. Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
+                        "Note": null,
+                        "Price": "15.00€"
+                    },
+                    {
+                        "Label": "b. Hühnerfleisch | <span class=\"text-rose-400\">chicken</span>",
+                        "Note": null,
+                        "Price": "16.00€"
+                    },
+                    {
+                        "Label": "c. geb. Hühnerbrustfilet <sub>i</sub>",
+                        "Note": "<span class=\"text-rose-400\">crispy breaded chicken breast</span>",
+                        "Price": "17.00€"
+                    },
+                    {
+                        "Label": "d. Rind | <span class=\"text-rose-400\">beef</span>",
+                        "Note": null,
+                        "Price": "17.50€"
+                    },
+                    {
+                        "Label": "e. Ente <sub>i</sub> | <span class=\"text-rose-400\">duck</span>",
+                        "Note": null,
+                        "Price": "18.00€"
+                    },
+                    {
+                        "Label": "f. Lachs <sub>b</sub> | <span class=\"text-rose-400\">salmon</span>",
+                        "Note": null,
+                        "Price": "24.00€"
+                    },
+                    {
+                        "Label": "g. Riesengarnelen <sub>c</sub> | <span class=\"text-rose-400\">king prawns</span>",
+                        "Note": null,
+                        "Price": "24.00€"
+                    }
+                ]
+            },
+            {
+                "Title": "53.GELBE CURRY SAUCE <sub>2</sub>",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">YELLOW CURRY SAUCE</span>",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a. Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
+                        "Note": null,
+                        "Price": "15.00€"
+                    },
+                    {
+                        "Label": "b. Hühnerfleisch | <span class=\"text-rose-400\">chicken</span>",
+                        "Note": null,
+                        "Price": "16.00€"
+                    },
+                    {
+                        "Label": "c. geb. Hühnerbrustfilet <sub>i</sub>",
+                        "Note": "<span class=\"text-rose-400\">crispy breaded chicken breast</span>",
+                        "Price": "17.00€"
+                    },
+                    {
+                        "Label": "d. Rind | <span class=\"text-rose-400\">beef</span>",
+                        "Note": null,
+                        "Price": "17.50€"
+                    },
+                    {
+                        "Label": "e. Ente <sub>i</sub> | <span class=\"text-rose-400\">duck</span>",
+                        "Note": null,
+                        "Price": "18.00€"
+                    },
+                    {
+                        "Label": "f. Lachs <sub>b</sub> | <span class=\"text-rose-400\">salmon</span>",
+                        "Note": null,
+                        "Price": "24.00€"
+                    },
+                    {
+                        "Label": "g. Riesengarnelen <sub>c</sub> | <span class=\"text-rose-400\">king prawns</span>",
+                        "Note": null,
+                        "Price": "24.00€"
+                    }
+                ]
+            },
+            {
+                "Title": "54.ERDNUSS SAUCE <sub>h</sub> 🌶️",
+                "Note": null,
+                "Description": "<span class=\"text-rose-400\">PEANUTS SAUCE</span>",
+                "Price": null,
+                "Options": [
+                    {
+                        "Label": "a. Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
+                        "Note": null,
+                        "Price": "15.00€"
+                    },
+                    {
+                        "Label": "b. Hühnerfleisch | <span class=\"text-rose-400\">chicken</span>",
+                        "Note": null,
+                        "Price": "16.00€"
+                    },
+                    {
+                        "Label": "c. geb. Hühnerbrustfilet <sub>i</sub>",
+                        "Note": "<span class=\"text-rose-400\">crispy breaded chicken breast</span>",
+                        "Price": "17.00€"
                     },
                     {
                         "Label": "d. Rind | <span class=\"text-rose-400\">beef</span>",
@@ -89,7 +228,7 @@
                 "Price": null,
                 "Options": [
                     {
-                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
+                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
                         "Note": null,
                         "Price": "15.00€"
                     },
@@ -99,14 +238,9 @@
                         "Price": "16.00€"
                     },
                     {
-                        "Label": "c.geb. Hühnerbrustfilet <sub>i</sub>",
+                        "Label": "c.geb. Hühnerbrustfilet <sub>i</sub> <span class=\"text-rose-400\">crispy breaded chicken breast</span>",
                         "Note": null,
                         "Price": "17.00€"
-                    },
-                    {
-                        "Label": "crispy breaded chicken breast",
-                        "Note": null,
-                        "Price": null
                     },
                     {
                         "Label": "e.Ente <sub>i</sub> | <span class=\"text-rose-400\">duck</span>",
@@ -127,7 +261,7 @@
                 "Price": null,
                 "Options": [
                     {
-                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
+                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
                         "Note": null,
                         "Price": "15.00€"
                     },
@@ -149,9 +283,9 @@
                 ]
             },
             {
-                "Title": "57.KAZOKU SPEZIALITÄT Scharf oder nicht Scharf | <span class=\"text-rose-400\">„KAZOKU SPECIALTY spicy or not spicy“</span>",
+                "Title": "57.KAZOKU SPEZIALITÄT Scharf oder nicht Scharf\n<span class=\"text-rose-400\">„KAZOKU SPECIALTY spicy or not spicy“</span>",
                 "Note": null,
-                "Description": "Kazoku Spezialität ist eine Fusion-Sauce, die zwei Länder miteinander vereint: Thailand und China.\nDie zwei Kulturen harmonieren miteinander, doch der eigene Charakter bleibt davon unberührt.\nDie Sauce ist dunkel, kräftigt und würzig, hat aber dennoch einen süßen Geschmack im Abgang.\nDie Zugabe von frischem Chili verleiht dem Essen eine besondere Note.\nDa wir alles frisch Zubereiten, können wir die Schärfe auf Ihren Wunsch anpassen.\nBitte teilen Sie uns mit, mit welchem Schärfegrad wir Ihren Gaumen glücklich machen können.\n<span class=\"text-rose-400\">The Kazoku Specialty is a fusion sauce uniting the flavors of Thailand and China.\nThese two culinary cultures complement each other harmoniously while retaining thier distinct individual characters.\nDark, rich and sacory, the sauce finished with a subtles sweetness.\nWhile fresh chili adds a sigature kick to the dish.\nAs ecery dish is made fresh to order, we are happy to tailor the spiciness to your liking.\nTell us your desired level of heat, and let us delight your palate.</span>",
+                "Description": "Kazoku Spezialität ist eine Fusion-Sauce aus Thailand und China. Sie ist dunkel, würzig und leicht süß im Abgang. Frischer Chili gibt dem Essen eine besondere Note. Die Schärfe kann nach Wunsch angepasst werden",
                 "Price": null,
                 "Options": [
                     {
@@ -165,14 +299,9 @@
                         "Price": "17.00€"
                     },
                     {
-                        "Label": "c.geb. Hühnerbrustfilet <sub>i</sub>",
+                        "Label": "c.geb. Hühnerbrustfilet <sub>i</sub> <span class=\"text-rose-400\">crispy breaded chicken breast</span>",
                         "Note": null,
                         "Price": "18.00€"
-                    },
-                    {
-                        "Label": "crispy breaded chicken breast",
-                        "Note": null,
-                        "Price": null
                     },
                     {
                         "Label": "d.Rind | <span class=\"text-rose-400\">beef</span>",
@@ -197,9 +326,9 @@
                 ]
             },
             {
-                "Title": "58.KAZOKU SPEZIALITÄT GARNELEN PESTO SCHARF 🌶️🌶️🌶️ | <span class=\"text-rose-400\">„KAZOKU SPECIALTY SHRIMP PESTO SPICY“</span>",
+                "Title": "58.KAZOKU SPEZIALITÄT GARNELEN PESTO SCHARF 🌶️🌶️🌶️\n<span class=\"text-rose-400\">„KAZOKU SPECIALTY SHRIMP PESTO SPICY“</span>",
                 "Note": null,
-                "Description": "Eine alte thailändische Sauce, neu definiert. Verfeinert mit vietnamesischem Flair.\nUnsere Sauce begleitet Sie auf eine kulinarische Reise durch Südostasien.\nEine Gaumenfreue für die Genießer, die das Würzige und Scharfe lieben.\nDie Schärfeskala fängt beim diesem Gericht ab 4/10 an.\n<span class=\"text-rose-400\">An old Thai sauce, redefined.\nRefinded with vietnamese flair.\nOur sauce takes you on a culinary journey through Southeast Asia.\nA delight gourmets who love spicy and hot flavors.\nThis dish has a heat level starting at 4/10.</span>",
+                "Description": "Eine traditionelle thailändische Sauce mit vietnamesischen Flair. Würzig und scharf-eine kulinarische Reise durch Südostasien. Die Schärfe beginnt bei 4/10",
                 "Price": null,
                 "Options": [
                     {
@@ -230,22 +359,72 @@
                 ]
             }
         ]
-    },
-    {
-        "Category": "GEBRATENER REIS <sub>a,m</sub> | <span class=\"text-rose-400\">FRIED RICE</span>",
-        "Note": "",
-        "Description": "ist ein Reisgericht, das in einem Wok zubereitet und oft mit anderen Zutaten wie Eiern und Gemüse zubereitet wird. Es wird oft allein oder als Beilage zu einem anderen Gericht gegessen.\n<span class=\"text-rose-400\">is a rice dish that is tossed in a wok and often cooked with other ingredients such as eggs and vegetables. It is often alone or as a side dish to another dish.</span>",
+    }, {
+        "Category": "EXTRA",
+        "Note": null,
+        "Description": null,
         "Price": null,
         "Icon": null,
         "Items": [
             {
-                "Title": "60.GEBRATENER REIS",
+                "Title": "400. Jasmin Reis | <span class=\"text-rose-400\">jasmine rice</sub>",
+                "Note": null,
+                "Description": null,
+                "Price": "3.00€",
+                "Options": null
+            },
+            {
+                "Title": "401. Sushi Reis | <span class=\"text-rose-400\">sushi rice</sub>",
+                "Note": null,
+                "Description": null,
+                "Price": "3.50€",
+                "Options": null
+            },
+            {
+                "Title": "402. Wasabi",
+                "Note": null,
+                "Description": null,
+                "Price": "2.00€",
+                "Options": null
+            },
+            {
+                "Title": "403. Ingwer | <span class=\"text-rose-400\">ginger</sub>",
+                "Note": null,
+                "Description": null,
+                "Price": "2.00€",
+                "Options": null
+            },
+            {
+                "Title": "404. Sauce nach Wahl | <span class=\"text-rose-400\">sauce of choice</sub>",
+                "Note": null,
+                "Description": null,
+                "Price": "2.50€",
+                "Options": null
+            },
+            {
+                "Title": "405. gebratener Reis / Nudeln\n<span class=\"text-rose-400\">Fried reis | noodles</sub>",
+                "Note": null,
+                "Description": "(anstatt gekochtem Reis beim Reisgerichte)\n<span class=\"text-rose-400\">(instead of jasmin reis)</sub>",
+                "Price": "3.00€",
+                "Options": null
+            }
+        ]
+    },
+    {
+        "Category": "GEBRATENER REIS <sub>a,m</sub> | <span class=\"text-rose-400\">FRIED RICE</span>",
+        "Note": "",
+        "Description": null,
+        "Price": null,
+        "Icon": null,
+        "Items": [
+            {
+                "Title": "60.ist ein Reisgericht, das in einem Wok zubereitet und oft mit anderen Zutaten wie Eiern und Gemüse zubereitet wird. Es wird oft allein oder als Beilage zu einem anderen Gericht gegessen.\n<span class=\"text-rose-400\">is a rice dish that is tossed in a wok and often cooked with other ingredients such as eggs and vegetables. It is often alone or as a side dish to another dish</span>",
                 "Note": null,
                 "Description": null,
                 "Price": null,
                 "Options": [
                     {
-                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
+                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
                         "Note": null,
                         "Price": "15.00€"
                     },
@@ -255,14 +434,9 @@
                         "Price": "16.00€"
                     },
                     {
-                        "Label": "c.geb. Hühnerbrustfilet <sub>i</sub>",
+                        "Label": "c.geb. Hühnerbrustfilet <sub>i</sub>\n<span class=\"text-rose-400\">crispy breaded chicken breast</span",
                         "Note": null,
                         "Price": "17.00€"
-                    },
-                    {
-                        "Label": "crispy breaded chicken breast",
-                        "Note": null,
-                        "Price": null
                     },
                     {
                         "Label": "d.Rind | <span class=\"text-rose-400\">beef</span>",
@@ -297,7 +471,7 @@
                 "Price": null,
                 "Options": [
                     {
-                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
+                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
                         "Note": null,
                         "Price": "15.00€"
                     },
@@ -307,14 +481,9 @@
                         "Price": "17.50€"
                     },
                     {
-                        "Label": "n. „Nem“ <sub>a,c,f,i,m,o</sub> |",
+                        "Label": "n. „Nem“ <sub>a,c,f,i,m,o</sub>\n<span class=\"text-rose-400\">Nem (vietnamese spring rolls)</span>",
                         "Note": null,
                         "Price": "16.00€"
-                    },
-                    {
-                        "Label": "Nem (vietnamese spring rolls)",
-                        "Note": null,
-                        "Price": null
                     }
                 ]
             },
@@ -325,7 +494,7 @@
                 "Price": null,
                 "Options": [
                     {
-                        "Label": "a.Tofu <sub>m,o</sub> | <span class=\"text-rose-400\">tofu</span>",
+                        "Label": "a.Tofu <sub>m,o</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
                         "Note": null,
                         "Price": "15.00€"
                     },
@@ -342,13 +511,13 @@
                 ]
             },
             {
-                "Title": "63.PHO ROTE CURRY | PHO RED CURRY 🌶️",
+                "Title": "63.PHO ROTE CURRY | <span class=\"text-rose-400\">PHO RED CURRY</span> 🌶️",
                 "Note": null,
                 "Description": "mit Gemüse | <span class=\"text-rose-400\">with vegetable</span>",
                 "Price": null,
                 "Options": [
                     {
-                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
+                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
                         "Note": null,
                         "Price": "15.00€"
                     },
@@ -358,14 +527,9 @@
                         "Price": "16.00€"
                     },
                     {
-                        "Label": "c.geb. Hühnerbrustfilet <sub>i</sub>",
+                        "Label": "c.geb. Hühnerbrustfilet <sub>i</sub>\n<span class=\"text-rose-400\">crispy breaded chicken breast</span>",
                         "Note": null,
                         "Price": "17.00€"
-                    },
-                    {
-                        "Label": "crispy breaded chicken breast",
-                        "Note": null,
-                        "Price": null
                     },
                     {
                         "Label": "d.Rind | <span class=\"text-rose-400\">beef</span>",
@@ -391,7 +555,7 @@
                 "Price": null,
                 "Options": [
                     {
-                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
+                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
                         "Note": null,
                         "Price": "15.00€"
                     },
@@ -401,14 +565,9 @@
                         "Price": "16.00€"
                     },
                     {
-                        "Label": "c.geb. Hühnerbrustfilet <sub>i</sub>",
+                        "Label": "c.geb. Hühnerbrustfilet <sub>i</sub>\n<span class=\"text-rose-400\">crispy breaded chicken breast</span>",
                         "Note": null,
                         "Price": "17.00€"
-                    },
-                    {
-                        "Label": "crispy breaded chicken breast",
-                        "Note": null,
-                        "Price": null
                     },
                     {
                         "Label": "d.Rind | <span class=\"text-rose-400\">beef</span>",
@@ -443,7 +602,7 @@
                 "Price": null,
                 "Options": [
                     {
-                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
+                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
                         "Note": null,
                         "Price": "15.00€"
                     },
@@ -453,14 +612,9 @@
                         "Price": "16.00€"
                     },
                     {
-                        "Label": "c.geb. Hühnerbrustfilet <sub>i</sub>",
+                        "Label": "c.geb. Hühnerbrustfilet <sub>i</sub>\n<span class=\"text-rose-400\">crispy breaded chicken breast</span>",
                         "Note": null,
                         "Price": "17.00€"
-                    },
-                    {
-                        "Label": "crispy breaded chicken breast",
-                        "Note": null,
-                        "Price": null
                     },
                     {
                         "Label": "d.Rind | <span class=\"text-rose-400\">beef</span>",
@@ -486,7 +640,7 @@
                 "Price": null,
                 "Options": [
                     {
-                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
+                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
                         "Note": null,
                         "Price": "15.00€"
                     },
@@ -496,14 +650,9 @@
                         "Price": "16.00€"
                     },
                     {
-                        "Label": "c.geb. Hühnerbrustfilet <sub>i</sub>",
+                        "Label": "c.geb. Hühnerbrustfilet <sub>i</sub>\n<span class=\"text-rose-400\">crispy breaded chicken breast</span>",
                         "Note": null,
                         "Price": "17.00€"
-                    },
-                    {
-                        "Label": "crispy breaded chicken breast",
-                        "Note": null,
-                        "Price": null
                     },
                     {
                         "Label": "d.Rind | <span class=\"text-rose-400\">beef</span>",
@@ -538,7 +687,7 @@
                 "Price": null,
                 "Options": [
                     {
-                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span>",
+                        "Label": "a.Tofu <sub>m</sub> | <span class=\"text-rose-400\">tofu</span> 🥬",
                         "Note": null,
                         "Price": "15.00€"
                     },
@@ -548,14 +697,9 @@
                         "Price": "16.00€"
                     },
                     {
-                        "Label": "c.geb. Hühnerbrustfilet <sub>i</sub>",
+                        "Label": "c.geb. Hühnerbrustfilet <sub>i</sub>\n<span class=\"text-rose-400\">crispy fried chicken breast</span>",
                         "Note": null,
                         "Price": "17.00€"
-                    },
-                    {
-                        "Label": "crispy fried chicken breast",
-                        "Note": null,
-                        "Price": null
                     },
                     {
                         "Label": "d.Rind | <span class=\"text-rose-400\">beef</span>",
@@ -573,57 +717,6 @@
                         "Price": "18.00€"
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "Category": "EXTRA",
-        "Note": "",
-        "Description": "",
-        "Price": null,
-        "Icon": null,
-        "Items": [
-            {
-                "Title": "400.Jasmin Reis",
-                "Note": null,
-                "Description": "<span class=\"text-rose-400\">jasmine rice</span>",
-                "Price": "3.00€",
-                "Options": null
-            },
-            {
-                "Title": "401.Sushi Reis",
-                "Note": null,
-                "Description": "<span class=\"text-rose-400\">sushi rice</span>",
-                "Price": "3.50€",
-                "Options": null
-            },
-            {
-                "Title": "402.Wasabi",
-                "Note": null,
-                "Description": null,
-                "Price": "2.00€",
-                "Options": null
-            },
-            {
-                "Title": "403.Ingwer",
-                "Note": null,
-                "Description": "<span class=\"text-rose-400\">ginger</span>",
-                "Price": "2.00€",
-                "Options": null
-            },
-            {
-                "Title": "404.Sauce nach Wahl",
-                "Note": null,
-                "Description": "<span class=\"text-rose-400\">sauce of choice</span>",
-                "Price": "2.50€",
-                "Options": null
-            },
-            {
-                "Title": "405.gebratener Reis / Nudeln",
-                "Note": null,
-                "Description": "Fried reis | noodles\n( anstatt gekochtem Reis beim Reisgerichte)\n<span class=\"text-rose-400\">(instead of jasmin reis)</span>",
-                "Price": "3.00€",
-                "Options": null
             }
         ]
     }
