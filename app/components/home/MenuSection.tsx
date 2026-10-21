@@ -10,6 +10,32 @@ import vegetarisch from '@/app/data/vegetarisch.json';
 import dessert from '@/app/data/dessert.json';
 import getranke from '@/app/data/getranke.json';
 
+// Hàm đệ quy để đếm tổng số món (Items) trong cấu trúc JSON nhiều cấp
+function countItems(node: unknown): number {
+    if (!node) return 0;
+    // Nếu là một mảng, duyệt qua từng phần tử
+    if (Array.isArray(node)) {
+        return node.reduce((total, item) => total + countItems(item), 0);
+    }
+    // Nếu là object, kiểm tra xem có thuộc tính 'Items' hay các cấp con không
+    if (typeof node === 'object' && node !== null) {
+        const record = node as Record<string, unknown>;
+        let count = 0;
+        // Nếu object này có mảng 'Items', cộng số lượng phần tử trong đó
+        if (Array.isArray(record.Items)) {
+            count += record.Items.length;
+        }
+        // Tiếp tục quét sâu vào các thuộc tính khác (trong trường hợp có sub-categories hoặc nhóm con)
+        for (const key of Object.keys(record)) {
+            if (key !== 'Items') {
+                count += countItems(record[key]);
+            }
+        }
+        return count;
+    }
+    return 0;
+}
+
 interface MenuCategoryGroup {
     Items: Array<unknown>;
 }
@@ -23,7 +49,7 @@ const menuCategories = [
         note: 'Außer Feiertagen',
         icon: '🍱',
         href: '/menu/mittagsangebot',
-        count: 18,
+        count: countItems(mittagsangebot),
     },
     {
         id: 'vorspeise',
@@ -32,9 +58,7 @@ const menuCategories = [
         note: 'Vorspeisen, Tatar/Tataki, Suppe, Salat',
         icon: '🥟',
         href: '/menu/vorspeise',
-        count:
-            (vorspeise as unknown as MenuCategoryGroup[])[0]?.Items?.length ||
-            0,
+        count: countItems(vorspeise),
     },
     {
         id: 'kindermenu',
@@ -42,9 +66,7 @@ const menuCategories = [
         subtitle: 'Speisen für unseren kleinen Gäste',
         icon: '👶',
         href: '/menu/kindermenu',
-        count:
-            (kindermenu as unknown as MenuCategoryGroup[])[0]?.Items?.length ||
-            0,
+        count: countItems(kindermenu),
     },
     {
         id: 'hauptspeise',
@@ -52,9 +74,7 @@ const menuCategories = [
         subtitle: 'Authentische asiatische Spezialität',
         icon: '🍛',
         href: '/menu/hauptspeise',
-        count:
-            (hauptspeise as unknown as MenuCategoryGroup[])[0]?.Items?.length ||
-            0,
+        count: countItems(hauptspeise),
     },
     {
         id: 'sushi',
@@ -63,32 +83,28 @@ const menuCategories = [
         note: 'Wir verwenden ausschließlich exquisiten "Label Rouge" Lachs- schottisch mit Gütezeichen- eine der höchsten Qualitätsstufen auf dem Markt',
         icon: '🍣',
         href: '/menu/sushi',
-        count: 96,
+        count: countItems(sushi),
     },
     {
         id: 'vegetarisch',
         title: 'Vegetarisch',
         icon: '🌱',
         href: '/menu/vegetarisch',
-        count:
-            (vegetarisch as unknown as MenuCategoryGroup[])[0]?.Items?.length ||
-            0,
+        count: countItems(vegetarisch),
     },
     {
         id: 'dessert',
         title: 'Dessert',
         icon: '🍨',
         href: '/menu/dessert',
-        count:
-            (dessert as unknown as MenuCategoryGroup[])[0]?.Items?.length || 0,
+        count: countItems(dessert),
     },
     {
         id: 'getranke',
         title: 'Getränke',
         icon: '🍹',
         href: '/menu/getranke',
-        count:
-            (getranke as unknown as MenuCategoryGroup[])[0]?.Items?.length || 0,
+        count: countItems(getranke),
     },
 ];
 
