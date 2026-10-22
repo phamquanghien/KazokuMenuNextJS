@@ -1,4 +1,4 @@
-import { MapPin, Navigation, Phone, Clock } from 'lucide-react';
+import { MapPin, Navigation, Phone, Clock, Mail } from 'lucide-react';
 
 const address = {
     name: 'KAZOKU Restaurant',
@@ -6,6 +6,7 @@ const address = {
     street: 'Dotzheimer Str. 30',
     city: '65185 Wiesbaden',
     phone: '0611 92777979',
+    email: 'kazoku.food.and.more@gmail.com',
 };
 
 const googleMapsUrl =
@@ -120,6 +121,23 @@ export default function AddressSection() {
                                         className="mt-1 inline-block text-sm font-medium text-zinc-200 transition-colors hover:text-amber-400 sm:text-base"
                                     >
                                         {address.phone}
+                                    </a>
+                                </div>
+                            </div>
+                            {/* Email Card */}
+                            <div className="group flex items-start gap-4 rounded-xl border border-zinc-800/80 bg-zinc-900/40 p-4 transition-all duration-300 hover:border-zinc-700 hover:bg-zinc-900/80">
+                                <div className="mt-1 flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-zinc-800 text-amber-400 transition-colors group-hover:bg-amber-500 group-hover:text-black">
+                                    <Mail size={20} strokeWidth={1.5} />
+                                </div>
+                                <div>
+                                    <h4 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
+                                        Email
+                                    </h4>
+                                    <a
+                                        href={`mailto:${address.email}`}
+                                        className="mt-1 block break-all text-sm text-zinc-200 transition-colors hover:text-amber-400"
+                                    >
+                                        {address.email}
                                     </a>
                                 </div>
                             </div>
