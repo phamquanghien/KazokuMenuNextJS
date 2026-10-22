@@ -19,7 +19,7 @@ const menuCategories: MenuCategory[] = [
     { label: 'SUSHI', path: '/menu/sushi' },
     { label: 'VEGETARISCH', path: '/menu/vegetarisch' },
     { label: 'DESSERT', path: '/menu/dessert' },
-    { label: 'GETRANKE', path: '/menu/getranke' },
+    { label: 'GETRÄNKE', path: '/menu/getranke' },
 ];
 
 const navigationItems = [

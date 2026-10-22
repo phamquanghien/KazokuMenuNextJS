@@ -9,7 +9,7 @@
             {
                 "Title": "M1.ROTER CURRY | <span class=\"text-rose-400\">red curry sauce</span>",
                 "Note": null,
-                "Description": "red curry sauce",
+                "Description": null,
                 "Price": null,
                 "Options": [
                     {
@@ -32,7 +32,7 @@
             {
                 "Title": "M2.GELBER CURRY | <span class=\"text-rose-400\">yellow curry sauce</span>",
                 "Note": null,
-                "Description": "yellow curry sauce",
+                "Description": null,
                 "Price": null,
                 "Options": [
                     {
@@ -55,7 +55,7 @@
             {
                 "Title": "M3.ERDNUSS | <span class=\"text-rose-400\">peanut sauce</span>",
                 "Note": null,
-                "Description": "peanut sauce",
+                "Description": null,
                 "Price": null,
                 "Options": [
                     {
@@ -78,7 +78,7 @@
             {
                 "Title": "M4.SPEZIAL | <span class=\"text-rose-400\">special sauce</span>",
                 "Note": null,
-                "Description": "special sauce",
+                "Description": null,
                 "Price": null,
                 "Options": [
                     {

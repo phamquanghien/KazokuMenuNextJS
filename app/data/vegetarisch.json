@@ -441,7 +441,7 @@
     {
         "Category": "FRITTIERTE ROLLS | <span class=\"text-rose-400\">FRIED ROLLS</span>",
         "Note": "",
-        "Description": "CRISPY MAKI (8 Stk)\nChili Mayonnaise / Kazoku Sauce | <span class=\"text-rose-400\">chili mayonnaise / Kazoku sauce</span>",
+        "Description": "<span class=\"text-cyan-400\">CRISPY MAKI (8 Stk)</span>\nChili Mayonnaise / Kazoku Sauce | <span class=\"text-rose-400\">chili mayonnaise / Kazoku sauce</span>",
         "Price": null,
         "Icon": null,
         "Items": [
@@ -463,8 +463,8 @@
     },
     {
         "Category": "FRITTIERTE ROLLS | <span class=\"text-rose-400\">FRIED ROLLS</span>",
-        "Note": "CRUNCHY ROLLS (8 Stk )",
-        "Description": "Chili Mayonnaise / Kazoku Sauce | <span class=\"text-rose-400\">chili mayonnaise / Kazoku sauce</span>",
+        "Note": null,
+        "Description": "<span class=\"text-cyan-400\">CRUNCHY ROLLS (8 Stk)</span>\nChili Mayonnaise / Kazoku Sauce | <span class=\"text-rose-400\">chili mayonnaise / Kazoku sauce</span>",
         "Price": null,
         "Icon": null,
         "Items": [
